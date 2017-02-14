@@ -15,6 +15,7 @@ public class BasicControls : MonoBehaviour {
     protected bool isGrounded = true;
     protected bool isCrouched = false;
     protected Animator anim;
+    protected Animation ani;
     protected Rigidbody2D rb2d;
     protected BoxCollider2D PlayerCollision;
 
@@ -42,77 +43,86 @@ public class BasicControls : MonoBehaviour {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         PlayerCollision = GetComponent<BoxCollider2D>();
+        //ani = GetComponent<Animation>();
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        isGround = Physics2D.Linecast(transform.position, groundcheck.position, 1 << LayerMask.NameToLayer("Ground"));
-
-        if (Input.GetButtonDown("Jump") && isGround)
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
-            jump = true;
-        }
+            isGround = Physics2D.Linecast(transform.position, groundcheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-        if (isGrounded && Input.GetButtonDown("Fire3"))
-        {
-            Crouch();
-        }
+            if (Input.GetButtonDown("Jump") && isGround)
+            {
+                jump = true;
+            }
 
-        if (Input.GetButtonUp("Fire3") && isCrouched)
-        {
-            StandUp();
+            if (isGrounded && Input.GetButtonDown("Fire3"))
+            {
+                Crouch();
+            }
+
+            if (Input.GetButtonUp("Fire3") && isCrouched)
+            {
+                StandUp();
+            }
         }
+        
     }
 
     void FixedUpdate()
     {
-        float h = Input.GetAxisRaw("Horizontal");
 
-        anim.SetFloat("Speed", Mathf.Abs(h));
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
+        {
+            float h = Input.GetAxisRaw("Horizontal");
 
-        if (h * rb2d.velocity.x < maxSpeed)
-        {
-            rb2d.AddForce(Vector2.right * h * moveForce);
-        }
-        
-        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
-        {
-            rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-        }
+            anim.SetFloat("Speed", Mathf.Abs(h));
 
-        if (h > 0 && !facingRight)
-        {
-            Flip();
-        }
+            if (h * rb2d.velocity.x < maxSpeed)
+            {
+                rb2d.AddForce(Vector2.right * h * moveForce);
+            }
 
-        if (h < 0 && facingRight)
-        {
-            Flip();
-        }
+            if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
+            {
+                rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+            }
 
-        if (jump)
-        {
-            anim.SetTrigger("Jump");
-            
-            jump = false;
-            StartCoroutine(jumpLag()); 
-        }
+            if (h > 0 && !facingRight)
+            {
+                Flip();
+            }
 
-        if (canJump)
-        {
-            rb2d.AddForce(new Vector2(0f, jumpforce));
-            canJump = false;
-        }
-        
-        if (Input.GetButton("Horizontal"))
-            test = false;
-        else
-            test = true;
+            if (h < 0 && facingRight)
+            {
+                Flip();
+            }
 
-        if (test)
-        {
-            rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
+            if (jump)
+            {
+                anim.SetTrigger("Jump");
+
+                jump = false;
+                StartCoroutine(jumpLag());
+            }
+
+            if (canJump)
+            {
+                rb2d.AddForce(new Vector2(0f, jumpforce));
+                canJump = false;
+            }
+
+            if (Input.GetButton("Horizontal"))
+                test = false;
+            else
+                test = true;
+
+            if (test)
+            {
+                rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
+            }
         }
     }
 

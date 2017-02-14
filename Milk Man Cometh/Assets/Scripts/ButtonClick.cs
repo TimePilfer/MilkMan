@@ -19,9 +19,9 @@ public class ButtonClick : MonoBehaviour
 		
 	}
 
-    public void onClick()
+    public void restartLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(level);
     }
 
     public void closeGame()
