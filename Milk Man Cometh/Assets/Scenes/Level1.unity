@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 281893196}
   - component: {fileID: 281893195}
   - component: {fileID: 281893194}
+  - component: {fileID: 281893199}
   m_Layer: 5
   m_Name: SaveButton
   m_TagString: Untagged
@@ -364,6 +365,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 281893192}
+--- !u!114 &281893199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281893192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2336da77312c3438c7fde4abd56a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1602981739}
 --- !u!1 &356120905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1036,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1602981739}
   restartDelay: 5
-  myButton: {fileID: 1934949169}
 --- !u!1 &769046719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1649,7 @@ GameObject:
   - component: {fileID: 1361287545}
   - component: {fileID: 1361287544}
   - component: {fileID: 1361287543}
+  - component: {fileID: 1361287548}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -1726,7 +1739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1361287544}
-        m_MethodName: restartLevel
+        m_MethodName: closeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1771,6 +1784,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361287541}
+--- !u!114 &1361287548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361287541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2336da77312c3438c7fde4abd56a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1602981739}
 --- !u!1001 &1473460135
 Prefab:
   m_ObjectHideFlags: 0
@@ -1846,6 +1871,7 @@ GameObject:
   - component: {fileID: 1478242990}
   - component: {fileID: 1478242989}
   - component: {fileID: 1478242988}
+  - component: {fileID: 1478242993}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -1980,6 +2006,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478242986}
+--- !u!114 &1478242993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478242986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2336da77312c3438c7fde4abd56a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1602981739}
 --- !u!1 &1530188395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2243,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1602981739}
   restartDelay: 5
-  myButton: {fileID: 1934949169}
 --- !u!61 &1602981737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2246,6 +2283,7 @@ GameObject:
   - component: {fileID: 1625911804}
   - component: {fileID: 1625911803}
   - component: {fileID: 1625911802}
+  - component: {fileID: 1625911807}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -2294,7 +2332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1aee7ea95f2d245ad7aaaa79d5ddab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 1
+  level: 0
 --- !u!114 &1625911804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2380,6 +2418,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1625911800}
+--- !u!114 &1625911807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625911800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2336da77312c3438c7fde4abd56a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1602981739}
 --- !u!1001 &1681643620
 Prefab:
   m_ObjectHideFlags: 0
@@ -2602,6 +2652,7 @@ GameObject:
   - component: {fileID: 1934949169}
   - component: {fileID: 1934949168}
   - component: {fileID: 1934949167}
+  - component: {fileID: 1934949172}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -2736,6 +2787,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1934949165}
+--- !u!114 &1934949172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1934949165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2336da77312c3438c7fde4abd56a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1602981739}
 --- !u!1001 &1966382515
 Prefab:
   m_ObjectHideFlags: 0
@@ -2883,7 +2946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.984}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
