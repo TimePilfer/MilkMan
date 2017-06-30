@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
     public Damage playerHealth;             // Reference to the player's health.
-    public float restartDelay = 5f;         // Time to wait before restarting the level
+    public float restartDelay = 3f;         // Time to wait before restarting the level
 
     Animator anim;                          // Reference to the animator component.
     float restartTimer;                     // Timer to count up to restarting the level
@@ -23,6 +24,7 @@ public class GameOver : MonoBehaviour
         {
             // ... tell the animator the game is over.
             anim.SetTrigger("Dead");
+            //anim.SetTrigger("GameOver");
 
             // .. increment a timer to count up to restarting.
             restartTimer += Time.deltaTime;
@@ -31,7 +33,7 @@ public class GameOver : MonoBehaviour
             if (restartTimer >= restartDelay)
             {
                 // .. then reload the currently loaded level.
-                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+                //UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
