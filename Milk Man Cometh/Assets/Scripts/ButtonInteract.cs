@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ * This class sets whether the game over menu buttons are interactable or not. They will be interactable when dead only.
+ */
 public class ButtonInteract : MonoBehaviour {
 
-    public Damage playerHealth;             // Reference to the player's health.
+    //public Damage playerHealth;             // Reference to the player's health.
 
     Button anim;                          // Reference to the animator component.
 
     void Awake()
     {
-        // Set up the reference.
+        // Set up the reference to the button.
         anim = GetComponent<Button>();
+        //Make in not interactable
         anim.interactable = false;
     }
 
@@ -20,9 +23,9 @@ public class ButtonInteract : MonoBehaviour {
     {
 
         // If the player has run out of health...
-        if (playerHealth.health <= 0)
+        if (Damage.player.health <= 0)
         {
-            // ... tell the animator the game is over.
+            // ... make the button interactable
             anim.interactable = true;
         }
     }

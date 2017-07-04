@@ -1,7 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/*
+ * This class handles all of the player's controls. This includes all moving, jumping, speed, as well as checking which way the character is facing, flipping the character,
+ * and checking if the player is on the ground or not. Shooting, however, is handled in the Arm class, with shots handled in the bullet script. Arm movement is also in
+ * the Arm script.
+ */
 public class BasicControls : MonoBehaviour {
+
+    public static BasicControls player;
+
+    public bool myBool = false;
+
+    public bool isPaused;
+
+    // and expose static members through properties
+    // this way, you have a lot more control over what is actually being sent out.
+    public static bool MyBool { get { return player ? player.myBool : false; } }
 
     public static bool facingRight = true;
     public bool jump = false;
@@ -14,7 +28,7 @@ public class BasicControls : MonoBehaviour {
     protected bool isGround = false;
     protected bool isGrounded = true;
     protected bool isCrouched = false;
-    protected Animator anim;
+    public Animator anim;
     protected Animation ani;
     protected Rigidbody2D rb2d;
     protected BoxCollider2D PlayerCollision;
@@ -44,11 +58,22 @@ public class BasicControls : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
         PlayerCollision = GetComponent<BoxCollider2D>();
         //ani = GetComponent<Animation>();
+        player = this;
+        DontDestroyOnLoad(gameObject);
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
+        if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
+        {
+            isPaused = true;
+        }
+        else
+        {
+            isPaused = false;
+        }
+
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
             isGround = Physics2D.Linecast(transform.position, groundcheck.position, 1 << LayerMask.NameToLayer("Ground"));
@@ -76,53 +101,57 @@ public class BasicControls : MonoBehaviour {
 
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
-            float h = Input.GetAxisRaw("Horizontal");
-
-            anim.SetFloat("Speed", Mathf.Abs(h));
-
-            if (h * rb2d.velocity.x < maxSpeed)
+            if (!isPaused)
             {
-                rb2d.AddForce(Vector2.right * h * moveForce);
+                float h = Input.GetAxisRaw("Horizontal");
+
+                anim.SetFloat("Speed", Mathf.Abs(h));
+
+                if (h * rb2d.velocity.x < maxSpeed)
+                {
+                    rb2d.AddForce(Vector2.right * h * moveForce);
+                }
+
+                if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
+                {
+                    rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+                }
+
+                if (h > 0 && !facingRight)
+                {
+                    Flip();
+                }
+
+                if (h < 0 && facingRight)
+                {
+                    Flip();
+                }
+
+                if (jump)
+                {
+                    anim.SetTrigger("Jump");
+
+                    jump = false;
+                    StartCoroutine(jumpLag());
+                }
+
+                if (canJump)
+                {
+                    rb2d.AddForce(new Vector2(0f, jumpforce));
+                    canJump = false;
+                }
+
+                if (Input.GetButton("Horizontal"))
+                    test = false;
+                else
+                    test = true;
+
+                if (test)
+                {
+                    rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
+                }
             }
-
-            if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
-            {
-                rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-            }
-
-            if (h > 0 && !facingRight)
-            {
-                Flip();
-            }
-
-            if (h < 0 && facingRight)
-            {
-                Flip();
-            }
-
-            if (jump)
-            {
-                anim.SetTrigger("Jump");
-
-                jump = false;
-                StartCoroutine(jumpLag());
-            }
-
-            if (canJump)
-            {
-                rb2d.AddForce(new Vector2(0f, jumpforce));
-                canJump = false;
-            }
-
-            if (Input.GetButton("Horizontal"))
-                test = false;
-            else
-                test = true;
-
-            if (test)
-            {
-                rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
-            }
+            
         }
     }
 
