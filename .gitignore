@@ -54,6 +54,7 @@ local.properties
 
 # User-specific files
 *.suo
+*.meta
 *.user
 *.sln.docstates
 
