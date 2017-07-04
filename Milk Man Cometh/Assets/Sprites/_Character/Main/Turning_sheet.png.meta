@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 9dd1f12283d292e47a54ac72125e112b
+timeCreated: 1472335894
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Turning_sheet_0
+    21300002: Turning_sheet_1
+    21300004: Turning_sheet_2
+    21300006: Turning_sheet_3
+    21300008: Turning_sheet_4
+    21300010: Turning_sheet_5
+    21300012: Turning_sheet_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Turning_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1441
+        width: 254
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: -65.5}
+        - {x: 127, y: -64.5}
+        - {x: 127, y: -6.5}
+        - {x: 85, y: 101.5}
+        - {x: 43, y: 142.5}
+        - {x: -37, y: 142.5}
+        - {x: -88, y: 98.5}
+        - {x: -122, y: -9.5}
+        - {x: -127, y: -47.5}
+        - {x: -127, y: -83.5}
+        - {x: -110, y: -84.5}
+        - {x: -79, y: -118.5}
+        - {x: -68, y: -142.5}
+        - {x: 79, y: -142.5}
+        - {x: 88, y: -65.5}
+        - {x: 87, y: -52.5}
+    - name: Turning_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1438
+        width: 265
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: -142.5}
+        - {x: 78.5, y: -131.5}
+        - {x: 98.5, y: -69.5}
+        - {x: 132.5, y: -69.5}
+        - {x: 132.5, y: -3.5}
+        - {x: 93.5, y: 45.5}
+        - {x: 76.5, y: 118.5}
+        - {x: 45.5, y: 142.5}
+        - {x: -36.5, y: 142.5}
+        - {x: -57.5, y: 137.5}
+        - {x: -130.5, y: -9.5}
+        - {x: -132.5, y: -46.5}
+        - {x: -132.5, y: -84.5}
+        - {x: -84.5, y: -137.5}
+        - {x: -65.5, y: -142.5}
+        - {x: -22.5, y: -142.5}
+        - {x: -6.5, y: -131.5}
+        - {x: 19.5, y: -142.5}
+    - name: Turning_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1439
+        width: 282
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: -131.5}
+        - {x: 141, y: -71.5}
+        - {x: 141, y: -29.5}
+        - {x: 140, y: -20.5}
+        - {x: 126, y: 20.5}
+        - {x: 85, y: 95.5}
+        - {x: 45, y: 142.5}
+        - {x: -46, y: 142.5}
+        - {x: -139, y: 42.5}
+        - {x: -141, y: 28.5}
+        - {x: -141, y: -81.5}
+        - {x: -101, y: -92.5}
+        - {x: -78, y: -20.5}
+        - {x: -76, y: -134.5}
+        - {x: -67, y: -142.5}
+        - {x: -20, y: -142.5}
+        - {x: -5, y: -139.5}
+        - {x: 0, y: -142.5}
+        - {x: 64, y: -142.5}
+    - name: Turning_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 284
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: -85.5}
+        - {x: 142, y: -75.5}
+        - {x: 142, y: -52.5}
+        - {x: 137, y: -18.5}
+        - {x: 126, y: 13.5}
+        - {x: 79, y: 101.5}
+        - {x: 36, y: 142.5}
+        - {x: -35, y: 142.5}
+        - {x: -71, y: 117.5}
+        - {x: -142, y: 11.5}
+        - {x: -142, y: -70.5}
+        - {x: -103, y: -63.5}
+        - {x: -79, y: -132.5}
+        - {x: -70, y: -142.5}
+        - {x: -22, y: -142.5}
+        - {x: -17, y: -141.5}
+        - {x: -15, y: -129.5}
+        - {x: 10, y: -142.5}
+        - {x: 70, y: -142.5}
+    - name: Turning_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1441
+        width: 284
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -75.5}
+        - {x: 142, y: -83.5}
+        - {x: 142, y: -22.5}
+        - {x: 134, y: 21.5}
+        - {x: 49, y: 138.5}
+        - {x: 33, y: 142.5}
+        - {x: -45, y: 142.5}
+        - {x: -75, y: 124.5}
+        - {x: -125, y: 40.5}
+        - {x: -142, y: -9.5}
+        - {x: -142, y: -64.5}
+        - {x: -107, y: -64.5}
+        - {x: -104, y: -63.5}
+        - {x: -106, y: -49.5}
+        - {x: -84, y: -136.5}
+        - {x: -70, y: -142.5}
+        - {x: 66, y: -142.5}
+        - {x: 72, y: -138.5}
+        - {x: 69, y: -118.5}
+    - name: Turning_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1083
+        width: 263
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: -79.5}
+        - {x: 131.5, y: -27.5}
+        - {x: 118.5, y: 11.5}
+        - {x: 76.5, y: 99.5}
+        - {x: 47.5, y: 142.5}
+        - {x: -48.5, y: 142.5}
+        - {x: -68.5, y: 128.5}
+        - {x: -131.5, y: 15.5}
+        - {x: -131.5, y: -67.5}
+        - {x: -97.5, y: -66.5}
+        - {x: -94.5, y: -65.5}
+        - {x: -81.5, y: -122.5}
+        - {x: -70.5, y: -142.5}
+        - {x: -8.5, y: -142.5}
+        - {x: 2.5, y: -123.5}
+        - {x: 17.5, y: -142.5}
+        - {x: 85.5, y: -142.5}
+    - name: Turning_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1083
+        width: 249
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: -142.5}
+        - {x: 73.5, y: -138.5}
+        - {x: 124.5, y: -84.5}
+        - {x: 124.5, y: -13.5}
+        - {x: 80.5, y: 126.5}
+        - {x: 37.5, y: 142.5}
+        - {x: -59.5, y: 142.5}
+        - {x: -94.5, y: 120.5}
+        - {x: -124.5, y: -14.5}
+        - {x: -124.5, y: -75.5}
+        - {x: -89.5, y: -65.5}
+        - {x: -87.5, y: -63.5}
+        - {x: -86.5, y: -55.5}
+        - {x: -79.5, y: -67.5}
+        - {x: -76.5, y: -132.5}
+        - {x: -62.5, y: -142.5}
+        - {x: -26.5, y: -142.5}
+        - {x: -11.5, y: -130.5}
+        - {x: -17.5, y: -119.5}
+        - {x: 11.5, y: -142.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

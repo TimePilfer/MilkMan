@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 989ed62f47ca9784b9ea3c8a23accfdc
+timeCreated: 1478119256
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ducking_sheet_0
+    21300002: Ducking_sheet_1
+    21300004: Ducking_sheet_2
+    21300006: Ducking_sheet_3
+    21300008: Ducking_sheet_4
+    21300010: Ducking_sheet_5
+    21300012: Ducking_sheet_6
+    21300014: Ducking_sheet_7
+    21300016: Ducking_sheet_8
+    21300018: Ducking_sheet_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ducking_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1440
+        width: 199
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: -139.5}
+        - {x: 50.5, y: -117.5}
+        - {x: 99.5, y: -71.5}
+        - {x: 99.5, y: -21.5}
+        - {x: 98.5, y: -8.5}
+        - {x: 44.5, y: 117.5}
+        - {x: 16.5, y: 142.5}
+        - {x: -59.5, y: 142.5}
+        - {x: -84.5, y: 121.5}
+        - {x: -99.5, y: 95.5}
+        - {x: -99.5, y: -124.5}
+        - {x: -93.5, y: -142.5}
+        - {x: -42.5, y: -142.5}
+        - {x: -35.5, y: -123.5}
+        - {x: -6.5, y: -142.5}
+        - {x: 41.5, y: -142.5}
+    - name: Ducking_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1440
+        width: 199
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: -128}
+        - {x: 56.5, y: -75}
+        - {x: 99.5, y: -75}
+        - {x: 99.5, y: -21}
+        - {x: 92.5, y: 16}
+        - {x: 66.5, y: 85}
+        - {x: 24.5, y: 141}
+        - {x: -64.5, y: 141}
+        - {x: -77.5, y: 137}
+        - {x: -99.5, y: 96}
+        - {x: -99.5, y: -96}
+        - {x: -94.5, y: -134}
+        - {x: -84.5, y: -141}
+        - {x: -46.5, y: -141}
+        - {x: -33.5, y: -137}
+        - {x: -2.5, y: -141}
+        - {x: 39.5, y: -141}
+    - name: Ducking_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1442
+        width: 199
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: -69.5}
+        - {x: 55.5, y: -12.5}
+        - {x: 60.5, y: -73.5}
+        - {x: 99.5, y: -71.5}
+        - {x: 99.5, y: 4.5}
+        - {x: 73.5, y: 84.5}
+        - {x: 44.5, y: 139.5}
+        - {x: -69.5, y: 139.5}
+        - {x: -99.5, y: 122.5}
+        - {x: -99.5, y: -99.5}
+        - {x: -96.5, y: -119.5}
+        - {x: -94.5, y: -132.5}
+        - {x: -83.5, y: -139.5}
+        - {x: 42.5, y: -139.5}
+        - {x: 48.5, y: -132.5}
+        - {x: 50.5, y: -119.5}
+    - name: Ducking_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1440
+        width: 198
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -138}
+        - {x: 52, y: -118}
+        - {x: 99, y: -75}
+        - {x: 99, y: -2}
+        - {x: 71, y: 75}
+        - {x: 46, y: 113}
+        - {x: 13, y: 138}
+        - {x: -57, y: 138}
+        - {x: -67, y: 137}
+        - {x: -99, y: 94}
+        - {x: -99, y: -138}
+        - {x: -36, y: -138}
+        - {x: -28, y: -94}
+        - {x: -11, y: -129}
+        - {x: 1, y: -138}
+    - name: Ducking_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1440
+        width: 198
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: -116.5}
+        - {x: 99, y: -81.5}
+        - {x: 99, y: 2.5}
+        - {x: 64, y: 111.5}
+        - {x: 20, y: 136.5}
+        - {x: -51, y: 136.5}
+        - {x: -87, y: 113.5}
+        - {x: -99, y: 82.5}
+        - {x: -99, y: -131.5}
+        - {x: -93, y: -136.5}
+        - {x: -45, y: -136.5}
+        - {x: -35, y: -133.5}
+        - {x: -35, y: -119.5}
+        - {x: -11, y: -136.5}
+        - {x: 51, y: -136.5}
+    - name: Ducking_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1082
+        width: 198
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -135}
+        - {x: 52, y: -116}
+        - {x: 55, y: -76}
+        - {x: 57, y: -50}
+        - {x: 57, y: -80}
+        - {x: 69, y: -86}
+        - {x: 99, y: -83}
+        - {x: 99, y: 22}
+        - {x: 50, y: 135}
+        - {x: -99, y: 135}
+        - {x: -99, y: -135}
+        - {x: -42, y: -135}
+        - {x: -34, y: -112}
+        - {x: -8, y: -135}
+    - name: Ducking_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1084
+        width: 197
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: -126.5}
+        - {x: 98.5, y: -100.5}
+        - {x: 98.5, y: -30.5}
+        - {x: 94.5, y: -0.5}
+        - {x: 71.5, y: 54.5}
+        - {x: 53.5, y: 107.5}
+        - {x: 20.5, y: 132.5}
+        - {x: 12.5, y: 133.5}
+        - {x: -47.5, y: 133.5}
+        - {x: -71.5, y: 121.5}
+        - {x: -98.5, y: 84.5}
+        - {x: -98.5, y: -133.5}
+        - {x: -33.5, y: -133.5}
+        - {x: -15.5, y: -112.5}
+        - {x: -4.5, y: -133.5}
+        - {x: 42.5, y: -133.5}
+    - name: Ducking_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1082
+        width: 197
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: -89.5}
+        - {x: 61.5, y: -90.5}
+        - {x: 98.5, y: -90.5}
+        - {x: 98.5, y: -48.5}
+        - {x: 91.5, y: -22.5}
+        - {x: 83.5, y: -10.5}
+        - {x: 88.5, y: 45.5}
+        - {x: 53.5, y: 132.5}
+        - {x: -98.5, y: 132.5}
+        - {x: -98.5, y: -132.5}
+        - {x: 51.5, y: -132.5}
+        - {x: 55.5, y: -129.5}
+        - {x: 52.5, y: -83.5}
+        - {x: 57.5, y: -74.5}
+    - name: Ducking_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1082
+        width: 197
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: -59}
+        - {x: 57.5, y: -91}
+        - {x: 66.5, y: -95}
+        - {x: 98.5, y: -101}
+        - {x: 98.5, y: -35}
+        - {x: 94.5, y: -6}
+        - {x: 60.5, y: 100}
+        - {x: 18.5, y: 131}
+        - {x: -59.5, y: 131}
+        - {x: -98.5, y: 80}
+        - {x: -98.5, y: -129}
+        - {x: -95.5, y: -131}
+        - {x: 45.5, y: -131}
+        - {x: 58.5, y: -110}
+        - {x: 55.5, y: -82}
+    - name: Ducking_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1082
+        width: 197
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98.5, y: -5.5}
+        - {x: 64.5, y: 1.5}
+        - {x: 69.5, y: 65.5}
+        - {x: 58.5, y: 93.5}
+        - {x: 25.5, y: 129.5}
+        - {x: -56.5, y: 129.5}
+        - {x: -97.5, y: 94.5}
+        - {x: -98.5, y: 71.5}
+        - {x: -98.5, y: -116.5}
+        - {x: -93.5, y: -122.5}
+        - {x: -89.5, y: -129.5}
+        - {x: -40.5, y: -129.5}
+        - {x: -22.5, y: -123.5}
+        - {x: -13.5, y: -129.5}
+        - {x: 44.5, y: -129.5}
+        - {x: 63.5, y: -122.5}
+        - {x: 98.5, y: -109.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
