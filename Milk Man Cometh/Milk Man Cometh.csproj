@@ -78,6 +78,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\AIAttack.cs" />
+    <Compile Include="Assets\Scripts\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Arm.cs" />
     <Compile Include="Assets\Scripts\BasicControls.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
@@ -89,16 +92,68 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyControls.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Milk.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuController.cs" />
+    <Compile Include="Assets\Scripts\Persistence.cs" />
     <Compile Include="Assets\Scripts\PlayerFall.cs" />
+    <Compile Include="Assets\Scripts\SaveLoad.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\SpawnMilk.cs" />
     <Compile Include="Assets\Scripts\Tutorial.cs" />
     <Compile Include="Assets\Scripts\bulletSpawn.cs" />
+    <Compile Include="Assets\Scripts\destroyEnemy.cs" />
+    <Compile Include="Assets\Scripts\playVideo.cs" />
+    <Compile Include="Assets\Scripts\spawnPoint.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Camera\CameraMovement.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Camera\FirstPersonCamera.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Camera\InfiniteGrid.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\DebugSphereCast.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\GoDirectionUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\PerlinHelper.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\RandomizeTerrain.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\ScreenBoundary2D.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\ScreenBoundary3D.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Spawner.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\ThirdPersonUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\ArriveUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\ColAvoidUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\EvadeUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\FleeUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\FlockingUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\FollowPathUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\HideUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\InterposeUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Cohesion.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\CollisionAvoidance.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Evade.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Flee.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\FollowPath.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Hide.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\LinePath.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\MovementAIRigidbody.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\NearSensor.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\OffsetPursuit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Pursue.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Separation.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\SteeringBasics.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\VelocityMatch.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\WallAvoidance.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Wander1.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Movement\Wander2.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\OffsetPursuitUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\PursueUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\SeekUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\WallAvoidanceUnit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Wander1Unit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\Wander2Unit.cs" />
+    <Compile Include="Assets\unity-movement-ai\Scripts\Units\WanderAvoidUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BasicBeamShot\HowToUse_EN.txt" />
     <None Include="Assets\BasicBeamShot\HowToUse_JP.txt" />
+    <None Include="Assets\unity-movement-ai\Models\Materials\Lines.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

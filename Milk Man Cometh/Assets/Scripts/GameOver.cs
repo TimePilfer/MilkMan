@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+ * This class handles what happens for a gameover. This includes setting animation triggers and moving the character.
+ */
 public class GameOver : MonoBehaviour
 {
-    public Damage playerHealth;             // Reference to the player's health.
+    //public int playerHealth;             // Reference to the player's health.
     public float restartDelay = 3f;         // Time to wait before restarting the level
 
     Animator anim;                          // Reference to the animator component.
@@ -15,15 +17,16 @@ public class GameOver : MonoBehaviour
     {
         // Set up the reference.
         anim = GetComponent<Animator>();
+        //playerHealth = Damage.player.health;
     }
 
     void Update()
     {
         // If the player has run out of health...
-        if (playerHealth.health <= 0)
+        if (Damage.player.health <= 0)
         {
             // ... tell the animator the game is over.
-            anim.SetTrigger("Dead");
+            anim.SetBool("Dead", true);
             //anim.SetTrigger("GameOver");
 
             // .. increment a timer to count up to restarting.
@@ -35,6 +38,10 @@ public class GameOver : MonoBehaviour
                 // .. then reload the currently loaded level.
                 //UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
             }
+        }
+        else
+        {
+            anim.SetBool("Dead", false); // set the death bool to false
         }
     }
 }
