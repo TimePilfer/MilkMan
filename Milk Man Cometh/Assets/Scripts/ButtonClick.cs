@@ -3,29 +3,63 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
-
+/*
+ * Handles button clicking events, especially in the main menu and the pause menu.
+ */
 public class ButtonClick : MonoBehaviour
 {
+    //public Vector2 xY;                      // Vector with the player's starting coordinates
+    public Damage playerHealth;             // Reference to the player's health.
+    private int level;                      // The level's index in the build
+    public Transform player;                // The player's current position
+    public int scene;
 
-    public int level;
+    Animator anim;                          // Reference to the animator component.
 
-    // Use this for initialization
-    void Start () {
-		
-	}
+    void Awake () {
+
+        level = SceneManager.GetActiveScene().buildIndex;   // Set's the level index to the current scene
+        anim = GetComponent<Animator>();                    // Sets the animator to the object's animator
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
-    public void restartLevel()
-    {
-        SceneManager.LoadScene(level);
+        if (Damage.player != null)
+        {
+            player = Damage.player.transform;   // Sets the player's transform to the current player's transform
+        }
+        
     }
-
+    /*
+     * The play game button
+     */
+    public void playGame()
+    {
+        SceneManager.LoadScene(scene);
+    }
+    /*
+     * The restart level button
+     */
+    public void restartLevel()
+    { 
+        //player.transform.position = xY; // Reset the player's position to the starting position in the level
+        
+        SceneManager.LoadScene(level);
+        //anim.SetBool("Dead", false);
+        //BasicControls.player.anim.SetBool("Dead", false);
+    }
+    /*
+     * The quit game button
+     */
     public void closeGame()
     {
         Application.Quit();
+    }
+
+    public void mainMenu()
+    {
+        SceneManager.LoadScene(0);
+
     }
 }

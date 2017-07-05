@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 3148a6340333c52478a3205144bbea13
+timeCreated: 1472335812
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Landing_sheet_0
+    21300002: Landing_sheet_1
+    21300004: Landing_sheet_2
+    21300006: Landing_sheet_3
+    21300008: Landing_sheet_4
+    21300010: Landing_sheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Landing_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1439
+        width: 204
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -140.5}
+        - {x: 60, y: -130.5}
+        - {x: 68, y: -66.5}
+        - {x: 102, y: -63.5}
+        - {x: 102, y: -8.5}
+        - {x: 53, y: 113.5}
+        - {x: 22, y: 140.5}
+        - {x: -50, y: 140.5}
+        - {x: -95, y: 101.5}
+        - {x: -102, y: 35.5}
+        - {x: -102, y: -76.5}
+        - {x: -90, y: -89.5}
+        - {x: -86, y: -140.5}
+        - {x: -39, y: -140.5}
+        - {x: -30, y: -131.5}
+        - {x: 0, y: -140.5}
+    - name: Landing_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1440
+        width: 234
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: -43.5}
+        - {x: 117, y: -10.5}
+        - {x: 80, y: 41.5}
+        - {x: 35, y: 137.5}
+        - {x: -67, y: 137.5}
+        - {x: -100, y: 100.5}
+        - {x: -117, y: -17.5}
+        - {x: -117, y: -79.5}
+        - {x: -105, y: -110.5}
+        - {x: -73, y: -137.5}
+        - {x: -58, y: -137.5}
+        - {x: -49, y: -131.5}
+        - {x: -41, y: -137.5}
+        - {x: 18, y: -137.5}
+        - {x: 36, y: -130.5}
+        - {x: 49, y: -17.5}
+        - {x: 95, y: -50.5}
+        - {x: 99, y: -51.5}
+    - name: Landing_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1438
+        width: 237
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97.5, y: 57.5}
+        - {x: 69.5, y: 47.5}
+        - {x: 58.5, y: 119.5}
+        - {x: 17.5, y: 134.5}
+        - {x: -65.5, y: 134.5}
+        - {x: -91.5, y: 108.5}
+        - {x: -96.5, y: 86.5}
+        - {x: -118.5, y: -37.5}
+        - {x: -118.5, y: -65.5}
+        - {x: -82.5, y: -122.5}
+        - {x: -64.5, y: -134.5}
+        - {x: -5.5, y: -134.5}
+        - {x: 32.5, y: -88.5}
+        - {x: 118.5, y: 18.5}
+        - {x: 118.5, y: 34.5}
+    - name: Landing_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1439
+        width: 210
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105, y: 41}
+        - {x: 105, y: 87}
+        - {x: 60, y: 117}
+        - {x: 20, y: 139}
+        - {x: -40, y: 139}
+        - {x: -69, y: 126}
+        - {x: -97, y: 79}
+        - {x: -105, y: 28}
+        - {x: -105, y: -77}
+        - {x: -88, y: -114}
+        - {x: -89, y: -135}
+        - {x: -73, y: -139}
+        - {x: -29, y: -139}
+        - {x: 9, y: -113}
+        - {x: 49, y: -79}
+        - {x: 101, y: 17}
+    - name: Landing_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1440
+        width: 223
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -103}
+        - {x: -32.5, y: -122}
+        - {x: -19.5, y: -141}
+        - {x: 27.5, y: -140}
+        - {x: 75.5, y: -23}
+        - {x: 111.5, y: 17}
+        - {x: 111.5, y: 71}
+        - {x: 22.5, y: 142}
+        - {x: -78.5, y: 142}
+        - {x: -111.5, y: 115}
+        - {x: -111.5, y: -142}
+        - {x: -56.5, y: -142}
+        - {x: -52.5, y: -136}
+        - {x: -50.5, y: -124}
+        - {x: -36.5, y: -97}
+    - name: Landing_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1078
+        width: 234
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -143}
+        - {x: 62, y: -37}
+        - {x: 117, y: -52}
+        - {x: 117, y: -3}
+        - {x: 47, y: 50}
+        - {x: 36, y: 113}
+        - {x: 6, y: 144}
+        - {x: -89, y: 144}
+        - {x: -117, y: 103}
+        - {x: -117, y: -107}
+        - {x: -115, y: -139}
+        - {x: -103, y: -144}
+        - {x: -61, y: -144}
+        - {x: -54, y: -124}
+        - {x: -20, y: -144}
+        - {x: 18, y: -144}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

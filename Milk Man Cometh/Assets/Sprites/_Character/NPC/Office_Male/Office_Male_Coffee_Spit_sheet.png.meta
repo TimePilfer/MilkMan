@@ -1,0 +1,863 @@
+fileFormatVersion: 2
+guid: 56d3341b693c01e41a91ce52522ecc06
+timeCreated: 1475444489
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Male_Coffee_Spit_sheet_0
+    21300002: Office_Male_Coffee_Spit_sheet_1
+    21300004: Office_Male_Coffee_Spit_sheet_2
+    21300006: Office_Male_Coffee_Spit_sheet_3
+    21300008: Office_Male_Coffee_Spit_sheet_4
+    21300010: Office_Male_Coffee_Spit_sheet_5
+    21300012: Office_Male_Coffee_Spit_sheet_6
+    21300014: Office_Male_Coffee_Spit_sheet_7
+    21300016: Office_Male_Coffee_Spit_sheet_8
+    21300018: Office_Male_Coffee_Spit_sheet_9
+    21300020: Office_Male_Coffee_Spit_sheet_10
+    21300022: Office_Male_Coffee_Spit_sheet_11
+    21300024: Office_Male_Coffee_Spit_sheet_12
+    21300026: Office_Male_Coffee_Spit_sheet_13
+    21300028: Office_Male_Coffee_Spit_sheet_14
+    21300030: Office_Male_Coffee_Spit_sheet_15
+    21300032: Office_Male_Coffee_Spit_sheet_16
+    21300034: Office_Male_Coffee_Spit_sheet_17
+    21300036: Office_Male_Coffee_Spit_sheet_18
+    21300038: Office_Male_Coffee_Spit_sheet_19
+    21300040: Office_Male_Coffee_Spit_sheet_20
+    21300042: Office_Male_Coffee_Spit_sheet_21
+    21300044: Office_Male_Coffee_Spit_sheet_22
+    21300046: Office_Male_Coffee_Spit_sheet_23
+    21300048: Office_Male_Coffee_Spit_sheet_24
+    21300050: Office_Male_Coffee_Spit_sheet_25
+    21300052: Office_Male_Coffee_Spit_sheet_26
+    21300054: Office_Male_Coffee_Spit_sheet_27
+    21300056: Office_Male_Coffee_Spit_sheet_28
+    21300058: Office_Male_Coffee_Spit_sheet_29
+    21300060: Office_Male_Coffee_Spit_sheet_30
+    21300062: Office_Male_Coffee_Spit_sheet_31
+    21300064: Office_Male_Coffee_Spit_sheet_32
+    21300066: Office_Male_Coffee_Spit_sheet_33
+    21300068: Office_Male_Coffee_Spit_sheet_34
+    21300070: Office_Male_Coffee_Spit_sheet_35
+    21300072: Office_Male_Coffee_Spit_sheet_36
+    21300074: Office_Male_Coffee_Spit_sheet_37
+    21300076: Office_Male_Coffee_Spit_sheet_38
+    21300078: Office_Male_Coffee_Spit_sheet_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Office_Male_Coffee_Spit_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2521
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.40625, y: 103.27344}
+        - {x: -44.59375, y: 103.27344}
+        - {x: -58.59375, y: 88.27344}
+        - {x: -58.59375, y: -95.72656}
+        - {x: -49.59375, y: -102.72656}
+        - {x: 51.40625, y: -102.72656}
+        - {x: 59.40625, y: -63.726562}
+        - {x: 59.40625, y: 80.27344}
+    - name: Office_Male_Coffee_Spit_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2521
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.65625, y: 103.27344}
+        - {x: -58.65625, y: 98.27344}
+        - {x: -58.65625, y: -23.726562}
+        - {x: -52.65625, y: -102.72656}
+        - {x: 54.34375, y: -102.72656}
+        - {x: 59.34375, y: -83.72656}
+        - {x: 59.34375, y: 88.27344}
+        - {x: 56.34375, y: 103.27344}
+    - name: Office_Male_Coffee_Spit_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2521
+        width: 164
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.375, y: 103.27344}
+        - {x: -58.375, y: 58.273438}
+        - {x: -58.375, y: -41.726562}
+        - {x: -44.375, y: -102.72656}
+        - {x: 48.625, y: -102.72656}
+        - {x: 58.625, y: -44.726562}
+        - {x: 58.625, y: 76.27344}
+        - {x: 48.625, y: 103.27344}
+    - name: Office_Male_Coffee_Spit_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2521
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.375, y: 103.27344}
+        - {x: -36.625, y: 103.27344}
+        - {x: -58.625, y: 67.27344}
+        - {x: -58.625, y: -70.72656}
+        - {x: -51.625, y: -101.72656}
+        - {x: -42.625, y: -102.72656}
+        - {x: 59.375, y: -102.72656}
+        - {x: 59.375, y: 81.27344}
+        - {x: 48.375, y: 100.27344}
+    - name: Office_Male_Coffee_Spit_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2521
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.6875, y: 103.27344}
+        - {x: -58.6875, y: 76.27344}
+        - {x: -58.6875, y: 8.2734375}
+        - {x: -34.6875, y: -102.72656}
+        - {x: 59.3125, y: -102.72656}
+        - {x: 59.3125, y: 98.27344}
+        - {x: 44.3125, y: 103.27344}
+    - name: Office_Male_Coffee_Spit_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2166
+        width: 165
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.484375, y: 104.390625}
+        - {x: -58.484375, y: 99.390625}
+        - {x: -58.484375, y: -76.609375}
+        - {x: -49.484375, y: -102.609375}
+        - {x: 55.515625, y: -102.609375}
+        - {x: 59.515625, y: -67.609375}
+        - {x: 59.515625, y: 104.390625}
+    - name: Office_Male_Coffee_Spit_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2166
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.609375, y: 104.390625}
+        - {x: -34.390625, y: 104.390625}
+        - {x: -58.390625, y: 61.390625}
+        - {x: -58.390625, y: -33.609375}
+        - {x: -37.390625, y: -102.609375}
+        - {x: 54.609375, y: -102.609375}
+        - {x: 59.609375, y: -49.609375}
+        - {x: 59.609375, y: 72.390625}
+        - {x: 40.609375, y: 103.390625}
+    - name: Office_Male_Coffee_Spit_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2166
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.296875, y: 104.390625}
+        - {x: -58.296875, y: 100.390625}
+        - {x: -58.296875, y: -74.609375}
+        - {x: -34.296875, y: -102.609375}
+        - {x: 50.703125, y: -102.609375}
+        - {x: 59.703125, y: -57.609375}
+        - {x: 59.703125, y: 72.390625}
+        - {x: 48.703125, y: 104.390625}
+    - name: Office_Male_Coffee_Spit_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2166
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.203125, y: 104.390625}
+        - {x: -58.203125, y: 83.390625}
+        - {x: -58.203125, y: -65.609375}
+        - {x: -36.203125, y: -102.609375}
+        - {x: 56.796875, y: -102.609375}
+        - {x: 59.796875, y: -98.609375}
+        - {x: 59.796875, y: 104.390625}
+    - name: Office_Male_Coffee_Spit_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2166
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.265625, y: 104.390625}
+        - {x: -58.265625, y: -10.609375}
+        - {x: -34.265625, y: -102.609375}
+        - {x: 50.734375, y: -102.609375}
+        - {x: 59.734375, y: -57.609375}
+        - {x: 59.734375, y: 104.390625}
+    - name: Office_Male_Coffee_Spit_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1806
+        width: 165
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.515625, y: 104.453125}
+        - {x: -36.484375, y: 104.453125}
+        - {x: -58.484375, y: 84.453125}
+        - {x: -58.484375, y: -34.546875}
+        - {x: -46.484375, y: -102.546875}
+        - {x: 43.515625, y: -102.546875}
+        - {x: 49.515625, y: -98.546875}
+        - {x: 59.515625, y: -36.546875}
+        - {x: 59.515625, y: 77.453125}
+    - name: Office_Male_Coffee_Spit_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1809
+        width: 165
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.546875, y: 103.58594}
+        - {x: -56.546875, y: 93.58594}
+        - {x: -58.546875, y: 76.58594}
+        - {x: -58.546875, y: -9.4140625}
+        - {x: -45.546875, y: -103.41406}
+        - {x: 50.453125, y: -103.41406}
+        - {x: 59.453125, y: -21.414062}
+        - {x: 59.453125, y: 89.58594}
+        - {x: 48.453125, y: 103.58594}
+    - name: Office_Male_Coffee_Spit_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1806
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.734375, y: 101.453125}
+        - {x: 20.734375, y: 104.453125}
+        - {x: -32.265625, y: 104.453125}
+        - {x: -58.265625, y: 59.453125}
+        - {x: -58.265625, y: -15.546875}
+        - {x: -36.265625, y: -93.546875}
+        - {x: -32.265625, y: -102.546875}
+        - {x: 57.734375, y: -102.546875}
+        - {x: 58.734375, y: -94.546875}
+        - {x: 58.734375, y: 82.453125}
+        - {x: 51.734375, y: 97.453125}
+    - name: Office_Male_Coffee_Spit_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1806
+        width: 172
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.125, y: 104.453125}
+        - {x: -57.125, y: 83.453125}
+        - {x: -61.125, y: 71.453125}
+        - {x: -61.125, y: -28.546875}
+        - {x: -29.125, y: -102.546875}
+        - {x: 61.875, y: -102.546875}
+        - {x: 61.875, y: 104.453125}
+    - name: Office_Male_Coffee_Spit_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1806
+        width: 177
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.164062, y: 103.453125}
+        - {x: -63.164062, y: 67.453125}
+        - {x: -63.164062, y: -33.546875}
+        - {x: -31.164062, y: -101.546875}
+        - {x: 63.835938, y: -101.546875}
+        - {x: 63.835938, y: 77.453125}
+        - {x: 37.835938, y: 103.453125}
+    - name: Office_Male_Coffee_Spit_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1442
+        width: 183
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.804688, y: 102.671875}
+        - {x: -64.80469, y: 98.671875}
+        - {x: -64.80469, y: -23.328125}
+        - {x: -23.804688, y: -102.328125}
+        - {x: 66.19531, y: -102.328125}
+        - {x: 66.19531, y: 74.671875}
+        - {x: 48.195312, y: 102.671875}
+    - name: Office_Male_Coffee_Spit_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1442
+        width: 185
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.234375, y: 101.671875}
+        - {x: -50.765625, y: 101.671875}
+        - {x: -65.765625, y: 97.671875}
+        - {x: -65.765625, y: -52.328125}
+        - {x: -50.765625, y: -101.328125}
+        - {x: 66.234375, y: -101.328125}
+        - {x: 66.234375, y: 24.671875}
+        - {x: 35.234375, y: 91.671875}
+    - name: Office_Male_Coffee_Spit_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1446
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.1875, y: 103.015625}
+        - {x: -58.1875, y: 52.015625}
+        - {x: -58.1875, y: -2.984375}
+        - {x: -35.1875, y: -98.984375}
+        - {x: -29.1875, y: -102.984375}
+        - {x: 50.8125, y: -102.984375}
+        - {x: 59.8125, y: -65.984375}
+        - {x: 59.8125, y: 81.015625}
+        - {x: 39.8125, y: 103.015625}
+    - name: Office_Male_Coffee_Spit_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1442
+        width: 167
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.773438, y: 102.671875}
+        - {x: -33.226562, y: 102.671875}
+        - {x: -59.226562, y: 65.671875}
+        - {x: -59.226562, y: -98.328125}
+        - {x: -49.226562, y: -102.328125}
+        - {x: 39.773438, y: -102.328125}
+        - {x: 42.773438, y: -101.328125}
+        - {x: 60.773438, y: -43.328125}
+        - {x: 60.773438, y: 99.671875}
+    - name: Office_Male_Coffee_Spit_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1442
+        width: 166
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.898438, y: 102.171875}
+        - {x: -32.101562, y: 102.171875}
+        - {x: -59.101562, y: 60.171875}
+        - {x: -59.101562, y: -101.828125}
+        - {x: 38.898438, y: -101.828125}
+        - {x: 54.898438, y: -69.828125}
+        - {x: 59.898438, y: -45.828125}
+        - {x: 59.898438, y: 79.171875}
+    - name: Office_Male_Coffee_Spit_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1082
+        width: 166
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.273438, y: 102.234375}
+        - {x: -59.273438, y: 53.234375}
+        - {x: -59.273438, y: -82.765625}
+        - {x: -58.273438, y: -101.765625}
+        - {x: 26.726562, y: -101.765625}
+        - {x: 59.726562, y: -86.765625}
+        - {x: 59.726562, y: 102.234375}
+    - name: Office_Male_Coffee_Spit_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1082
+        width: 167
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.257812, y: 102.734375}
+        - {x: -56.257812, y: 96.734375}
+        - {x: -59.257812, y: 75.734375}
+        - {x: -59.257812, y: -102.265625}
+        - {x: 51.742188, y: -102.265625}
+        - {x: 60.742188, y: -86.265625}
+        - {x: 60.742188, y: 90.734375}
+        - {x: 32.742188, y: 102.734375}
+    - name: Office_Male_Coffee_Spit_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1084
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5625, y: 103.65625}
+        - {x: -58.5625, y: 86.65625}
+        - {x: -58.5625, y: -11.34375}
+        - {x: -42.5625, y: -102.34375}
+        - {x: 57.4375, y: -102.34375}
+        - {x: 59.4375, y: -99.34375}
+        - {x: 59.4375, y: 99.65625}
+        - {x: 58.4375, y: 103.65625}
+    - name: Office_Male_Coffee_Spit_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1086
+        width: 187
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.84375, y: 101.078125}
+        - {x: -42.15625, y: 101.078125}
+        - {x: -66.15625, y: 90.078125}
+        - {x: -66.15625, y: -3.921875}
+        - {x: -24.15625, y: -100.921875}
+        - {x: 61.84375, y: -100.921875}
+        - {x: 67.84375, y: -74.921875}
+        - {x: 67.84375, y: -4.921875}
+        - {x: 41.84375, y: 87.078125}
+    - name: Office_Male_Coffee_Spit_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1082
+        width: 181
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.507812, y: 102.734375}
+        - {x: -64.50781, y: 79.734375}
+        - {x: -64.50781, y: -38.265625}
+        - {x: -22.507812, y: -102.265625}
+        - {x: 65.49219, y: -102.265625}
+        - {x: 65.49219, y: 79.734375}
+        - {x: 32.492188, y: 102.734375}
+    - name: Office_Male_Coffee_Spit_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 719
+        width: 177
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.070312, y: 103.16406}
+        - {x: -52.070312, y: 90.16406}
+        - {x: -63.070312, y: 44.164062}
+        - {x: -63.070312, y: 7.1640625}
+        - {x: -27.070312, y: -102.83594}
+        - {x: 60.929688, y: -102.83594}
+        - {x: 63.929688, y: -96.83594}
+        - {x: 63.929688, y: 56.164062}
+        - {x: 50.929688, y: 103.16406}
+    - name: Office_Male_Coffee_Spit_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 719
+        width: 172
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.976562, y: 103.16406}
+        - {x: -60.976562, y: 72.16406}
+        - {x: -60.976562, y: -29.835938}
+        - {x: -29.976562, y: -102.83594}
+        - {x: 61.023438, y: -102.83594}
+        - {x: 62.023438, y: -101.83594}
+        - {x: 62.023438, y: 102.16406}
+        - {x: 55.023438, y: 103.16406}
+    - name: Office_Male_Coffee_Spit_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 719
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.351562, y: 103.16406}
+        - {x: -58.351562, y: 99.16406}
+        - {x: -58.351562, y: -3.8359375}
+        - {x: -36.351562, y: -102.83594}
+        - {x: 45.648438, y: -102.83594}
+        - {x: 58.648438, y: -40.835938}
+        - {x: 58.648438, y: 103.16406}
+    - name: Office_Male_Coffee_Spit_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 722
+        width: 164
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.773438, y: 103.796875}
+        - {x: -47.226562, y: 103.796875}
+        - {x: -58.226562, y: 62.796875}
+        - {x: -58.226562, y: -0.203125}
+        - {x: -34.226562, y: -99.203125}
+        - {x: -27.226562, y: -103.203125}
+        - {x: 43.773438, y: -103.203125}
+        - {x: 49.773438, y: -88.203125}
+        - {x: 59.773438, y: 9.796875}
+        - {x: 59.773438, y: 75.796875}
+    - name: Office_Male_Coffee_Spit_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 719
+        width: 165
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.289062, y: 103.16406}
+        - {x: -58.710938, y: 103.16406}
+        - {x: -58.710938, y: -72.83594}
+        - {x: -55.710938, y: -102.83594}
+        - {x: 47.289062, y: -102.83594}
+        - {x: 59.289062, y: -27.835938}
+        - {x: 59.289062, y: 79.16406}
+        - {x: 48.289062, y: 94.16406}
+    - name: Office_Male_Coffee_Spit_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 362
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.703125, y: 103.359375}
+        - {x: -58.703125, y: 58.359375}
+        - {x: -58.703125, y: -10.640625}
+        - {x: -35.703125, y: -99.640625}
+        - {x: -30.703125, y: -102.640625}
+        - {x: 49.296875, y: -102.640625}
+        - {x: 59.296875, y: -57.640625}
+        - {x: 59.296875, y: 79.359375}
+        - {x: 47.296875, y: 103.359375}
+    - name: Office_Male_Coffee_Spit_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 362
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.320312, y: 103.359375}
+        - {x: -41.679688, y: 103.359375}
+        - {x: -58.679688, y: 59.359375}
+        - {x: -58.679688, y: -30.640625}
+        - {x: -35.679688, y: -102.640625}
+        - {x: 49.320312, y: -102.640625}
+        - {x: 59.320312, y: -37.640625}
+        - {x: 59.320312, y: 79.359375}
+        - {x: 43.320312, y: 100.359375}
+    - name: Office_Male_Coffee_Spit_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 362
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.71875, y: 103.359375}
+        - {x: -57.71875, y: 91.359375}
+        - {x: -58.71875, y: 90.359375}
+        - {x: -58.71875, y: -77.640625}
+        - {x: -49.71875, y: -102.640625}
+        - {x: 49.28125, y: -102.640625}
+        - {x: 59.28125, y: -66.640625}
+        - {x: 59.28125, y: 99.359375}
+        - {x: 57.28125, y: 103.359375}
+    - name: Office_Male_Coffee_Spit_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 362
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.492188, y: 103.359375}
+        - {x: -58.492188, y: -89.640625}
+        - {x: -45.492188, y: -102.640625}
+        - {x: 55.507812, y: -102.640625}
+        - {x: 59.507812, y: -64.640625}
+        - {x: 59.507812, y: 91.359375}
+        - {x: 37.507812, y: 103.359375}
+    - name: Office_Male_Coffee_Spit_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 362
+        width: 164
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.34375, y: 103.359375}
+        - {x: -41.34375, y: 93.359375}
+        - {x: -58.34375, y: 56.359375}
+        - {x: -58.34375, y: -51.640625}
+        - {x: -49.34375, y: -102.640625}
+        - {x: 52.65625, y: -102.640625}
+        - {x: 58.65625, y: -63.640625}
+        - {x: 58.65625, y: 96.359375}
+        - {x: 33.65625, y: 103.359375}
+    - name: Office_Male_Coffee_Spit_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.59375, y: 103.55469}
+        - {x: -58.59375, y: 99.55469}
+        - {x: -58.59375, y: -82.44531}
+        - {x: -56.59375, y: -102.44531}
+        - {x: 51.40625, y: -102.44531}
+        - {x: 59.40625, y: -66.44531}
+        - {x: 59.40625, y: 76.55469}
+        - {x: 44.40625, y: 103.55469}
+    - name: Office_Male_Coffee_Spit_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 5
+        width: 164
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.3125, y: 103.55469}
+        - {x: -58.3125, y: 83.55469}
+        - {x: -58.3125, y: -60.445312}
+        - {x: -50.3125, y: -102.44531}
+        - {x: 53.6875, y: -102.44531}
+        - {x: 58.6875, y: -79.44531}
+        - {x: 58.6875, y: 83.55469}
+        - {x: 49.6875, y: 103.55469}
+    - name: Office_Male_Coffee_Spit_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 5
+        width: 164
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.140625, y: 103.55469}
+        - {x: -58.140625, y: -97.44531}
+        - {x: -44.140625, y: -102.44531}
+        - {x: 53.859375, y: -102.44531}
+        - {x: 59.859375, y: -81.44531}
+        - {x: 59.859375, y: 88.55469}
+        - {x: 49.859375, y: 103.55469}
+    - name: Office_Male_Coffee_Spit_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 5
+        width: 165
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.46875, y: 103.55469}
+        - {x: -57.46875, y: 90.55469}
+        - {x: -58.46875, y: 77.55469}
+        - {x: -58.46875, y: -12.4453125}
+        - {x: -41.46875, y: -102.44531}
+        - {x: 54.53125, y: -102.44531}
+        - {x: 59.53125, y: -67.44531}
+        - {x: 59.53125, y: 86.55469}
+        - {x: 42.53125, y: 103.55469}
+    - name: Office_Male_Coffee_Spit_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 8
+        width: 164
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.398438, y: 103.6875}
+        - {x: -35.398438, y: 102.6875}
+        - {x: -58.398438, y: 50.6875}
+        - {x: -58.398438, y: -12.3125}
+        - {x: -33.398438, y: -102.3125}
+        - {x: 49.601562, y: -102.3125}
+        - {x: 59.601562, y: -62.3125}
+        - {x: 59.601562, y: 85.6875}
+        - {x: 50.601562, y: 103.6875}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
