@@ -713,7 +713,6 @@ SpriteRenderer:
   m_Size: {x: 38.399998, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &299253959
 Transform:
   m_ObjectHideFlags: 0
@@ -1339,7 +1338,6 @@ SpriteRenderer:
   m_Size: {x: 10, y: 5.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &538413737
 Transform:
   m_ObjectHideFlags: 0
@@ -2028,6 +2026,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d7d82bda6b986b4c9ef0083303f7bbb, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &956020648 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 161658, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+  m_PrefabInternal: {fileID: 1883866774}
+--- !u!114 &956020654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956020648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a167eecb995862418146fa24c9afd05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &968547978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,7 +2097,6 @@ SpriteRenderer:
   m_Size: {x: 38.399998, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &968547980
 Transform:
   m_ObjectHideFlags: 0
@@ -2752,7 +2764,6 @@ SpriteRenderer:
   m_Size: {x: 38.399998, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &1169829108
 Transform:
   m_ObjectHideFlags: 0
@@ -3264,7 +3275,6 @@ SpriteRenderer:
   m_Size: {x: 38.399998, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &1347390612
 Transform:
   m_ObjectHideFlags: 0
@@ -3334,7 +3344,6 @@ SpriteRenderer:
   m_Size: {x: 76.799995, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &1347873321
 Transform:
   m_ObjectHideFlags: 0
@@ -4289,7 +4298,6 @@ SpriteRenderer:
   m_Size: {x: 76.799995, y: 21.599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
 --- !u!4 &1691372617
 Transform:
   m_ObjectHideFlags: 0
@@ -4760,9 +4768,46 @@ Prefab:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 1124368961}
+    - target: {fileID: 405238, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020438, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: jumpforce
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: isPaused
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1931588912 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 128848, guid: 2f9e6e81a7b9b9a4087c5d826ea7343c, type: 2}
+  m_PrefabInternal: {fileID: 655678414}
+--- !u!95 &1931588917
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1931588912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1dfcf2c65f750d94ead2cca91f964c85, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1953552105
 Prefab:
   m_ObjectHideFlags: 0
