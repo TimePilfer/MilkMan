@@ -93,7 +93,6 @@
     <Compile Include="Assets\Scripts\EnemyControls.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
-    <Compile Include="Assets\Scripts\LockCamera.cs" />
     <Compile Include="Assets\Scripts\Milk.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\PauseMenuController.cs" />
