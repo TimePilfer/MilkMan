@@ -1,0 +1,5646 @@
+fileFormatVersion: 2
+guid: 086c7f9b1483c29429c17d178635025d
+timeCreated: 1474137619
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Male_Explode_sheet_0
+    21300002: Office_Male_Explode_sheet_1
+    21300004: Office_Male_Explode_sheet_2
+    21300006: Office_Male_Explode_sheet_3
+    21300008: Office_Male_Explode_sheet_4
+    21300010: Office_Male_Explode_sheet_5
+    21300012: Office_Male_Explode_sheet_6
+    21300014: Office_Male_Explode_sheet_7
+    21300016: Office_Male_Explode_sheet_8
+    21300018: Office_Male_Explode_sheet_9
+    21300020: Office_Male_Explode_sheet_10
+    21300022: Office_Male_Explode_sheet_11
+    21300024: Office_Male_Explode_sheet_12
+    21300026: Office_Male_Explode_sheet_13
+    21300028: Office_Male_Explode_sheet_14
+    21300030: Office_Male_Explode_sheet_15
+    21300032: Office_Male_Explode_sheet_16
+    21300034: Office_Male_Explode_sheet_17
+    21300036: Office_Male_Explode_sheet_18
+    21300038: Office_Male_Explode_sheet_19
+    21300040: Office_Male_Explode_sheet_20
+    21300042: Office_Male_Explode_sheet_21
+    21300044: Office_Male_Explode_sheet_22
+    21300046: Office_Male_Explode_sheet_23
+    21300048: Office_Male_Explode_sheet_24
+    21300050: Office_Male_Explode_sheet_25
+    21300052: Office_Male_Explode_sheet_26
+    21300054: Office_Male_Explode_sheet_27
+    21300056: Office_Male_Explode_sheet_28
+    21300058: Office_Male_Explode_sheet_29
+    21300060: Office_Male_Explode_sheet_30
+    21300062: Office_Male_Explode_sheet_31
+    21300064: Office_Male_Explode_sheet_32
+    21300066: Office_Male_Explode_sheet_33
+    21300068: Office_Male_Explode_sheet_34
+    21300070: Office_Male_Explode_sheet_35
+    21300072: Office_Male_Explode_sheet_36
+    21300074: Office_Male_Explode_sheet_37
+    21300076: Office_Male_Explode_sheet_38
+    21300078: Office_Male_Explode_sheet_39
+    21300080: Office_Male_Explode_sheet_40
+    21300082: Office_Male_Explode_sheet_41
+    21300084: Office_Male_Explode_sheet_42
+    21300086: Office_Male_Explode_sheet_43
+    21300088: Office_Male_Explode_sheet_44
+    21300090: Office_Male_Explode_sheet_45
+    21300092: Office_Male_Explode_sheet_46
+    21300094: Office_Male_Explode_sheet_47
+    21300096: Office_Male_Explode_sheet_48
+    21300098: Office_Male_Explode_sheet_49
+    21300100: Office_Male_Explode_sheet_50
+    21300102: Office_Male_Explode_sheet_51
+    21300104: Office_Male_Explode_sheet_52
+    21300106: Office_Male_Explode_sheet_53
+    21300108: Office_Male_Explode_sheet_54
+    21300110: Office_Male_Explode_sheet_55
+    21300112: Office_Male_Explode_sheet_56
+    21300114: Office_Male_Explode_sheet_57
+    21300116: Office_Male_Explode_sheet_58
+    21300118: Office_Male_Explode_sheet_59
+    21300120: Office_Male_Explode_sheet_60
+    21300122: Office_Male_Explode_sheet_61
+    21300124: Office_Male_Explode_sheet_62
+    21300126: Office_Male_Explode_sheet_63
+    21300128: Office_Male_Explode_sheet_64
+    21300130: Office_Male_Explode_sheet_65
+    21300132: Office_Male_Explode_sheet_66
+    21300134: Office_Male_Explode_sheet_67
+    21300136: Office_Male_Explode_sheet_68
+    21300138: Office_Male_Explode_sheet_69
+    21300140: Office_Male_Explode_sheet_70
+    21300142: Office_Male_Explode_sheet_71
+    21300144: Office_Male_Explode_sheet_72
+    21300146: Office_Male_Explode_sheet_73
+    21300148: Office_Male_Explode_sheet_74
+    21300150: Office_Male_Explode_sheet_75
+    21300152: Office_Male_Explode_sheet_76
+    21300154: Office_Male_Explode_sheet_77
+    21300156: Office_Male_Explode_sheet_78
+    21300158: Office_Male_Explode_sheet_79
+    21300160: Office_Male_Explode_sheet_80
+    21300162: Office_Male_Explode_sheet_81
+    21300164: Office_Male_Explode_sheet_82
+    21300166: Office_Male_Explode_sheet_83
+    21300168: Office_Male_Explode_sheet_84
+    21300170: Office_Male_Explode_sheet_85
+    21300172: Office_Male_Explode_sheet_86
+    21300174: Office_Male_Explode_sheet_87
+    21300176: Office_Male_Explode_sheet_88
+    21300178: Office_Male_Explode_sheet_89
+    21300180: Office_Male_Explode_sheet_90
+    21300182: Office_Male_Explode_sheet_91
+    21300184: Office_Male_Explode_sheet_92
+    21300186: Office_Male_Explode_sheet_93
+    21300188: Office_Male_Explode_sheet_94
+    21300190: Office_Male_Explode_sheet_95
+    21300192: Office_Male_Explode_sheet_96
+    21300194: Office_Male_Explode_sheet_97
+    21300196: Office_Male_Explode_sheet_98
+    21300198: Office_Male_Explode_sheet_99
+    21300200: Office_Male_Explode_sheet_100
+    21300202: Office_Male_Explode_sheet_101
+    21300204: Office_Male_Explode_sheet_102
+    21300206: Office_Male_Explode_sheet_103
+    21300208: Office_Male_Explode_sheet_104
+    21300210: Office_Male_Explode_sheet_105
+    21300212: Office_Male_Explode_sheet_106
+    21300214: Office_Male_Explode_sheet_107
+    21300216: Office_Male_Explode_sheet_108
+    21300218: Office_Male_Explode_sheet_109
+    21300220: Office_Male_Explode_sheet_110
+    21300222: Office_Male_Explode_sheet_111
+    21300224: Office_Male_Explode_sheet_112
+    21300226: Office_Male_Explode_sheet_113
+    21300228: Office_Male_Explode_sheet_114
+    21300230: Office_Male_Explode_sheet_115
+    21300232: Office_Male_Explode_sheet_116
+    21300234: Office_Male_Explode_sheet_117
+    21300236: Office_Male_Explode_sheet_118
+    21300238: Office_Male_Explode_sheet_119
+    21300240: Office_Male_Explode_sheet_120
+    21300242: Office_Male_Explode_sheet_121
+    21300244: Office_Male_Explode_sheet_122
+    21300246: Office_Male_Explode_sheet_123
+    21300248: Office_Male_Explode_sheet_124
+    21300250: Office_Male_Explode_sheet_125
+    21300252: Office_Male_Explode_sheet_126
+    21300254: Office_Male_Explode_sheet_127
+    21300256: Office_Male_Explode_sheet_128
+    21300258: Office_Male_Explode_sheet_129
+    21300260: Office_Male_Explode_sheet_130
+    21300262: Office_Male_Explode_sheet_131
+    21300264: Office_Male_Explode_sheet_132
+    21300266: Office_Male_Explode_sheet_133
+    21300268: Office_Male_Explode_sheet_134
+    21300270: Office_Male_Explode_sheet_135
+    21300272: Office_Male_Explode_sheet_136
+    21300274: Office_Male_Explode_sheet_137
+    21300276: Office_Male_Explode_sheet_138
+    21300278: Office_Male_Explode_sheet_139
+    21300280: Office_Male_Explode_sheet_140
+    21300282: Office_Male_Explode_sheet_141
+    21300284: Office_Male_Explode_sheet_142
+    21300286: Office_Male_Explode_sheet_143
+    21300288: Office_Male_Explode_sheet_144
+    21300290: Office_Male_Explode_sheet_145
+    21300292: Office_Male_Explode_sheet_146
+    21300294: Office_Male_Explode_sheet_147
+    21300296: Office_Male_Explode_sheet_148
+    21300298: Office_Male_Explode_sheet_149
+    21300300: Office_Male_Explode_sheet_150
+    21300302: Office_Male_Explode_sheet_151
+    21300304: Office_Male_Explode_sheet_152
+    21300306: Office_Male_Explode_sheet_153
+    21300308: Office_Male_Explode_sheet_154
+    21300310: Office_Male_Explode_sheet_155
+    21300312: Office_Male_Explode_sheet_156
+    21300314: Office_Male_Explode_sheet_157
+    21300316: Office_Male_Explode_sheet_158
+    21300318: Office_Male_Explode_sheet_159
+    21300320: Office_Male_Explode_sheet_160
+    21300322: Office_Male_Explode_sheet_161
+    21300324: Office_Male_Explode_sheet_162
+    21300326: Office_Male_Explode_sheet_163
+    21300328: Office_Male_Explode_sheet_164
+    21300330: Office_Male_Explode_sheet_165
+    21300332: Office_Male_Explode_sheet_166
+    21300334: Office_Male_Explode_sheet_167
+    21300336: Office_Male_Explode_sheet_168
+    21300338: Office_Male_Explode_sheet_169
+    21300340: Office_Male_Explode_sheet_170
+    21300342: Office_Male_Explode_sheet_171
+    21300344: Office_Male_Explode_sheet_172
+    21300346: Office_Male_Explode_sheet_173
+    21300348: Office_Male_Explode_sheet_174
+    21300350: Office_Male_Explode_sheet_175
+    21300352: Office_Male_Explode_sheet_176
+    21300354: Office_Male_Explode_sheet_177
+    21300356: Office_Male_Explode_sheet_178
+    21300358: Office_Male_Explode_sheet_179
+    21300360: Office_Male_Explode_sheet_180
+    21300362: Office_Male_Explode_sheet_181
+    21300364: Office_Male_Explode_sheet_182
+    21300366: Office_Male_Explode_sheet_183
+    21300368: Office_Male_Explode_sheet_184
+    21300370: Office_Male_Explode_sheet_185
+    21300372: Office_Male_Explode_sheet_186
+    21300374: Office_Male_Explode_sheet_187
+    21300376: Office_Male_Explode_sheet_188
+    21300378: Office_Male_Explode_sheet_189
+    21300380: Office_Male_Explode_sheet_190
+    21300382: Office_Male_Explode_sheet_191
+    21300384: Office_Male_Explode_sheet_192
+    21300386: Office_Male_Explode_sheet_193
+    21300388: Office_Male_Explode_sheet_194
+    21300390: Office_Male_Explode_sheet_195
+    21300392: Office_Male_Explode_sheet_196
+    21300394: Office_Male_Explode_sheet_197
+    21300396: Office_Male_Explode_sheet_198
+    21300398: Office_Male_Explode_sheet_199
+    21300400: Office_Male_Explode_sheet_200
+    21300402: Office_Male_Explode_sheet_201
+    21300404: Office_Male_Explode_sheet_202
+    21300406: Office_Male_Explode_sheet_203
+    21300408: Office_Male_Explode_sheet_204
+    21300410: Office_Male_Explode_sheet_205
+    21300412: Office_Male_Explode_sheet_206
+    21300414: Office_Male_Explode_sheet_207
+    21300416: Office_Male_Explode_sheet_208
+    21300418: Office_Male_Explode_sheet_209
+    21300420: Office_Male_Explode_sheet_210
+    21300422: Office_Male_Explode_sheet_211
+    21300424: Office_Male_Explode_sheet_212
+    21300426: Office_Male_Explode_sheet_213
+    21300428: Office_Male_Explode_sheet_214
+    21300430: Office_Male_Explode_sheet_215
+    21300432: Office_Male_Explode_sheet_216
+    21300434: Office_Male_Explode_sheet_217
+    21300436: Office_Male_Explode_sheet_218
+    21300438: Office_Male_Explode_sheet_219
+    21300440: Office_Male_Explode_sheet_220
+    21300442: Office_Male_Explode_sheet_221
+    21300444: Office_Male_Explode_sheet_222
+    21300446: Office_Male_Explode_sheet_223
+    21300448: Office_Male_Explode_sheet_224
+    21300450: Office_Male_Explode_sheet_225
+    21300452: Office_Male_Explode_sheet_226
+    21300454: Office_Male_Explode_sheet_227
+    21300456: Office_Male_Explode_sheet_228
+    21300458: Office_Male_Explode_sheet_229
+    21300460: Office_Male_Explode_sheet_230
+    21300462: Office_Male_Explode_sheet_231
+    21300464: Office_Male_Explode_sheet_232
+    21300466: Office_Male_Explode_sheet_233
+    21300468: Office_Male_Explode_sheet_234
+    21300470: Office_Male_Explode_sheet_235
+    21300472: Office_Male_Explode_sheet_236
+    21300474: Office_Male_Explode_sheet_237
+    21300476: Office_Male_Explode_sheet_238
+    21300478: Office_Male_Explode_sheet_239
+    21300480: Office_Male_Explode_sheet_240
+    21300482: Office_Male_Explode_sheet_241
+    21300484: Office_Male_Explode_sheet_242
+    21300486: Office_Male_Explode_sheet_243
+    21300488: Office_Male_Explode_sheet_244
+    21300490: Office_Male_Explode_sheet_245
+    21300492: Office_Male_Explode_sheet_246
+    21300494: Office_Male_Explode_sheet_247
+    21300496: Office_Male_Explode_sheet_248
+    21300498: Office_Male_Explode_sheet_249
+    21300500: Office_Male_Explode_sheet_250
+    21300502: Office_Male_Explode_sheet_251
+    21300504: Office_Male_Explode_sheet_252
+    21300506: Office_Male_Explode_sheet_253
+    21300508: Office_Male_Explode_sheet_254
+    21300510: Office_Male_Explode_sheet_255
+    21300512: Office_Male_Explode_sheet_256
+    21300514: Office_Male_Explode_sheet_257
+    21300516: Office_Male_Explode_sheet_258
+    21300518: Office_Male_Explode_sheet_259
+    21300520: Office_Male_Explode_sheet_260
+    21300522: Office_Male_Explode_sheet_261
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Office_Male_Explode_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1943
+        width: 163
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.888893, y: 128.61108}
+        - {x: -26.111107, y: 128.61108}
+        - {x: -53.111107, y: 109.611084}
+        - {x: -72.11111, y: 53.611084}
+        - {x: -72.11111, y: 33.611084}
+        - {x: -51.111107, y: 32.611084}
+        - {x: -56.111107, y: -68.388916}
+        - {x: -51.111107, y: -128.38892}
+        - {x: 71.88889, y: -128.38892}
+        - {x: 73.88889, y: -67.388916}
+        - {x: 73.88889, y: 89.611084}
+        - {x: 62.888893, y: 115.611084}
+    - name: Office_Male_Explode_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1943
+        width: 163
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.444458, y: 126.611084}
+        - {x: 37.444458, y: 128.61108}
+        - {x: -25.555542, y: 128.61108}
+        - {x: -52.555542, y: 114.611084}
+        - {x: -72.55554, y: 51.611084}
+        - {x: -72.55554, y: 7.611084}
+        - {x: -55.555542, y: -69.388916}
+        - {x: -54.555542, y: -128.38892}
+        - {x: 63.444458, y: -128.38892}
+        - {x: 63.444458, y: -127.388916}
+        - {x: 73.44446, y: 12.611084}
+        - {x: 73.44446, y: 93.611084}
+    - name: Office_Male_Explode_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1943
+        width: 161
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.33331, y: 101.111084}
+        - {x: 59.333313, y: 128.11108}
+        - {x: -30.666687, y: 128.11108}
+        - {x: -50.666687, y: 116.111084}
+        - {x: -71.66669, y: 54.111084}
+        - {x: -71.66669, y: -23.888916}
+        - {x: -63.666687, y: -75.888916}
+        - {x: -36.666687, y: -127.888916}
+        - {x: 56.333313, y: -127.888916}
+        - {x: 62.333313, y: -122.888916}
+        - {x: 68.33331, y: -72.888916}
+        - {x: 72.33331, y: -55.888916}
+    - name: Office_Male_Explode_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1943
+        width: 161
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 127.611084}
+        - {x: -44, y: 127.611084}
+        - {x: -72, y: 78.611084}
+        - {x: -72, y: -0.38891602}
+        - {x: -41, y: -127.388916}
+        - {x: 59, y: -127.388916}
+        - {x: 60, y: -115.388916}
+        - {x: 72, y: -60.388916}
+        - {x: 72, y: 93.611084}
+    - name: Office_Male_Explode_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1943
+        width: 166
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.333374, y: 126.611084}
+        - {x: -48.666626, y: 126.611084}
+        - {x: -54.666626, y: 125.611084}
+        - {x: -73.666626, y: 61.611084}
+        - {x: -73.666626, y: 13.611084}
+        - {x: -51.666626, y: 16.611084}
+        - {x: -54.666626, y: -75.388916}
+        - {x: -38.666626, y: -126.388916}
+        - {x: 64.333374, y: -126.388916}
+        - {x: 74.333374, y: -96.388916}
+        - {x: 74.333374, y: 71.611084}
+        - {x: 73.333374, y: 79.611084}
+    - name: Office_Male_Explode_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1586
+        width: 172
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.333336, y: 25.777832}
+        - {x: 65.333336, y: 81.77783}
+        - {x: 33.333336, y: 126.77783}
+        - {x: 31.333336, y: 127.77783}
+        - {x: -30.666664, y: 127.77783}
+        - {x: -57.666664, y: 122.77783}
+        - {x: -76.666664, y: 82.77783}
+        - {x: -76.666664, y: -8.222168}
+        - {x: -42.666664, y: -126.22217}
+        - {x: 53.333336, y: -126.22217}
+        - {x: 58.333336, y: -124.22217}
+        - {x: 73.333336, y: -65.22217}
+        - {x: 77.333336, y: -46.222168}
+    - name: Office_Male_Explode_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1585
+        width: 180
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.27777, y: 108.888916}
+        - {x: 27.277771, y: 127.888916}
+        - {x: -39.72223, y: 127.888916}
+        - {x: -79.72223, y: 115.888916}
+        - {x: -79.72223, y: 6.888916}
+        - {x: -71.72223, y: -64.111084}
+        - {x: -56.72223, y: -126.111084}
+        - {x: 51.27777, y: -126.111084}
+        - {x: 81.27777, y: -54.111084}
+        - {x: 81.27777, y: 9.888916}
+        - {x: 74.27777, y: 20.888916}
+    - name: Office_Male_Explode_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1585
+        width: 191
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.055542, y: 127.888916}
+        - {x: -49.944458, y: 127.888916}
+        - {x: -84.94446, y: 97.888916}
+        - {x: -84.94446, y: -21.111084}
+        - {x: -64.94446, y: -84.111084}
+        - {x: -50.944458, y: -119.111084}
+        - {x: -43.944458, y: -126.111084}
+        - {x: 54.055542, y: -126.111084}
+        - {x: 86.05554, y: -78.111084}
+        - {x: 86.05554, y: 15.888916}
+        - {x: 49.055542, y: 98.888916}
+    - name: Office_Male_Explode_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1585
+        width: 211
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.166626, y: 48.888916}
+        - {x: 39.166626, y: 100.888916}
+        - {x: 9.166626, y: 127.888916}
+        - {x: -48.833374, y: 127.888916}
+        - {x: -86.833374, y: 112.888916}
+        - {x: -93.833374, y: 91.888916}
+        - {x: -93.833374, y: 26.888916}
+        - {x: -88.833374, y: -0.111083984}
+        - {x: -79.833374, y: -89.111084}
+        - {x: -55.833374, y: -126.111084}
+        - {x: 44.166626, y: -126.111084}
+        - {x: 95.166626, y: -75.111084}
+        - {x: 95.166626, y: 12.888916}
+        - {x: 94.166626, y: 20.888916}
+    - name: Office_Male_Explode_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1585
+        width: 227
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 127.388916}
+        - {x: -60, y: 127.388916}
+        - {x: -100, y: 103.388916}
+        - {x: -101, y: 99.388916}
+        - {x: -101, y: 34.388916}
+        - {x: -94, y: -7.611084}
+        - {x: -70, y: -4.611084}
+        - {x: -78, y: -70.611084}
+        - {x: -69, y: -99.611084}
+        - {x: -56, y: -125.611084}
+        - {x: 59, y: -125.611084}
+        - {x: 101, y: -64.611084}
+        - {x: 101, y: 12.388916}
+        - {x: 56, y: 57.388916}
+    - name: Office_Male_Explode_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1222
+        width: 245
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.05556, y: 8.72229}
+        - {x: 105.05556, y: 32.72229}
+        - {x: 55.055557, y: 67.72229}
+        - {x: -9.944443, y: 126.72229}
+        - {x: -77.94444, y: 126.72229}
+        - {x: -85.94444, y: 124.72229}
+        - {x: -108.94444, y: 89.72229}
+        - {x: -108.94444, y: 34.72229}
+        - {x: -95.94444, y: -14.27771}
+        - {x: -75.94444, y: -3.27771}
+        - {x: -79.94444, y: -87.27771}
+        - {x: -63.944443, y: -126.27771}
+        - {x: 54.055557, y: -126.27771}
+        - {x: 62.055557, y: -120.27771}
+        - {x: 105.05556, y: -61.27771}
+        - {x: 110.05556, y: -51.27771}
+    - name: Office_Male_Explode_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1223
+        width: 264
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.66666, y: 56.111084}
+        - {x: 48.666656, y: 78.111084}
+        - {x: 13.6666565, y: 92.111084}
+        - {x: -5.3333435, y: 119.111084}
+        - {x: -29.333344, y: 126.111084}
+        - {x: -75.33334, y: 126.111084}
+        - {x: -108.33334, y: 103.111084}
+        - {x: -117.33334, y: 82.111084}
+        - {x: -117.33334, y: 36.111084}
+        - {x: -87.33334, y: -47.888916}
+        - {x: -78.33334, y: -102.888916}
+        - {x: -48.333344, y: -125.888916}
+        - {x: 66.66666, y: -125.888916}
+        - {x: 75.66666, y: -124.888916}
+        - {x: 118.66666, y: -45.888916}
+        - {x: 118.66666, y: 21.111084}
+    - name: Office_Male_Explode_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1222
+        width: 281
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126.16669, y: -38.77771}
+        - {x: 126.16669, y: 16.22229}
+        - {x: 109.16669, y: 52.22229}
+        - {x: 65.16669, y: 82.22229}
+        - {x: 8.166687, y: 97.22229}
+        - {x: -30.833313, y: 126.22229}
+        - {x: -77.83331, y: 126.22229}
+        - {x: -103.83331, y: 115.22229}
+        - {x: -124.83331, y: 90.22229}
+        - {x: -124.83331, y: 37.22229}
+        - {x: -102.83331, y: -25.77771}
+        - {x: -90.83331, y: -68.77771}
+        - {x: -79.83331, y: -97.77771}
+        - {x: -49.833313, y: -125.77771}
+        - {x: 48.166687, y: -125.77771}
+        - {x: 75.16669, y: -117.77771}
+        - {x: 119.16669, y: -60.77771}
+    - name: Office_Male_Explode_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1221
+        width: 296
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.888916, y: -121.666626}
+        - {x: 26.888916, y: -125.666626}
+        - {x: 53.888916, y: -125.666626}
+        - {x: 55.888916, y: -124.666626}
+        - {x: 105.888916, y: -115.666626}
+        - {x: 132.88892, y: -55.666626}
+        - {x: 132.88892, y: 44.333374}
+        - {x: 69.888916, y: 102.333374}
+        - {x: 1.888916, y: 126.333374}
+        - {x: -89.111084, y: 126.333374}
+        - {x: -131.11108, y: 103.333374}
+        - {x: -131.11108, y: 24.333374}
+        - {x: -79.111084, y: -103.666626}
+        - {x: -60.111084, y: -92.666626}
+        - {x: -52.111084, y: -83.666626}
+        - {x: -53.111084, y: -68.666626}
+        - {x: -46.111084, y: -122.666626}
+        - {x: -41.111084, y: -125.666626}
+        - {x: -14.111084, y: -125.666626}
+        - {x: -1.111084, y: -124.666626}
+        - {x: 5.888916, y: -123.666626}
+    - name: Office_Male_Explode_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1222
+        width: 304
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.83337, y: -48.27771}
+        - {x: 135.83337, y: 41.72229}
+        - {x: 86.833374, y: 97.72229}
+        - {x: -7.166626, y: 106.72229}
+        - {x: -43.166626, y: 125.72229}
+        - {x: -94.166626, y: 125.72229}
+        - {x: -99.166626, y: 124.72229}
+        - {x: -129.16663, y: 102.72229}
+        - {x: -135.16663, y: 80.72229}
+        - {x: -135.16663, y: 31.72229}
+        - {x: -124.166626, y: 12.72229}
+        - {x: -99.166626, y: -27.27771}
+        - {x: -87.166626, y: -82.27771}
+        - {x: -75.166626, y: -94.27771}
+        - {x: -65.166626, y: -94.27771}
+        - {x: -41.166626, y: -125.27771}
+        - {x: 64.833374, y: -125.27771}
+        - {x: 69.833374, y: -124.27771}
+        - {x: 101.833374, y: -105.27771}
+    - name: Office_Male_Explode_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1177
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1138
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1164
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1178
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 865
+        width: 326
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.16666, y: -82.111084}
+        - {x: 111.16666, y: -84.111084}
+        - {x: 119.16666, y: -95.111084}
+        - {x: 146.16666, y: -55.111084}
+        - {x: 146.16666, y: -38.111084}
+        - {x: 137.16666, y: -21.111084}
+        - {x: 130.16666, y: -21.111084}
+        - {x: 125.16666, y: -26.111084}
+        - {x: 129.16666, y: -21.111084}
+        - {x: 133.16666, y: -19.111084}
+        - {x: 135.16666, y: -17.111084}
+        - {x: 135.16666, y: -15.111084}
+        - {x: 132.16666, y: -12.111084}
+        - {x: 129.16666, y: -12.111084}
+        - {x: 127.16666, y: -14.111084}
+        - {x: 127.16666, y: -16.111084}
+        - {x: 128.16666, y: -7.111084}
+        - {x: 138.16666, y: -8.111084}
+        - {x: 146.16666, y: -3.111084}
+        - {x: 146.16666, y: 78.888916}
+        - {x: 76.16666, y: 128.88892}
+        - {x: 29.166656, y: 124.888916}
+        - {x: 15.1666565, y: 107.888916}
+        - {x: -36.833344, y: 127.888916}
+        - {x: -62.833344, y: 135.88892}
+        - {x: -119.83334, y: 135.88892}
+        - {x: -144.83334, y: 121.888916}
+        - {x: -144.83334, y: -46.111084}
+        - {x: -125.83334, y: -124.111084}
+        - {x: -102.83334, y: -134.11108}
+        - {x: 25.166656, y: -134.11108}
+        - {x: 74.16666, y: -128.11108}
+        - {x: 100.16666, y: -108.111084}
+        - {x: 102.16666, y: -88.111084}
+        - {x: 97.16666, y: -84.111084}
+      - - {x: -108.83334, y: 9.888916}
+        - {x: -108.83334, y: 2.888916}
+        - {x: -103.83334, y: 2.888916}
+        - {x: -102.83334, y: 3.888916}
+        - {x: -102.83334, y: 8.888916}
+        - {x: -103.83334, y: 9.888916}
+      - - {x: -113.83334, y: 88.888916}
+        - {x: -110.83334, y: 89.888916}
+        - {x: -110.83334, y: 92.888916}
+        - {x: -113.83334, y: 93.888916}
+        - {x: -115.83334, y: 91.888916}
+      - - {x: -57.833344, y: 127.888916}
+        - {x: -57.833344, y: 120.888916}
+        - {x: -46.833344, y: 120.888916}
+        - {x: -46.833344, y: 125.888916}
+        - {x: -47.833344, y: 127.888916}
+    - name: Office_Male_Explode_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 867
+        width: 373
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.444458, y: -144.33331}
+        - {x: 89.44446, y: -129.33331}
+        - {x: 101.44446, y: -113.33331}
+        - {x: 96.44446, y: -101.33331}
+        - {x: 82.44446, y: -96.33331}
+        - {x: 114.44446, y: -103.33331}
+        - {x: 113.44446, y: -112.33331}
+        - {x: 121.44446, y: -114.33331}
+        - {x: 136.44446, y: -107.33331}
+        - {x: 132.44446, y: -88.33331}
+        - {x: 113.44446, y: -67.33331}
+        - {x: 127.44446, y: -81.33331}
+        - {x: 144.44446, y: -77.33331}
+        - {x: 163.44446, y: -62.333313}
+        - {x: 166.44446, y: -56.333313}
+        - {x: 166.44446, y: 57.666687}
+        - {x: 148.44446, y: 59.666687}
+        - {x: 133.44446, y: 59.666687}
+        - {x: 107.44446, y: 57.666687}
+        - {x: 112.44446, y: 58.666687}
+        - {x: 117.44446, y: 62.666687}
+        - {x: 124.44446, y: 85.66669}
+        - {x: 120.44446, y: 89.66669}
+        - {x: 94.44446, y: 80.66669}
+        - {x: 90.44446, y: 74.66669}
+        - {x: 79.44446, y: 75.66669}
+        - {x: 73.44446, y: 68.66669}
+        - {x: 68.44446, y: 59.666687}
+        - {x: 69.44446, y: 61.666687}
+        - {x: 71.44446, y: 68.66669}
+        - {x: 79.44446, y: 75.66669}
+        - {x: 78.44446, y: 84.66669}
+        - {x: 78.44446, y: 83.66669}
+        - {x: 81.44446, y: 80.66669}
+        - {x: 80.44446, y: 77.66669}
+        - {x: 88.44446, y: 74.66669}
+        - {x: 91.44446, y: 79.66669}
+        - {x: 89.44446, y: 117.66669}
+        - {x: 27.444458, y: 125.66669}
+        - {x: -31.555542, y: 96.66669}
+        - {x: -33.555542, y: 94.66669}
+        - {x: -33.555542, y: 90.66669}
+        - {x: -33.555542, y: 95.66669}
+        - {x: -31.555542, y: 98.66669}
+        - {x: -51.555542, y: 115.66669}
+        - {x: -67.55554, y: 128.66669}
+        - {x: -76.55554, y: 122.66669}
+        - {x: -77.55554, y: 116.66669}
+        - {x: -77.55554, y: 112.66669}
+        - {x: -87.55554, y: 98.66669}
+        - {x: -93.55554, y: 95.66669}
+        - {x: -89.55554, y: 97.66669}
+        - {x: -80.55554, y: 108.66669}
+        - {x: -78.55554, y: 113.66669}
+        - {x: -78.55554, y: 130.66669}
+        - {x: -125.55554, y: 130.66669}
+        - {x: -156.55554, y: 98.66669}
+        - {x: -156.55554, y: -44.333313}
+        - {x: -116.55554, y: -87.33331}
+        - {x: -95.55554, y: -53.333313}
+        - {x: -85.55554, y: -54.333313}
+        - {x: -89.55554, y: -55.333313}
+        - {x: -93.55554, y: -62.333313}
+        - {x: -100.55554, y: -89.33331}
+        - {x: -98.55554, y: -98.33331}
+        - {x: -74.55554, y: -111.33331}
+        - {x: -64.55554, y: -107.33331}
+        - {x: -69.55554, y: -110.33331}
+        - {x: -64.55554, y: -121.33331}
+        - {x: -67.55554, y: -136.33331}
+        - {x: -50.555542, y: -145.33331}
+        - {x: -36.555542, y: -148.33331}
+        - {x: -1.555542, y: -148.33331}
+        - {x: 14.444458, y: -135.33331}
+        - {x: 26.444458, y: -122.33331}
+        - {x: 41.444458, y: -142.33331}
+      - - {x: 60.444458, y: -127.33331}
+        - {x: 59.444458, y: -129.33331}
+        - {x: 59.444458, y: -135.33331}
+        - {x: 63.444458, y: -139.33331}
+        - {x: 71.44446, y: -139.33331}
+        - {x: 74.44446, y: -134.33331}
+        - {x: 74.44446, y: -129.33331}
+        - {x: 70.44446, y: -127.33331}
+      - - {x: 131.44446, y: -117.33331}
+        - {x: 135.44446, y: -121.33331}
+        - {x: 141.44446, y: -121.33331}
+        - {x: 143.44446, y: -120.33331}
+        - {x: 143.44446, y: -117.33331}
+        - {x: 140.44446, y: -112.33331}
+        - {x: 131.44446, y: -112.33331}
+      - - {x: 154.44446, y: -108.33331}
+        - {x: 149.44446, y: -113.33331}
+        - {x: 149.44446, y: -116.33331}
+        - {x: 152.44446, y: -119.33331}
+        - {x: 159.44446, y: -119.33331}
+        - {x: 162.44446, y: -114.33331}
+        - {x: 162.44446, y: -110.33331}
+        - {x: 159.44446, y: -108.33331}
+      - - {x: 103.44446, y: -100.33331}
+        - {x: 101.44446, y: -101.33331}
+        - {x: 101.44446, y: -108.33331}
+        - {x: 110.44446, y: -108.33331}
+        - {x: 110.44446, y: -102.33331}
+        - {x: 109.44446, y: -100.33331}
+      - - {x: -108.55554, y: -69.33331}
+        - {x: -115.55554, y: -74.33331}
+        - {x: -115.55554, y: -76.33331}
+        - {x: -113.55554, y: -79.33331}
+        - {x: -104.55554, y: -79.33331}
+        - {x: -100.55554, y: -74.33331}
+        - {x: -100.55554, y: -71.33331}
+        - {x: -102.55554, y: -69.33331}
+      - - {x: -124.55554, y: -63.333313}
+        - {x: -126.55554, y: -65.33331}
+        - {x: -126.55554, y: -69.33331}
+        - {x: -124.55554, y: -71.33331}
+        - {x: -120.55554, y: -71.33331}
+        - {x: -118.55554, y: -69.33331}
+        - {x: -118.55554, y: -65.33331}
+        - {x: -120.55554, y: -63.333313}
+      - - {x: -140.55554, y: 9.666687}
+        - {x: -153.55554, y: 0.666687}
+        - {x: -153.55554, y: -4.333313}
+        - {x: -152.55554, y: -6.333313}
+        - {x: -144.55554, y: -6.333313}
+        - {x: -132.55554, y: 2.666687}
+        - {x: -132.55554, y: 8.666687}
+        - {x: -133.55554, y: 9.666687}
+      - - {x: -165.55554, y: 3.666687}
+        - {x: -163.55554, y: 3.666687}
+        - {x: -159.55554, y: 7.666687}
+        - {x: -161.55554, y: 12.666687}
+        - {x: -165.55554, y: 12.666687}
+      - - {x: 159.44446, y: 59.666687}
+        - {x: 159.44446, y: 56.666687}
+        - {x: 161.44446, y: 54.666687}
+        - {x: 166.44446, y: 54.666687}
+        - {x: 166.44446, y: 63.666687}
+        - {x: 164.44446, y: 63.666687}
+      - - {x: -116.55554, y: 74.66669}
+        - {x: -113.55554, y: 75.66669}
+        - {x: -113.55554, y: 78.66669}
+        - {x: -116.55554, y: 79.66669}
+        - {x: -118.55554, y: 77.66669}
+      - - {x: -165.55554, y: 95.66669}
+        - {x: -165.55554, y: 81.66669}
+        - {x: -158.55554, y: 81.66669}
+        - {x: -158.55554, y: 95.66669}
+      - - {x: 124.44446, y: 103.66669}
+        - {x: 111.44446, y: 94.66669}
+        - {x: 111.44446, y: 87.66669}
+        - {x: 124.44446, y: 87.66669}
+        - {x: 130.44446, y: 91.66669}
+        - {x: 131.44446, y: 97.66669}
+        - {x: 131.44446, y: 103.66669}
+      - - {x: 3.444458, y: 101.66669}
+        - {x: -0.555542, y: 99.66669}
+        - {x: -0.555542, y: 94.66669}
+        - {x: 0.444458, y: 91.66669}
+        - {x: 9.444458, y: 91.66669}
+        - {x: 9.444458, y: 99.66669}
+        - {x: 8.444458, y: 101.66669}
+      - - {x: 45.444458, y: 112.66669}
+        - {x: 42.444458, y: 106.66669}
+        - {x: 42.444458, y: 99.66669}
+        - {x: 46.444458, y: 99.66669}
+        - {x: 53.444458, y: 101.66669}
+        - {x: 55.444458, y: 103.66669}
+        - {x: 55.444458, y: 112.66669}
+      - - {x: 89.44446, y: 116.66669}
+        - {x: 86.44446, y: 115.66669}
+        - {x: 86.44446, y: 109.66669}
+        - {x: 87.44446, y: 107.66669}
+        - {x: 94.44446, y: 107.66669}
+        - {x: 97.44446, y: 110.66669}
+        - {x: 97.44446, y: 112.66669}
+        - {x: 93.44446, y: 116.66669}
+      - - {x: 36.444458, y: 124.66669}
+        - {x: 32.444458, y: 122.66669}
+        - {x: 32.444458, y: 118.66669}
+        - {x: 33.444458, y: 116.66669}
+        - {x: 40.444458, y: 116.66669}
+        - {x: 41.444458, y: 118.66669}
+        - {x: 41.444458, y: 124.66669}
+      - - {x: -121.55554, y: 139.66669}
+        - {x: -121.55554, y: 131.66669}
+        - {x: -116.55554, y: 126.66669}
+        - {x: -112.55554, y: 126.66669}
+        - {x: -109.55554, y: 127.66669}
+        - {x: -108.55554, y: 134.66669}
+        - {x: -108.55554, y: 138.66669}
+        - {x: -110.55554, y: 139.66669}
+      - - {x: -65.55554, y: 142.66669}
+        - {x: -71.55554, y: 142.66669}
+        - {x: -75.55554, y: 139.66669}
+        - {x: -75.55554, y: 135.66669}
+        - {x: -73.55554, y: 129.66669}
+        - {x: -65.55554, y: 129.66669}
+        - {x: -62.555542, y: 132.66669}
+        - {x: -62.555542, y: 140.66669}
+    - name: Office_Male_Explode_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1139
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 888
+        width: 389
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.166626, y: 47.833313}
+        - {x: 73.166626, y: 38.833313}
+        - {x: 68.166626, y: 34.833313}
+        - {x: 67.166626, y: 32.833313}
+        - {x: 69.166626, y: 36.833313}
+        - {x: 76.166626, y: 48.833313}
+        - {x: 79.166626, y: 117.83331}
+        - {x: 75.166626, y: 119.83331}
+        - {x: 60.166626, y: 119.83331}
+        - {x: 35.166626, y: 84.83331}
+        - {x: -62.833374, y: 117.83331}
+        - {x: -139.83337, y: 73.83331}
+        - {x: -151.83337, y: 28.833313}
+        - {x: -151.83337, y: 7.833313}
+        - {x: -123.833374, y: -5.166687}
+        - {x: -128.83337, y: -48.166687}
+        - {x: -48.833374, y: -82.16669}
+        - {x: -38.833374, y: -79.16669}
+        - {x: -34.833374, y: -75.16669}
+        - {x: -36.833374, y: -78.16669}
+        - {x: -37.833374, y: -84.16669}
+        - {x: -32.833374, y: -129.16669}
+        - {x: -22.833374, y: -141.16669}
+        - {x: 131.16663, y: -141.16669}
+        - {x: 141.16663, y: -140.16669}
+        - {x: 141.16663, y: -31.166687}
+        - {x: 114.166626, y: 45.833313}
+      - - {x: -76.833374, y: -121.16669}
+        - {x: -76.833374, y: -136.16669}
+        - {x: -73.833374, y: -137.16669}
+        - {x: -61.833374, y: -137.16669}
+        - {x: -48.833374, y: -121.16669}
+        - {x: -48.833374, y: -110.16669}
+        - {x: -65.833374, y: -110.16669}
+      - - {x: -108.833374, y: -78.16669}
+        - {x: -120.833374, y: -93.16669}
+        - {x: -120.833374, y: -103.16669}
+        - {x: -109.833374, y: -114.16669}
+        - {x: -91.833374, y: -114.16669}
+        - {x: -76.833374, y: -106.16669}
+        - {x: -76.833374, y: -88.16669}
+        - {x: -81.833374, y: -78.16669}
+      - - {x: -67.833374, y: -78.16669}
+        - {x: -69.833374, y: -81.16669}
+        - {x: -69.833374, y: -90.16669}
+        - {x: -67.833374, y: -92.16669}
+        - {x: -56.833374, y: -92.16669}
+        - {x: -52.833374, y: -91.16669}
+        - {x: -52.833374, y: -80.16669}
+        - {x: -54.833374, y: -78.16669}
+      - - {x: -140.83337, y: -72.16669}
+        - {x: -143.83337, y: -75.16669}
+        - {x: -144.83337, y: -81.16669}
+        - {x: -144.83337, y: -86.16669}
+        - {x: -137.83337, y: -86.16669}
+        - {x: -130.83337, y: -82.16669}
+        - {x: -130.83337, y: -72.16669}
+      - - {x: 158.16663, y: -46.166687}
+        - {x: 110.166626, y: -46.166687}
+        - {x: 110.166626, y: -53.166687}
+        - {x: 123.166626, y: -65.16669}
+        - {x: 155.16663, y: -68.16669}
+        - {x: 169.16663, y: -68.16669}
+        - {x: 171.16663, y: -66.16669}
+        - {x: 171.16663, y: -50.166687}
+      - - {x: -87.833374, y: -36.166687}
+        - {x: -102.833374, y: -40.166687}
+        - {x: -108.833374, y: -47.166687}
+        - {x: -108.833374, y: -53.166687}
+        - {x: -106.833374, y: -57.166687}
+        - {x: -101.833374, y: -58.166687}
+        - {x: -82.833374, y: -58.166687}
+        - {x: -73.833374, y: -49.166687}
+        - {x: -73.833374, y: -41.166687}
+        - {x: -78.833374, y: -36.166687}
+      - - {x: 91.166626, y: 7.833313}
+        - {x: 89.166626, y: 5.833313}
+        - {x: 89.166626, y: -10.166687}
+        - {x: 101.166626, y: -21.166687}
+        - {x: 139.16663, y: -21.166687}
+        - {x: 139.16663, y: -5.166687}
+        - {x: 116.166626, y: 7.833313}
+      - - {x: 108.166626, y: 26.833313}
+        - {x: 111.166626, y: 24.833313}
+        - {x: 125.166626, y: 24.833313}
+        - {x: 158.16663, y: 43.833313}
+        - {x: 158.16663, y: 59.833313}
+        - {x: 133.16663, y: 59.833313}
+        - {x: 108.166626, y: 46.833313}
+      - - {x: 67.166626, y: 46.833313}
+        - {x: 68.166626, y: 45.833313}
+        - {x: 90.166626, y: 45.833313}
+        - {x: 120.166626, y: 65.83331}
+        - {x: 120.166626, y: 85.83331}
+        - {x: 101.166626, y: 85.83331}
+        - {x: 67.166626, y: 66.83331}
+      - - {x: 13.166626, y: 56.833313}
+        - {x: 27.166626, y: 70.83331}
+        - {x: 27.166626, y: 100.83331}
+        - {x: 24.166626, y: 107.83331}
+        - {x: -3.833374, y: 107.83331}
+        - {x: -3.833374, y: 56.833313}
+      - - {x: -147.83337, y: 71.83331}
+        - {x: -150.83337, y: 68.83331}
+        - {x: -150.83337, y: 63.833313}
+        - {x: -148.83337, y: 61.833313}
+        - {x: -140.83337, y: 61.833313}
+        - {x: -139.83337, y: 64.83331}
+        - {x: -139.83337, y: 69.83331}
+        - {x: -144.83337, y: 71.83331}
+      - - {x: -111.833374, y: 121.83331}
+        - {x: -128.83337, y: 121.83331}
+        - {x: -135.83337, y: 112.83331}
+        - {x: -135.83337, y: 105.83331}
+        - {x: -132.83337, y: 80.83331}
+        - {x: -129.83337, y: 79.83331}
+        - {x: -123.833374, y: 79.83331}
+        - {x: -114.833374, y: 86.83331}
+        - {x: -107.833374, y: 92.83331}
+        - {x: -107.833374, y: 112.83331}
+      - - {x: -23.833374, y: 120.83331}
+        - {x: -33.833374, y: 111.83331}
+        - {x: -33.833374, y: 90.83331}
+        - {x: -25.833374, y: 90.83331}
+        - {x: -8.833374, y: 103.83331}
+        - {x: -7.833374, y: 110.83331}
+        - {x: -7.833374, y: 120.83331}
+      - - {x: -76.833374, y: 132.83331}
+        - {x: -86.833374, y: 112.83331}
+        - {x: -86.833374, y: 102.83331}
+        - {x: -78.833374, y: 102.83331}
+        - {x: -67.833374, y: 104.83331}
+        - {x: -63.833374, y: 117.83331}
+        - {x: -63.833374, y: 132.83331}
+      - - {x: -42.833374, y: 120.83331}
+        - {x: -46.833374, y: 119.83331}
+        - {x: -46.833374, y: 106.83331}
+        - {x: -43.833374, y: 104.83331}
+        - {x: -38.833374, y: 106.83331}
+        - {x: -36.833374, y: 112.83331}
+        - {x: -36.833374, y: 120.83331}
+      - - {x: -47.833374, y: 129.83331}
+        - {x: -58.833374, y: 120.83331}
+        - {x: -58.833374, y: 115.83331}
+        - {x: -49.833374, y: 115.83331}
+        - {x: -37.833374, y: 123.83331}
+        - {x: -37.833374, y: 127.83331}
+        - {x: -38.833374, y: 129.83331}
+    - name: Office_Male_Explode_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1166
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1150
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 863
+        width: 326
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 146.38889, y: 23.611145}
+        - {x: 136.38889, y: 70.611145}
+        - {x: 33.388885, y: 114.611145}
+        - {x: -32.611115, y: 126.611145}
+        - {x: -105.611115, y: 126.611145}
+        - {x: -144.61111, y: 88.611145}
+        - {x: -144.61111, y: 62.611145}
+        - {x: -111.611115, y: -29.388855}
+        - {x: -95.611115, y: -80.388855}
+        - {x: -72.611115, y: -96.388855}
+        - {x: -63.611115, y: -95.388855}
+        - {x: -53.611115, y: -80.388855}
+        - {x: -54.611115, y: -60.388855}
+        - {x: -51.611115, y: -86.388855}
+        - {x: -49.611115, y: -109.388855}
+        - {x: -54.611115, y: -126.388855}
+        - {x: 101.388885, y: -126.388855}
+        - {x: 113.388885, y: -79.388855}
+        - {x: 140.38889, y: -53.388855}
+        - {x: 146.38889, y: -26.388855}
+    - name: Office_Male_Explode_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1127
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1096
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1076
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.444458, y: 16.944458}
+        - {x: 0.444458, y: 16.944458}
+        - {x: -23.555542, y: -4.055542}
+        - {x: -23.555542, y: -13.055542}
+        - {x: -20.555542, y: -16.055542}
+        - {x: -13.555542, y: -16.055542}
+        - {x: 20.444458, y: -1.055542}
+        - {x: 24.444458, y: 1.944458}
+        - {x: 24.444458, y: 14.944458}
+    - name: Office_Male_Explode_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1039
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1010
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 964
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 971
+        width: 65
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 894
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 886
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 809
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 791
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 800
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 799
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 788
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 796
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 789
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 791
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 793
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 800
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 783
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 786
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 789
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 788
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 764
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 766
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 728
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25.611145}
+        - {x: 7, y: 25.611145}
+        - {x: 6, y: 23.611145}
+        - {x: -9, y: 18.611145}
+        - {x: -18, y: 3.611145}
+        - {x: -18, y: -19.388855}
+        - {x: -9, y: -25.388855}
+        - {x: 6, y: -25.388855}
+        - {x: 17, y: 5.611145}
+        - {x: 18, y: 12.611145}
+        - {x: 18, y: 24.611145}
+      - - {x: 12, y: -17.388855}
+        - {x: 11, y: -22.388855}
+        - {x: 11, y: -25.388855}
+        - {x: 18, y: -25.388855}
+        - {x: 18, y: -14.388855}
+        - {x: 17, y: -14.388855}
+    - name: Office_Male_Explode_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 766
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 767
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 773
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 775
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 769
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 776
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 763
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 778
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 754
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 740
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 753
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 764
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 759
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 770
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 755
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 745
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 731
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 748
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 747
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 745
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 751
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 739
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 740
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 732
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 739
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 737
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 746
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 740
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 722
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 736
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 718
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 719
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 738
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 494
+        width: 385
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85.5, y: -128.38889}
+        - {x: -90.5, y: -134.38889}
+        - {x: -90.5, y: -140.38889}
+        - {x: -88.5, y: -143.38889}
+        - {x: -73.5, y: -143.38889}
+        - {x: -73.5, y: -132.38889}
+        - {x: -78.5, y: -128.38889}
+      - - {x: -45.5, y: -132.38889}
+        - {x: -45.5, y: -143.38889}
+        - {x: -19.5, y: -143.38889}
+        - {x: -19.5, y: -139.38889}
+        - {x: -32.5, y: -132.38889}
+      - - {x: 35.5, y: -137.38889}
+        - {x: 34.5, y: -143.38889}
+        - {x: 50.5, y: -143.38889}
+        - {x: 50.5, y: -136.38889}
+        - {x: 47.5, y: -132.38889}
+        - {x: 38.5, y: -132.38889}
+      - - {x: 66.5, y: -114.388885}
+        - {x: 58.5, y: -113.388885}
+        - {x: 51.5, y: -113.388885}
+        - {x: 50.5, y: -115.388885}
+        - {x: 48.5, y: -120.388885}
+        - {x: 48.5, y: -132.38889}
+        - {x: 52.5, y: -141.38889}
+        - {x: 59.5, y: -141.38889}
+        - {x: 71.5, y: -131.38889}
+        - {x: 72.5, y: -127.388885}
+        - {x: 72.5, y: -119.388885}
+      - - {x: 96.5, y: -109.388885}
+        - {x: 91.5, y: -114.388885}
+        - {x: 91.5, y: -127.388885}
+        - {x: 107.5, y: -139.38889}
+        - {x: 122.5, y: -139.38889}
+        - {x: 127.5, y: -138.38889}
+        - {x: 127.5, y: -122.388885}
+        - {x: 117.5, y: -109.388885}
+      - - {x: 34.5, y: -119.388885}
+        - {x: 19.5, y: -119.388885}
+        - {x: 19.5, y: -135.38889}
+        - {x: 24.5, y: -136.38889}
+        - {x: 32.5, y: -136.38889}
+        - {x: 36.5, y: -132.38889}
+        - {x: 36.5, y: -123.388885}
+      - - {x: -30.5, y: -122.388885}
+        - {x: -32.5, y: -123.388885}
+        - {x: -32.5, y: -128.38889}
+        - {x: -29.5, y: -134.38889}
+        - {x: -16.5, y: -134.38889}
+        - {x: -16.5, y: -124.388885}
+        - {x: -18.5, y: -122.388885}
+      - - {x: 0.5, y: -110.388885}
+        - {x: -4.5, y: -110.388885}
+        - {x: -6.5, y: -111.388885}
+        - {x: -6.5, y: -119.388885}
+        - {x: -0.5, y: -120.388885}
+        - {x: 4.5, y: -120.388885}
+        - {x: 6.5, y: -117.388885}
+        - {x: 6.5, y: -114.388885}
+        - {x: 5.5, y: -111.388885}
+      - - {x: -138.5, y: -101.388885}
+        - {x: -139.5, y: -104.388885}
+        - {x: -139.5, y: -107.388885}
+        - {x: -135.5, y: -112.388885}
+        - {x: -132.5, y: -117.388885}
+        - {x: -107.5, y: -117.388885}
+        - {x: -96.5, y: -106.388885}
+        - {x: -96.5, y: -88.388885}
+        - {x: -120.5, y: -88.388885}
+        - {x: -131.5, y: -90.388885}
+      - - {x: -30.5, y: -96.388885}
+        - {x: -37.5, y: -96.388885}
+        - {x: -40.5, y: -98.388885}
+        - {x: -40.5, y: -110.388885}
+        - {x: -37.5, y: -114.388885}
+        - {x: -29.5, y: -114.388885}
+        - {x: -26.5, y: -112.388885}
+        - {x: -26.5, y: -101.388885}
+      - - {x: 0.5, y: -106.388885}
+        - {x: 7.5, y: -112.388885}
+        - {x: 13.5, y: -112.388885}
+        - {x: 15.5, y: -111.388885}
+        - {x: 15.5, y: -105.388885}
+        - {x: 10.5, y: -92.388885}
+        - {x: 1.5, y: -92.388885}
+        - {x: 0.5, y: -95.388885}
+      - - {x: -114.5, y: 68.611115}
+        - {x: -114.5, y: 36.611115}
+        - {x: -103.5, y: 1.6111145}
+        - {x: -93.5, y: -4.3888855}
+        - {x: -71.5, y: -100.388885}
+        - {x: -52.5, y: -109.388885}
+        - {x: 67.5, y: -109.388885}
+        - {x: 82.5, y: -78.388885}
+        - {x: 82.5, y: 36.611115}
+        - {x: 28.5, y: 68.611115}
+      - - {x: 81.5, y: -92.388885}
+        - {x: 80.5, y: -94.388885}
+        - {x: 80.5, y: -101.388885}
+        - {x: 85.5, y: -106.388885}
+        - {x: 92.5, y: -109.388885}
+        - {x: 98.5, y: -109.388885}
+        - {x: 101.5, y: -104.388885}
+        - {x: 101.5, y: -94.388885}
+        - {x: 95.5, y: -92.388885}
+      - - {x: -53.5, y: -84.388885}
+        - {x: -55.5, y: -85.388885}
+        - {x: -56.5, y: -86.388885}
+        - {x: -56.5, y: -96.388885}
+        - {x: -51.5, y: -98.388885}
+        - {x: -45.5, y: -98.388885}
+        - {x: -40.5, y: -92.388885}
+        - {x: -40.5, y: -87.388885}
+        - {x: -44.5, y: -84.388885}
+      - - {x: -81.5, y: -82.388885}
+        - {x: -84.5, y: -82.388885}
+        - {x: -87.5, y: -86.388885}
+        - {x: -87.5, y: -93.388885}
+        - {x: -86.5, y: -96.388885}
+        - {x: -79.5, y: -96.388885}
+        - {x: -76.5, y: -92.388885}
+        - {x: -76.5, y: -87.388885}
+      - - {x: 131.5, y: -59.388885}
+        - {x: 127.5, y: -60.388885}
+        - {x: 127.5, y: -67.388885}
+        - {x: 131.5, y: -75.388885}
+        - {x: 142.5, y: -79.388885}
+        - {x: 153.5, y: -79.388885}
+        - {x: 156.5, y: -74.388885}
+        - {x: 156.5, y: -65.388885}
+        - {x: 150.5, y: -59.388885}
+      - - {x: 121.5, y: -63.388885}
+        - {x: 107.5, y: -63.388885}
+        - {x: 104.5, y: -69.388885}
+        - {x: 104.5, y: -73.388885}
+        - {x: 115.5, y: -78.388885}
+        - {x: 124.5, y: -78.388885}
+        - {x: 126.5, y: -75.388885}
+        - {x: 126.5, y: -66.388885}
+      - - {x: -113.5, y: -49.388885}
+        - {x: -122.5, y: -52.388885}
+        - {x: -122.5, y: -63.388885}
+        - {x: -115.5, y: -66.388885}
+        - {x: -101.5, y: -66.388885}
+        - {x: -100.5, y: -65.388885}
+        - {x: -100.5, y: -56.388885}
+        - {x: -102.5, y: -49.388885}
+      - - {x: -91.5, y: -48.388885}
+        - {x: -97.5, y: -52.388885}
+        - {x: -97.5, y: -58.388885}
+        - {x: -96.5, y: -60.388885}
+        - {x: -88.5, y: -60.388885}
+        - {x: -85.5, y: -58.388885}
+        - {x: -85.5, y: -51.388885}
+        - {x: -86.5, y: -48.388885}
+      - - {x: -129.5, y: -21.388885}
+        - {x: -135.5, y: -22.388885}
+        - {x: -138.5, y: -27.388885}
+        - {x: -138.5, y: -35.388885}
+        - {x: -133.5, y: -42.388885}
+        - {x: -116.5, y: -42.388885}
+        - {x: -114.5, y: -35.388885}
+        - {x: -114.5, y: -22.388885}
+        - {x: -116.5, y: -21.388885}
+      - - {x: -105.5, y: -23.388885}
+        - {x: -108.5, y: -28.388885}
+        - {x: -108.5, y: -33.388885}
+        - {x: -106.5, y: -36.388885}
+        - {x: -96.5, y: -38.388885}
+        - {x: -90.5, y: -38.388885}
+        - {x: -88.5, y: -35.388885}
+        - {x: -88.5, y: -29.388885}
+        - {x: -95.5, y: -23.388885}
+      - - {x: 90.5, y: -4.3888855}
+        - {x: 90.5, y: -25.388885}
+        - {x: 117.5, y: -33.388885}
+        - {x: 136.5, y: -33.388885}
+        - {x: 136.5, y: -12.3888855}
+        - {x: 132.5, y: -4.3888855}
+      - - {x: 77.5, y: -21.388885}
+        - {x: 74.5, y: -23.388885}
+        - {x: 74.5, y: -26.388885}
+        - {x: 76.5, y: -31.388885}
+        - {x: 83.5, y: -31.388885}
+        - {x: 85.5, y: -28.388885}
+        - {x: 85.5, y: -25.388885}
+        - {x: 81.5, y: -21.388885}
+      - - {x: -98.5, y: -3.3888855}
+        - {x: -103.5, y: -7.3888855}
+        - {x: -103.5, y: -13.3888855}
+        - {x: -100.5, y: -18.388885}
+        - {x: -89.5, y: -18.388885}
+        - {x: -85.5, y: -13.3888855}
+        - {x: -85.5, y: -5.3888855}
+        - {x: -86.5, y: -3.3888855}
+      - - {x: -125.5, y: 2.6111145}
+        - {x: -128.5, y: -3.3888855}
+        - {x: -128.5, y: -9.3888855}
+        - {x: -124.5, y: -11.3888855}
+        - {x: -118.5, y: -11.3888855}
+        - {x: -115.5, y: -7.3888855}
+        - {x: -115.5, y: 1.6111145}
+        - {x: -118.5, y: 2.6111145}
+      - - {x: -168.5, y: -9.3888855}
+        - {x: -167.5, y: -10.3888855}
+        - {x: -127.5, y: -10.3888855}
+        - {x: -127.5, y: 23.611115}
+        - {x: -162.5, y: 23.611115}
+        - {x: -168.5, y: 21.611115}
+      - - {x: 100.5, y: 10.6111145}
+        - {x: 96.5, y: 10.6111145}
+        - {x: 93.5, y: 9.6111145}
+        - {x: 89.5, y: 6.6111145}
+        - {x: 89.5, y: 0.6111145}
+        - {x: 90.5, y: -0.3888855}
+        - {x: 99.5, y: -0.3888855}
+        - {x: 102.5, y: 3.6111145}
+        - {x: 102.5, y: 7.6111145}
+      - - {x: -124.5, y: 40.611115}
+        - {x: -134.5, y: 40.611115}
+        - {x: -139.5, y: 36.611115}
+        - {x: -139.5, y: 30.611115}
+        - {x: -130.5, y: 15.6111145}
+        - {x: -127.5, y: 14.6111145}
+        - {x: -118.5, y: 14.6111145}
+        - {x: -115.5, y: 17.611115}
+        - {x: -114.5, y: 25.611115}
+        - {x: -114.5, y: 34.611115}
+      - - {x: 27.5, y: 32.611115}
+        - {x: 24.5, y: 28.611115}
+        - {x: 24.5, y: 19.611115}
+        - {x: 29.5, y: 15.6111145}
+        - {x: 40.5, y: 15.6111145}
+        - {x: 41.5, y: 17.611115}
+        - {x: 41.5, y: 27.611115}
+        - {x: 39.5, y: 32.611115}
+      - - {x: 83.5, y: 24.611115}
+        - {x: 81.5, y: 23.611115}
+        - {x: 81.5, y: 16.611115}
+        - {x: 83.5, y: 15.6111145}
+        - {x: 89.5, y: 15.6111145}
+        - {x: 89.5, y: 24.611115}
+      - - {x: 122.5, y: 43.611115}
+        - {x: 115.5, y: 43.611115}
+        - {x: 110.5, y: 42.611115}
+        - {x: 107.5, y: 39.611115}
+        - {x: 107.5, y: 32.611115}
+        - {x: 108.5, y: 29.611115}
+        - {x: 118.5, y: 29.611115}
+        - {x: 123.5, y: 33.611115}
+        - {x: 123.5, y: 42.611115}
+      - - {x: 125.5, y: 52.611115}
+        - {x: 123.5, y: 45.611115}
+        - {x: 123.5, y: 33.611115}
+        - {x: 127.5, y: 29.611115}
+        - {x: 140.5, y: 29.611115}
+        - {x: 147.5, y: 30.611115}
+        - {x: 152.5, y: 35.611115}
+        - {x: 152.5, y: 46.611115}
+        - {x: 145.5, y: 52.611115}
+      - - {x: -138.5, y: 61.611115}
+        - {x: -144.5, y: 61.611115}
+        - {x: -155.5, y: 50.611115}
+        - {x: -155.5, y: 39.611115}
+        - {x: -154.5, y: 37.611115}
+        - {x: -144.5, y: 37.611115}
+        - {x: -132.5, y: 41.611115}
+        - {x: -131.5, y: 44.611115}
+        - {x: -131.5, y: 55.611115}
+        - {x: -132.5, y: 56.611115}
+      - - {x: 68.5, y: 61.611115}
+        - {x: 60.5, y: 57.611115}
+        - {x: 60.5, y: 44.611115}
+        - {x: 61.5, y: 41.611115}
+        - {x: 65.5, y: 40.611115}
+        - {x: 73.5, y: 40.611115}
+        - {x: 80.5, y: 47.611115}
+        - {x: 80.5, y: 57.611115}
+        - {x: 79.5, y: 61.611115}
+      - - {x: 82.5, y: 55.611115}
+        - {x: 84.5, y: 46.611115}
+        - {x: 98.5, y: 46.611115}
+        - {x: 112.5, y: 63.611115}
+        - {x: 112.5, y: 81.611115}
+        - {x: 97.5, y: 81.611115}
+        - {x: 82.5, y: 74.611115}
+      - - {x: -66.5, y: 63.611115}
+        - {x: -69.5, y: 57.611115}
+        - {x: -69.5, y: 47.611115}
+        - {x: -50.5, y: 47.611115}
+        - {x: -50.5, y: 59.611115}
+        - {x: -55.5, y: 63.611115}
+      - - {x: 60.5, y: 106.611115}
+        - {x: 49.5, y: 110.611115}
+        - {x: 42.5, y: 110.611115}
+        - {x: 36.5, y: 105.611115}
+        - {x: 22.5, y: 83.611115}
+        - {x: 17.5, y: 74.611115}
+        - {x: 17.5, y: 62.611115}
+        - {x: 22.5, y: 54.611115}
+        - {x: 41.5, y: 54.611115}
+        - {x: 66.5, y: 74.611115}
+        - {x: 66.5, y: 97.611115}
+      - - {x: -118.5, y: 82.611115}
+        - {x: -124.5, y: 72.611115}
+        - {x: -124.5, y: 60.611115}
+        - {x: -123.5, y: 57.611115}
+        - {x: -109.5, y: 57.611115}
+        - {x: -105.5, y: 58.611115}
+        - {x: -105.5, y: 76.611115}
+        - {x: -112.5, y: 82.611115}
+      - - {x: 14.5, y: 116.611115}
+        - {x: -10.5, y: 108.611115}
+        - {x: -13.5, y: 94.611115}
+        - {x: -13.5, y: 73.611115}
+        - {x: -1.5, y: 63.611115}
+        - {x: 7.5, y: 63.611115}
+        - {x: 15.5, y: 68.611115}
+        - {x: 25.5, y: 99.611115}
+        - {x: 25.5, y: 116.611115}
+      - - {x: -76.5, y: 81.611115}
+        - {x: -79.5, y: 80.611115}
+        - {x: -79.5, y: 71.611115}
+        - {x: -75.5, y: 70.611115}
+        - {x: -67.5, y: 70.611115}
+        - {x: -67.5, y: 79.611115}
+        - {x: -69.5, y: 81.611115}
+      - - {x: -91.5, y: 97.611115}
+        - {x: -95.5, y: 90.611115}
+        - {x: -95.5, y: 78.611115}
+        - {x: -86.5, y: 78.611115}
+        - {x: -79.5, y: 82.611115}
+        - {x: -79.5, y: 93.611115}
+        - {x: -80.5, y: 97.611115}
+      - - {x: -149.5, y: 116.611115}
+        - {x: -154.5, y: 113.611115}
+        - {x: -154.5, y: 96.611115}
+        - {x: -136.5, y: 86.611115}
+        - {x: -120.5, y: 86.611115}
+        - {x: -116.5, y: 90.611115}
+        - {x: -116.5, y: 106.611115}
+        - {x: -125.5, y: 116.611115}
+      - - {x: -109.5, y: 102.611115}
+        - {x: -110.5, y: 96.611115}
+        - {x: -110.5, y: 88.611115}
+        - {x: -107.5, y: 87.611115}
+        - {x: -102.5, y: 87.611115}
+        - {x: -98.5, y: 91.611115}
+        - {x: -98.5, y: 98.611115}
+        - {x: -99.5, y: 102.611115}
+      - - {x: -28.5, y: 113.611115}
+        - {x: -36.5, y: 113.611115}
+        - {x: -39.5, y: 112.611115}
+        - {x: -39.5, y: 101.611115}
+        - {x: -37.5, y: 96.611115}
+        - {x: -27.5, y: 96.611115}
+        - {x: -24.5, y: 100.611115}
+        - {x: -24.5, y: 109.611115}
+      - - {x: -86.5, y: 125.611115}
+        - {x: -90.5, y: 120.611115}
+        - {x: -90.5, y: 115.611115}
+        - {x: -88.5, y: 111.611115}
+        - {x: -79.5, y: 111.611115}
+        - {x: -76.5, y: 112.611115}
+        - {x: -76.5, y: 124.611115}
+        - {x: -79.5, y: 125.611115}
+    - name: Office_Male_Explode_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 725
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 725
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 695
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 724
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 718
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 717
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 702
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 713
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 720
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 725
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 706
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 709
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 708
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 481
+        width: 412
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.27777, y: -132.94443}
+        - {x: 47.27777, y: -134.94443}
+        - {x: 47.27777, y: -144.94443}
+        - {x: 49.27777, y: -149.94443}
+        - {x: 58.27777, y: -149.94443}
+        - {x: 61.27777, y: -148.94443}
+        - {x: 62.27777, y: -143.94443}
+        - {x: 62.27777, y: -134.94443}
+        - {x: 61.27777, y: -132.94443}
+      - - {x: -28.722229, y: -128.94443}
+        - {x: -32.72223, y: -135.94443}
+        - {x: -32.72223, y: -139.94443}
+        - {x: -30.722229, y: -141.94443}
+        - {x: -17.722229, y: -141.94443}
+        - {x: -16.722229, y: -138.94443}
+        - {x: -16.722229, y: -130.94443}
+        - {x: -20.722229, y: -128.94443}
+      - - {x: 77.27777, y: -111.94443}
+        - {x: 73.27777, y: -110.94443}
+        - {x: 64.27777, y: -110.94443}
+        - {x: 62.27777, y: -112.94443}
+        - {x: 62.27777, y: -126.94443}
+        - {x: 67.27777, y: -129.94443}
+        - {x: 73.27777, y: -129.94443}
+        - {x: 80.27777, y: -123.94443}
+        - {x: 80.27777, y: -118.94443}
+      - - {x: -84.72223, y: -114.94443}
+        - {x: -87.72223, y: -121.94443}
+        - {x: -87.72223, y: -126.94443}
+        - {x: -69.72223, y: -126.94443}
+        - {x: -68.72223, y: -123.94443}
+        - {x: -68.72223, y: -119.94443}
+        - {x: -71.72223, y: -114.94443}
+      - - {x: -36.72223, y: -110.94443}
+        - {x: -41.72223, y: -113.94443}
+        - {x: -41.72223, y: -123.94443}
+        - {x: -35.72223, y: -125.94443}
+        - {x: -29.722229, y: -125.94443}
+        - {x: -27.722229, y: -122.94443}
+        - {x: -27.722229, y: -113.94443}
+        - {x: -28.722229, y: -110.94443}
+      - - {x: 127.27777, y: -100.94443}
+        - {x: 125.27777, y: -106.94443}
+        - {x: 125.27777, y: -119.94443}
+        - {x: 135.27777, y: -125.94443}
+        - {x: 150.27777, y: -125.94443}
+        - {x: 152.27777, y: -119.94443}
+        - {x: 152.27777, y: -104.94443}
+        - {x: 142.27777, y: -100.94443}
+      - - {x: -13.722229, y: -110.94443}
+        - {x: -16.722229, y: -113.94443}
+        - {x: -16.722229, y: -120.94443}
+        - {x: -13.722229, y: -121.94443}
+        - {x: -7.722229, y: -121.94443}
+        - {x: -7.722229, y: -119.94443}
+        - {x: -6.722229, y: -112.94443}
+        - {x: -8.722229, y: -110.94443}
+      - - {x: 49.27777, y: -110.94443}
+        - {x: 47.27777, y: -115.94443}
+        - {x: 47.27777, y: -120.94443}
+        - {x: 50.27777, y: -121.94443}
+        - {x: 52.27777, y: -121.94443}
+        - {x: 57.27777, y: -119.94443}
+        - {x: 57.27777, y: -114.94443}
+        - {x: 54.27777, y: -110.94443}
+      - - {x: 29.277771, y: -106.94443}
+        - {x: 26.277771, y: -109.94443}
+        - {x: 26.277771, y: -118.94443}
+        - {x: 27.277771, y: -120.94443}
+        - {x: 39.27777, y: -120.94443}
+        - {x: 42.27777, y: -119.94443}
+        - {x: 42.27777, y: -108.94443}
+        - {x: 37.27777, y: -106.94443}
+      - - {x: 110.27777, y: -94.94443}
+        - {x: 106.27777, y: -96.94443}
+        - {x: 105.27777, y: -106.94443}
+        - {x: 108.27777, y: -109.94443}
+        - {x: 117.27777, y: -109.94443}
+        - {x: 119.27777, y: -105.94443}
+        - {x: 119.27777, y: -95.94443}
+        - {x: 118.27777, y: -94.94443}
+      - - {x: 13.277771, y: -88.94443}
+        - {x: 13.277771, y: -97.94443}
+        - {x: 14.277771, y: -99.94443}
+        - {x: 18.277771, y: -99.94443}
+        - {x: 22.277771, y: -97.94443}
+        - {x: 22.277771, y: -88.94443}
+        - {x: 20.277771, y: -86.94443}
+        - {x: 18.277771, y: -86.94443}
+      - - {x: -35.72223, y: -85.94443}
+        - {x: -35.72223, y: -93.94443}
+        - {x: -31.722229, y: -95.94443}
+        - {x: -24.722229, y: -95.94443}
+        - {x: -23.722229, y: -93.94443}
+        - {x: -23.722229, y: -85.94443}
+      - - {x: -136.72223, y: -77.94443}
+        - {x: -138.72223, y: -80.94443}
+        - {x: -138.72223, y: -90.94443}
+        - {x: -137.72223, y: -93.94443}
+        - {x: -117.72223, y: -93.94443}
+        - {x: -117.72223, y: -77.94443}
+      - - {x: 44.27777, y: -75.94443}
+        - {x: 36.27777, y: -75.94443}
+        - {x: 35.27777, y: -79.94443}
+        - {x: 35.27777, y: -85.94443}
+        - {x: 40.27777, y: -89.94443}
+        - {x: 42.27777, y: -90.94443}
+        - {x: 51.27777, y: -90.94443}
+        - {x: 52.27777, y: -87.94443}
+        - {x: 52.27777, y: -78.94443}
+        - {x: 48.27777, y: -76.94443}
+      - - {x: 110.27777, y: -73.94443}
+        - {x: 109.27777, y: -76.94443}
+        - {x: 109.27777, y: -84.94443}
+        - {x: 111.27777, y: -85.94443}
+        - {x: 123.27777, y: -85.94443}
+        - {x: 123.27777, y: -77.94443}
+        - {x: 121.27777, y: -73.94443}
+      - - {x: 23.277771, y: -65.94443}
+        - {x: 16.277771, y: -65.94443}
+        - {x: 11.277771, y: -67.94443}
+        - {x: 11.277771, y: -77.94443}
+        - {x: 14.277771, y: -80.94443}
+        - {x: 17.277771, y: -80.94443}
+        - {x: 20.277771, y: -77.94443}
+        - {x: 23.277771, y: -73.94443}
+      - - {x: -103.72223, y: -68.94443}
+        - {x: -104.72223, y: -71.94443}
+        - {x: -104.72223, y: -77.94443}
+        - {x: -100.72223, y: -79.94443}
+        - {x: -97.72223, y: -79.94443}
+        - {x: -92.72223, y: -77.94443}
+        - {x: -92.72223, y: -72.94443}
+        - {x: -93.72223, y: -68.94443}
+      - - {x: -19.722229, y: -63.944427}
+        - {x: -20.722229, y: -64.94443}
+        - {x: -20.722229, y: -73.94443}
+        - {x: -19.722229, y: -78.94443}
+        - {x: -14.722229, y: -79.94443}
+        - {x: -4.722229, y: -79.94443}
+        - {x: -3.722229, y: -78.94443}
+        - {x: -3.722229, y: -64.94443}
+        - {x: -7.722229, y: -63.944427}
+      - - {x: -3.722229, y: 62.055573}
+        - {x: -80.72223, y: 62.055573}
+        - {x: -80.72223, y: -30.944427}
+        - {x: -20.722229, y: -63.944427}
+        - {x: 7.277771, y: -74.94443}
+        - {x: 59.27777, y: -74.94443}
+        - {x: 74.27777, y: -49.944427}
+        - {x: 74.27777, y: 12.0555725}
+        - {x: 65.27777, y: 45.055573}
+      - - {x: -76.72223, y: -69.94443}
+        - {x: -73.72223, y: -72.94443}
+        - {x: -70.72223, y: -72.94443}
+        - {x: -67.72223, y: -71.94443}
+        - {x: -67.72223, y: -64.94443}
+        - {x: -68.72223, y: -62.944427}
+        - {x: -72.72223, y: -62.944427}
+        - {x: -76.72223, y: -66.94443}
+      - - {x: 64.27777, y: -57.944427}
+        - {x: 63.27777, y: -60.944427}
+        - {x: 63.27777, y: -65.94443}
+        - {x: 67.27777, y: -69.94443}
+        - {x: 70.27777, y: -70.94443}
+        - {x: 74.27777, y: -70.94443}
+        - {x: 75.27777, y: -69.94443}
+        - {x: 75.27777, y: -59.944427}
+        - {x: 70.27777, y: -57.944427}
+      - - {x: 47.27777, y: -54.944427}
+        - {x: 45.27777, y: -58.944427}
+        - {x: 45.27777, y: -66.94443}
+        - {x: 48.27777, y: -67.94443}
+        - {x: 55.27777, y: -67.94443}
+        - {x: 56.27777, y: -64.94443}
+        - {x: 56.27777, y: -57.944427}
+        - {x: 53.27777, y: -54.944427}
+      - - {x: 88.27777, y: -55.944427}
+        - {x: 91.27777, y: -58.944427}
+        - {x: 96.27777, y: -58.944427}
+        - {x: 98.27777, y: -57.944427}
+        - {x: 98.27777, y: -52.944427}
+        - {x: 96.27777, y: -48.944427}
+        - {x: 88.27777, y: -48.944427}
+      - - {x: -60.72223, y: -35.944427}
+        - {x: -63.72223, y: -39.944427}
+        - {x: -63.72223, y: -52.944427}
+        - {x: -62.72223, y: -54.944427}
+        - {x: -52.72223, y: -54.944427}
+        - {x: -44.72223, y: -45.944427}
+        - {x: -44.72223, y: -36.944427}
+        - {x: -49.72223, y: -35.944427}
+      - - {x: 126.27777, y: -45.944427}
+        - {x: 125.27777, y: -48.944427}
+        - {x: 125.27777, y: -53.944427}
+        - {x: 127.27777, y: -54.944427}
+        - {x: 131.27777, y: -54.944427}
+        - {x: 135.27777, y: -52.944427}
+        - {x: 135.27777, y: -45.944427}
+      - - {x: 153.27777, y: -41.944427}
+        - {x: 151.27777, y: -45.944427}
+        - {x: 151.27777, y: -54.944427}
+        - {x: 161.27777, y: -54.944427}
+        - {x: 166.27777, y: -52.944427}
+        - {x: 166.27777, y: -43.944427}
+        - {x: 165.27777, y: -41.944427}
+      - - {x: -121.72223, y: -31.944427}
+        - {x: -122.72223, y: -34.944427}
+        - {x: -122.72223, y: -42.944427}
+        - {x: -119.72223, y: -43.944427}
+        - {x: -109.72223, y: -43.944427}
+        - {x: -104.72223, y: -38.944427}
+        - {x: -104.72223, y: -34.944427}
+        - {x: -108.72223, y: -31.944427}
+      - - {x: -86.72223, y: -30.944427}
+        - {x: -88.72223, y: -32.944427}
+        - {x: -88.72223, y: -35.944427}
+        - {x: -84.72223, y: -39.944427}
+        - {x: -80.72223, y: -39.944427}
+        - {x: -77.72223, y: -36.944427}
+        - {x: -77.72223, y: -33.944427}
+        - {x: -80.72223, y: -30.944427}
+      - - {x: -73.72223, y: -17.944427}
+        - {x: -76.72223, y: -18.944427}
+        - {x: -76.72223, y: -27.944427}
+        - {x: -73.72223, y: -30.944427}
+        - {x: -67.72223, y: -29.944427}
+        - {x: -62.72223, y: -26.944427}
+        - {x: -62.72223, y: -20.944427}
+        - {x: -63.72223, y: -17.944427}
+      - - {x: -139.72223, y: 0.05557251}
+        - {x: -144.72223, y: -1.9444275}
+        - {x: -144.72223, y: -10.9444275}
+        - {x: -143.72223, y: -13.9444275}
+        - {x: -140.72223, y: -19.944427}
+        - {x: -126.72223, y: -19.944427}
+        - {x: -123.72223, y: -18.944427}
+        - {x: -123.72223, y: -2.9444275}
+        - {x: -129.72223, y: 0.05557251}
+      - - {x: -101.72223, y: -1.9444275}
+        - {x: -104.72223, y: -5.9444275}
+        - {x: -104.72223, y: -11.9444275}
+        - {x: -103.72223, y: -13.9444275}
+        - {x: -95.72223, y: -13.9444275}
+        - {x: -92.72223, y: -12.9444275}
+        - {x: -92.72223, y: -6.9444275}
+        - {x: -94.72223, y: -2.9444275}
+        - {x: -97.72223, y: -1.9444275}
+      - - {x: 153.27777, y: 5.0555725}
+        - {x: 141.27777, y: 5.0555725}
+        - {x: 133.27777, y: -0.9444275}
+        - {x: 133.27777, y: -5.9444275}
+        - {x: 138.27777, y: -13.9444275}
+        - {x: 153.27777, y: -13.9444275}
+        - {x: 158.27777, y: -8.9444275}
+        - {x: 158.27777, y: 3.0555725}
+      - - {x: 120.27777, y: -3.9444275}
+        - {x: 124.27777, y: -9.9444275}
+        - {x: 130.27777, y: -9.9444275}
+        - {x: 133.27777, y: -7.9444275}
+        - {x: 133.27777, y: 3.0555725}
+        - {x: 132.27777, y: 6.0555725}
+        - {x: 123.27777, y: 6.0555725}
+        - {x: 120.27777, y: 5.0555725}
+      - - {x: 100.27777, y: 11.0555725}
+        - {x: 99.27777, y: 7.0555725}
+        - {x: 99.27777, y: 2.0555725}
+        - {x: 102.27777, y: 1.0555725}
+        - {x: 110.27777, y: 1.0555725}
+        - {x: 112.27777, y: 5.0555725}
+        - {x: 112.27777, y: 11.0555725}
+      - - {x: 68.27777, y: 17.055573}
+        - {x: 67.27777, y: 15.0555725}
+        - {x: 67.27777, y: 9.0555725}
+        - {x: 72.27777, y: 6.0555725}
+        - {x: 75.27777, y: 6.0555725}
+        - {x: 79.27777, y: 9.0555725}
+        - {x: 79.27777, y: 11.0555725}
+        - {x: 73.27777, y: 17.055573}
+      - - {x: 115.27777, y: 23.055573}
+        - {x: 112.27777, y: 18.055573}
+        - {x: 112.27777, y: 14.0555725}
+        - {x: 116.27777, y: 10.0555725}
+        - {x: 130.27777, y: 10.0555725}
+        - {x: 130.27777, y: 23.055573}
+      - - {x: -121.72223, y: 31.055573}
+        - {x: -135.72223, y: 31.055573}
+        - {x: -136.72223, y: 30.055573}
+        - {x: -136.72223, y: 24.055573}
+        - {x: -126.72223, y: 13.0555725}
+        - {x: -112.72223, y: 13.0555725}
+        - {x: -109.72223, y: 17.055573}
+        - {x: -109.72223, y: 25.055573}
+        - {x: -115.72223, y: 30.055573}
+      - - {x: 101.27777, y: 31.055573}
+        - {x: 99.27777, y: 29.055573}
+        - {x: 99.27777, y: 25.055573}
+        - {x: 100.27777, y: 23.055573}
+        - {x: 104.27777, y: 22.055573}
+        - {x: 107.27777, y: 22.055573}
+        - {x: 109.27777, y: 25.055573}
+        - {x: 109.27777, y: 28.055573}
+        - {x: 106.27777, y: 31.055573}
+      - - {x: -160.72223, y: 37.055573}
+        - {x: -161.72223, y: 34.055573}
+        - {x: -161.72223, y: 25.055573}
+        - {x: -160.72223, y: 24.055573}
+        - {x: -148.72223, y: 24.055573}
+        - {x: -148.72223, y: 34.055573}
+        - {x: -151.72223, y: 37.055573}
+      - - {x: 36.27777, y: 38.055573}
+        - {x: 32.27777, y: 35.055573}
+        - {x: 32.27777, y: 31.055573}
+        - {x: 36.27777, y: 27.055573}
+        - {x: 39.27777, y: 27.055573}
+        - {x: 43.27777, y: 29.055573}
+        - {x: 43.27777, y: 34.055573}
+        - {x: 42.27777, y: 38.055573}
+      - - {x: -121.72223, y: 64.05557}
+        - {x: -129.72223, y: 64.05557}
+        - {x: -143.72223, y: 55.055573}
+        - {x: -143.72223, y: 39.055573}
+        - {x: -141.72223, y: 32.055573}
+        - {x: -116.72223, y: 32.055573}
+        - {x: -113.72223, y: 38.055573}
+        - {x: -113.72223, y: 60.055573}
+        - {x: -116.72223, y: 63.055573}
+      - - {x: -86.72223, y: 68.05557}
+        - {x: -81.72223, y: 68.05557}
+        - {x: -73.72223, y: 70.05557}
+        - {x: -73.72223, y: 93.05557}
+        - {x: -75.72223, y: 98.05557}
+        - {x: -100.72223, y: 116.05557}
+        - {x: -116.72223, y: 116.05557}
+        - {x: -116.72223, y: 46.055573}
+        - {x: -115.72223, y: 41.055573}
+        - {x: -107.72223, y: 36.055573}
+        - {x: -95.72223, y: 36.055573}
+        - {x: -83.72223, y: 50.055573}
+        - {x: -84.72223, y: 64.05557}
+        - {x: -87.72223, y: 69.05557}
+      - - {x: -14.722229, y: 62.055573}
+        - {x: -41.72223, y: 62.055573}
+        - {x: -44.72223, y: 58.055573}
+        - {x: -44.72223, y: 53.055573}
+        - {x: -43.72223, y: 47.055573}
+        - {x: -36.72223, y: 42.055573}
+        - {x: -29.722229, y: 42.055573}
+        - {x: -13.722229, y: 46.055573}
+        - {x: -12.722229, y: 50.055573}
+        - {x: -12.722229, y: 59.055573}
+      - - {x: 41.27777, y: 56.055573}
+        - {x: 37.27777, y: 51.055573}
+        - {x: 37.27777, y: 43.055573}
+        - {x: 45.27777, y: 43.055573}
+        - {x: 50.27777, y: 45.055573}
+        - {x: 50.27777, y: 53.055573}
+        - {x: 47.27777, y: 56.055573}
+      - - {x: 118.27777, y: 61.055573}
+        - {x: 115.27777, y: 57.055573}
+        - {x: 115.27777, y: 50.055573}
+        - {x: 124.27777, y: 50.055573}
+        - {x: 129.27777, y: 52.055573}
+        - {x: 129.27777, y: 61.055573}
+      - - {x: 142.27777, y: 59.055573}
+        - {x: 137.27777, y: 55.055573}
+        - {x: 137.27777, y: 52.055573}
+        - {x: 139.27777, y: 50.055573}
+        - {x: 145.27777, y: 50.055573}
+        - {x: 149.27777, y: 52.055573}
+        - {x: 149.27777, y: 57.055573}
+        - {x: 148.27777, y: 59.055573}
+      - - {x: 49.27777, y: 65.05557}
+        - {x: 46.27777, y: 62.055573}
+        - {x: 46.27777, y: 58.055573}
+        - {x: 49.27777, y: 55.055573}
+        - {x: 52.27777, y: 55.055573}
+        - {x: 56.27777, y: 57.055573}
+        - {x: 56.27777, y: 61.055573}
+        - {x: 55.27777, y: 65.05557}
+      - - {x: 155.27777, y: 75.05557}
+        - {x: 148.27777, y: 71.05557}
+        - {x: 148.27777, y: 64.05557}
+        - {x: 153.27777, y: 57.055573}
+        - {x: 162.27777, y: 57.055573}
+        - {x: 165.27777, y: 59.055573}
+        - {x: 165.27777, y: 70.05557}
+        - {x: 163.27777, y: 75.05557}
+      - - {x: -147.72223, y: 65.05557}
+        - {x: -143.72223, y: 62.055573}
+        - {x: -141.72223, y: 62.055573}
+        - {x: -137.72223, y: 64.05557}
+        - {x: -137.72223, y: 75.05557}
+        - {x: -138.72223, y: 76.05557}
+        - {x: -144.72223, y: 76.05557}
+        - {x: -147.72223, y: 74.05557}
+      - - {x: 135.27777, y: 72.05557}
+        - {x: 135.27777, y: 65.05557}
+        - {x: 138.27777, y: 62.055573}
+        - {x: 143.27777, y: 62.055573}
+        - {x: 146.27777, y: 64.05557}
+        - {x: 146.27777, y: 71.05557}
+        - {x: 143.27777, y: 72.05557}
+      - - {x: -134.72223, y: 70.05557}
+        - {x: -134.72223, y: 63.055573}
+        - {x: -129.72223, y: 63.055573}
+        - {x: -125.72223, y: 65.05557}
+        - {x: -125.72223, y: 70.05557}
+        - {x: -128.72223, y: 73.05557}
+        - {x: -130.72223, y: 73.05557}
+      - - {x: -5.722229, y: 86.05557}
+        - {x: -9.722229, y: 86.05557}
+        - {x: -14.722229, y: 83.05557}
+        - {x: -14.722229, y: 69.05557}
+        - {x: -0.722229, y: 69.05557}
+        - {x: 1.277771, y: 70.05557}
+        - {x: 3.277771, y: 74.05557}
+        - {x: 3.277771, y: 79.05557}
+      - - {x: -133.72223, y: 88.05557}
+        - {x: -140.72223, y: 88.05557}
+        - {x: -140.72223, y: 80.05557}
+        - {x: -135.72223, y: 75.05557}
+        - {x: -131.72223, y: 75.05557}
+        - {x: -126.72223, y: 79.05557}
+        - {x: -126.72223, y: 83.05557}
+      - - {x: 78.27777, y: 92.05557}
+        - {x: 76.27777, y: 87.05557}
+        - {x: 76.27777, y: 79.05557}
+        - {x: 81.27777, y: 75.05557}
+        - {x: 94.27777, y: 75.05557}
+        - {x: 94.27777, y: 87.05557}
+        - {x: 93.27777, y: 92.05557}
+      - - {x: -46.72223, y: 87.05557}
+        - {x: -53.72223, y: 87.05557}
+        - {x: -57.72223, y: 85.05557}
+        - {x: -57.72223, y: 77.05557}
+        - {x: -55.72223, y: 76.05557}
+        - {x: -46.72223, y: 76.05557}
+        - {x: -44.72223, y: 80.05557}
+        - {x: -44.72223, y: 85.05557}
+      - - {x: 96.27777, y: 98.05557}
+        - {x: 94.27777, y: 93.05557}
+        - {x: 94.27777, y: 88.05557}
+        - {x: 96.27777, y: 87.05557}
+        - {x: 102.27777, y: 83.05557}
+        - {x: 112.27777, y: 83.05557}
+        - {x: 114.27777, y: 84.05557}
+        - {x: 114.27777, y: 91.05557}
+        - {x: 109.27777, y: 98.05557}
+      - - {x: 49.27777, y: 119.05557}
+        - {x: 33.27777, y: 109.05557}
+        - {x: 33.27777, y: 98.05557}
+        - {x: 42.27777, y: 88.05557}
+        - {x: 61.27777, y: 88.05557}
+        - {x: 67.27777, y: 97.05557}
+        - {x: 67.27777, y: 119.05557}
+      - - {x: 129.27777, y: 113.05557}
+        - {x: 117.27777, y: 113.05557}
+        - {x: 111.27777, y: 109.05557}
+        - {x: 111.27777, y: 96.05557}
+        - {x: 116.27777, y: 93.05557}
+        - {x: 129.27777, y: 93.05557}
+        - {x: 131.27777, y: 96.05557}
+        - {x: 132.27777, y: 102.05557}
+        - {x: 132.27777, y: 110.05557}
+      - - {x: 70.27777, y: 109.05557}
+        - {x: 67.27777, y: 104.05557}
+        - {x: 67.27777, y: 100.05557}
+        - {x: 70.27777, y: 98.05557}
+        - {x: 73.27777, y: 98.05557}
+        - {x: 76.27777, y: 100.05557}
+        - {x: 76.27777, y: 107.05557}
+        - {x: 75.27777, y: 109.05557}
+      - - {x: -80.72223, y: 116.05557}
+        - {x: -84.72223, y: 112.05557}
+        - {x: -85.72223, y: 108.05557}
+        - {x: -85.72223, y: 103.05557}
+        - {x: -80.72223, y: 100.05557}
+        - {x: -73.72223, y: 100.05557}
+        - {x: -73.72223, y: 112.05557}
+        - {x: -74.72223, y: 116.05557}
+      - - {x: -66.72223, y: 105.05557}
+        - {x: -64.72223, y: 105.05557}
+        - {x: -58.72223, y: 108.05557}
+        - {x: -58.72223, y: 117.05557}
+        - {x: -65.72223, y: 117.05557}
+        - {x: -68.72223, y: 116.05557}
+        - {x: -68.72223, y: 107.05557}
+      - - {x: 5.277771, y: 119.05557}
+        - {x: 4.277771, y: 117.05557}
+        - {x: 4.277771, y: 107.05557}
+        - {x: 17.277771, y: 107.05557}
+        - {x: 19.277771, y: 109.05557}
+        - {x: 19.277771, y: 119.05557}
+      - - {x: -107.72223, y: 131.05557}
+        - {x: -112.72223, y: 132.05557}
+        - {x: -118.72223, y: 132.05557}
+        - {x: -120.72223, y: 130.05557}
+        - {x: -121.72223, y: 121.05557}
+        - {x: -118.72223, y: 117.05557}
+        - {x: -111.72223, y: 117.05557}
+        - {x: -106.72223, y: 120.05557}
+        - {x: -106.72223, y: 128.05557}
+      - - {x: -142.72223, y: 136.05557}
+        - {x: -146.72223, y: 134.05557}
+        - {x: -146.72223, y: 120.05557}
+        - {x: -145.72223, y: 119.05557}
+        - {x: -132.72223, y: 119.05557}
+        - {x: -131.72223, y: 121.05557}
+        - {x: -131.72223, y: 136.05557}
+      - - {x: -83.72223, y: 129.05557}
+        - {x: -84.72223, y: 127.05557}
+        - {x: -84.72223, y: 122.05557}
+        - {x: -79.72223, y: 119.05557}
+        - {x: -74.72223, y: 119.05557}
+        - {x: -74.72223, y: 126.05557}
+        - {x: -79.72223, y: 129.05557}
+      - - {x: -97.72223, y: 132.05557}
+        - {x: -101.72223, y: 131.05557}
+        - {x: -101.72223, y: 123.05557}
+        - {x: -96.72223, y: 120.05557}
+        - {x: -91.72223, y: 120.05557}
+        - {x: -87.72223, y: 126.05557}
+        - {x: -87.72223, y: 128.05557}
+        - {x: -89.72223, y: 132.05557}
+      - - {x: 58.27777, y: 141.05557}
+        - {x: 53.27777, y: 140.05557}
+        - {x: 53.27777, y: 124.05557}
+        - {x: 55.27777, y: 120.05557}
+        - {x: 74.27777, y: 120.05557}
+        - {x: 81.27777, y: 125.05557}
+        - {x: 81.27777, y: 137.05557}
+        - {x: 78.27777, y: 141.05557}
+      - - {x: 19.277771, y: 142.05557}
+        - {x: 13.277771, y: 138.05557}
+        - {x: 13.277771, y: 125.05557}
+        - {x: 15.277771, y: 122.05557}
+        - {x: 26.277771, y: 122.05557}
+        - {x: 36.27777, y: 128.05557}
+        - {x: 36.27777, y: 137.05557}
+        - {x: 34.27777, y: 142.05557}
+      - - {x: -24.722229, y: 138.05557}
+        - {x: -30.722229, y: 132.05557}
+        - {x: -30.722229, y: 128.05557}
+        - {x: -28.722229, y: 126.05557}
+        - {x: -23.722229, y: 126.05557}
+        - {x: -18.722229, y: 129.05557}
+        - {x: -19.722229, y: 134.05557}
+        - {x: -22.722229, y: 138.05557}
+      - - {x: -76.72223, y: 149.05557}
+        - {x: -82.72223, y: 147.05557}
+        - {x: -82.72223, y: 142.05557}
+        - {x: -78.72223, y: 138.05557}
+        - {x: -73.72223, y: 138.05557}
+        - {x: -69.72223, y: 142.05557}
+        - {x: -68.72223, y: 146.05557}
+        - {x: -69.72223, y: 149.05557}
+    - name: Office_Male_Explode_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 716
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 711
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 710
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 696
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 699
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 690
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 690
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 690
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 673
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 681
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 680
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 669
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 679
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 681
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 671
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 476
+        width: 438
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.555542, y: -138.38889}
+        - {x: 42.555542, y: -144.38889}
+        - {x: 42.555542, y: -150.38889}
+        - {x: 44.555542, y: -151.38889}
+        - {x: 52.555542, y: -151.38889}
+        - {x: 55.555542, y: -146.38889}
+        - {x: 55.555542, y: -139.38889}
+        - {x: 52.555542, y: -138.38889}
+      - - {x: -37.444458, y: -136.38889}
+        - {x: -39.444458, y: -138.38889}
+        - {x: -39.444458, y: -141.38889}
+        - {x: -37.444458, y: -143.38889}
+        - {x: -31.444458, y: -143.38889}
+        - {x: -29.444458, y: -141.38889}
+        - {x: -29.444458, y: -138.38889}
+        - {x: -31.444458, y: -136.38889}
+      - - {x: -98.44446, y: -122.388885}
+        - {x: -99.44446, y: -125.388885}
+        - {x: -99.44446, y: -127.388885}
+        - {x: -96.44446, y: -129.38889}
+        - {x: -94.44446, y: -130.38889}
+        - {x: -87.44446, y: -130.38889}
+        - {x: -86.44446, y: -129.38889}
+        - {x: -86.44446, y: -122.388885}
+      - - {x: 59.555542, y: -114.388885}
+        - {x: 55.555542, y: -120.388885}
+        - {x: 55.555542, y: -127.388885}
+        - {x: 57.555542, y: -130.38889}
+        - {x: 64.55554, y: -130.38889}
+        - {x: 68.55554, y: -125.388885}
+        - {x: 68.55554, y: -118.388885}
+        - {x: 63.555542, y: -114.388885}
+      - - {x: -27.444458, y: -118.388885}
+        - {x: -27.444458, y: -123.388885}
+        - {x: -26.444458, y: -125.388885}
+        - {x: -20.444458, y: -125.388885}
+        - {x: -17.444458, y: -122.388885}
+        - {x: -19.444458, y: -117.388885}
+        - {x: -25.444458, y: -117.388885}
+      - - {x: 124.55554, y: -108.388885}
+        - {x: 122.55554, y: -113.388885}
+        - {x: 122.55554, y: -118.388885}
+        - {x: 130.55554, y: -124.388885}
+        - {x: 143.55554, y: -124.388885}
+        - {x: 144.55554, y: -121.388885}
+        - {x: 144.55554, y: -113.388885}
+        - {x: 138.55554, y: -108.388885}
+      - - {x: -43.444458, y: -115.388885}
+        - {x: -46.444458, y: -118.388885}
+        - {x: -46.444458, y: -121.388885}
+        - {x: -44.444458, y: -123.388885}
+        - {x: -39.444458, y: -123.388885}
+        - {x: -38.444458, y: -121.388885}
+        - {x: -38.444458, y: -117.388885}
+        - {x: -39.444458, y: -116.388885}
+      - - {x: 17.555542, y: -112.388885}
+        - {x: 16.555542, y: -114.388885}
+        - {x: 16.555542, y: -120.388885}
+        - {x: 19.555542, y: -122.388885}
+        - {x: 22.555542, y: -123.388885}
+        - {x: 25.555542, y: -123.388885}
+        - {x: 28.555542, y: -120.388885}
+        - {x: 28.555542, y: -115.388885}
+        - {x: 25.555542, y: -112.388885}
+      - - {x: 103.55554, y: -100.388885}
+        - {x: 101.55554, y: -105.388885}
+        - {x: 101.55554, y: -110.388885}
+        - {x: 113.55554, y: -110.388885}
+        - {x: 113.55554, y: -100.388885}
+      - - {x: -148.44446, y: -82.388885}
+        - {x: -149.44446, y: -85.388885}
+        - {x: -149.44446, y: -92.388885}
+        - {x: -142.44446, y: -96.388885}
+        - {x: -133.44446, y: -96.388885}
+        - {x: -132.44446, y: -93.388885}
+        - {x: -132.44446, y: -85.388885}
+        - {x: -137.44446, y: -82.388885}
+      - - {x: 31.555542, y: -61.388885}
+        - {x: 24.555542, y: -61.388885}
+        - {x: 20.555542, y: -66.388885}
+        - {x: 20.555542, y: -75.388885}
+        - {x: 26.555542, y: -80.388885}
+        - {x: 34.555542, y: -80.388885}
+        - {x: 35.555542, y: -77.388885}
+        - {x: 35.555542, y: -66.388885}
+      - - {x: -18.444458, y: -65.388885}
+        - {x: -24.444458, y: -64.388885}
+        - {x: -29.444458, y: -64.388885}
+        - {x: -30.444458, y: -65.388885}
+        - {x: -30.444458, y: -72.388885}
+        - {x: -27.444458, y: -79.388885}
+        - {x: -18.444458, y: -79.388885}
+        - {x: -15.444458, y: -77.388885}
+        - {x: -15.444458, y: -71.388885}
+      - - {x: -11.444458, y: -55.388885}
+        - {x: -14.444458, y: -58.388885}
+        - {x: -14.444458, y: -66.388885}
+        - {x: -13.444458, y: -69.388885}
+        - {x: -4.444458, y: -69.388885}
+        - {x: -0.444458, y: -68.388885}
+        - {x: -0.444458, y: -59.388885}
+        - {x: -4.444458, y: -55.388885}
+      - - {x: -68.44446, y: -42.388885}
+        - {x: -69.44446, y: -43.388885}
+        - {x: -69.44446, y: -53.388885}
+        - {x: -66.44446, y: -56.388885}
+        - {x: -61.444458, y: -56.388885}
+        - {x: -59.444458, y: -55.388885}
+        - {x: -59.444458, y: -45.388885}
+        - {x: -63.444458, y: -42.388885}
+      - - {x: 154.55554, y: -47.388885}
+        - {x: 153.55554, y: -49.388885}
+        - {x: 153.55554, y: -54.388885}
+        - {x: 156.55554, y: -55.388885}
+        - {x: 160.55554, y: -55.388885}
+        - {x: 161.55554, y: -53.388885}
+        - {x: 161.55554, y: -48.388885}
+        - {x: 158.55554, y: -47.388885}
+      - - {x: -58.444458, y: 30.611115}
+        - {x: -58.444458, y: -22.388885}
+        - {x: -2.444458, y: -54.388885}
+        - {x: 37.555542, y: -54.388885}
+        - {x: 57.555542, y: -33.388885}
+        - {x: 57.555542, y: 16.611115}
+        - {x: 49.555542, y: 30.611115}
+      - - {x: 40.555542, y: -47.388885}
+        - {x: 47.555542, y: -54.388885}
+        - {x: 54.555542, y: -54.388885}
+        - {x: 54.555542, y: -46.388885}
+        - {x: 53.555542, y: -41.388885}
+        - {x: 47.555542, y: -34.388885}
+        - {x: 43.555542, y: -34.388885}
+        - {x: 40.555542, y: -35.388885}
+      - - {x: 120.55554, y: -43.388885}
+        - {x: 117.55554, y: -46.388885}
+        - {x: 117.55554, y: -52.388885}
+        - {x: 119.55554, y: -53.388885}
+        - {x: 125.55554, y: -53.388885}
+        - {x: 126.55554, y: -50.388885}
+        - {x: 126.55554, y: -46.388885}
+        - {x: 123.55554, y: -43.388885}
+      - - {x: -130.44446, y: -34.388885}
+        - {x: -133.44446, y: -37.388885}
+        - {x: -133.44446, y: -42.388885}
+        - {x: -128.44446, y: -46.388885}
+        - {x: -125.44446, y: -46.388885}
+        - {x: -121.44446, y: -42.388885}
+        - {x: -121.44446, y: -36.388885}
+        - {x: -123.44446, y: -34.388885}
+      - - {x: -64.44446, y: -13.3888855}
+        - {x: -72.44446, y: -17.388885}
+        - {x: -72.44446, y: -35.388885}
+        - {x: -71.44446, y: -36.388885}
+        - {x: -59.444458, y: -36.388885}
+        - {x: -56.444458, y: -26.388885}
+        - {x: -56.444458, y: -15.3888855}
+        - {x: -58.444458, y: -13.3888855}
+      - - {x: 58.555542, y: -21.388885}
+        - {x: 58.555542, y: -28.388885}
+        - {x: 65.55554, y: -32.388885}
+        - {x: 72.55554, y: -32.388885}
+        - {x: 75.55554, y: -29.388885}
+        - {x: 75.55554, y: -24.388885}
+        - {x: 72.55554, y: -21.388885}
+      - - {x: -83.44446, y: -22.388885}
+        - {x: -85.44446, y: -24.388885}
+        - {x: -85.44446, y: -30.388885}
+        - {x: -82.44446, y: -31.388885}
+        - {x: -76.44446, y: -31.388885}
+        - {x: -74.44446, y: -28.388885}
+        - {x: -74.44446, y: -25.388885}
+        - {x: -77.44446, y: -22.388885}
+      - - {x: -143.44446, y: 3.6111145}
+        - {x: -152.44446, y: 3.6111145}
+        - {x: -153.44446, y: 2.6111145}
+        - {x: -153.44446, y: -13.3888855}
+        - {x: -148.44446, y: -19.388885}
+        - {x: -142.44446, y: -19.388885}
+        - {x: -139.44446, y: -17.388885}
+        - {x: -139.44446, y: -5.3888855}
+        - {x: -141.44446, y: 2.6111145}
+      - - {x: 114.55554, y: -2.3888855}
+        - {x: 112.55554, y: -6.3888855}
+        - {x: 112.55554, y: -10.3888855}
+        - {x: 114.55554, y: -11.3888855}
+        - {x: 122.55554, y: -11.3888855}
+        - {x: 124.55554, y: -6.3888855}
+        - {x: 124.55554, y: -2.3888855}
+      - - {x: 135.55554, y: 2.6111145}
+        - {x: 135.55554, y: -4.3888855}
+        - {x: 141.55554, y: -11.3888855}
+        - {x: 148.55554, y: -11.3888855}
+        - {x: 151.55554, y: -10.3888855}
+        - {x: 151.55554, y: -1.3888855}
+        - {x: 150.55554, y: 2.6111145}
+      - - {x: 93.55554, y: 7.6111145}
+        - {x: 93.55554, y: 1.6111145}
+        - {x: 95.55554, y: -1.3888855}
+        - {x: 100.55554, y: -1.3888855}
+        - {x: 103.55554, y: -0.3888855}
+        - {x: 103.55554, y: 6.6111145}
+        - {x: 101.55554, y: 7.6111145}
+      - - {x: -66.44446, y: 37.611115}
+        - {x: -74.44446, y: 37.611115}
+        - {x: -79.44446, y: 36.611115}
+        - {x: -80.44446, y: 33.611115}
+        - {x: -80.44446, y: 16.611115}
+        - {x: -75.44446, y: 14.6111145}
+        - {x: -61.444458, y: 14.6111145}
+        - {x: -58.444458, y: 17.611115}
+        - {x: -55.444458, y: 23.611115}
+        - {x: -55.444458, y: 31.611115}
+      - - {x: 109.55554, y: 24.611115}
+        - {x: 104.55554, y: 22.611115}
+        - {x: 104.55554, y: 18.611115}
+        - {x: 107.55554, y: 14.6111145}
+        - {x: 115.55554, y: 14.6111145}
+        - {x: 118.55554, y: 15.6111145}
+        - {x: 118.55554, y: 24.611115}
+      - - {x: -136.44446, y: 17.611115}
+        - {x: -134.44446, y: 15.6111145}
+        - {x: -128.44446, y: 15.6111145}
+        - {x: -125.44446, y: 17.611115}
+        - {x: -125.44446, y: 21.611115}
+        - {x: -127.44446, y: 24.611115}
+        - {x: -135.44446, y: 24.611115}
+        - {x: -136.44446, y: 23.611115}
+      - - {x: 54.555542, y: 37.611115}
+        - {x: 46.555542, y: 36.611115}
+        - {x: 43.555542, y: 29.611115}
+        - {x: 43.555542, y: 19.611115}
+        - {x: 45.555542, y: 15.6111145}
+        - {x: 55.555542, y: 15.6111145}
+        - {x: 62.555542, y: 18.611115}
+        - {x: 62.555542, y: 37.611115}
+      - - {x: -169.44446, y: 33.611115}
+        - {x: -173.44446, y: 30.611115}
+        - {x: -173.44446, y: 26.611115}
+        - {x: -170.44446, y: 23.611115}
+        - {x: -163.44446, y: 23.611115}
+        - {x: -161.44446, y: 25.611115}
+        - {x: -161.44446, y: 29.611115}
+        - {x: -165.44446, y: 33.611115}
+      - - {x: -118.44446, y: 64.611115}
+        - {x: -120.44446, y: 61.611115}
+        - {x: -120.44446, y: 38.611115}
+        - {x: -116.44446, y: 36.611115}
+        - {x: -107.44446, y: 36.611115}
+        - {x: -104.44446, y: 41.611115}
+        - {x: -104.44446, y: 59.611115}
+        - {x: -112.44446, y: 64.611115}
+      - - {x: -63.444458, y: 69.611115}
+        - {x: -85.44446, y: 69.611115}
+        - {x: -88.44446, y: 65.611115}
+        - {x: -89.44446, y: 61.611115}
+        - {x: -89.44446, y: 49.611115}
+        - {x: -76.44446, y: 41.611115}
+        - {x: -53.444458, y: 41.611115}
+        - {x: -49.444458, y: 48.611115}
+        - {x: -49.444458, y: 63.611115}
+        - {x: -50.444458, y: 65.611115}
+      - - {x: -45.444458, y: 66.611115}
+        - {x: -45.444458, y: 52.611115}
+        - {x: -43.444458, y: 51.611115}
+        - {x: -28.444458, y: 51.611115}
+        - {x: -26.444458, y: 53.611115}
+        - {x: -26.444458, y: 62.611115}
+        - {x: -29.444458, y: 66.611115}
+      - - {x: -106.44446, y: 73.611115}
+        - {x: -108.44446, y: 68.611115}
+        - {x: -108.44446, y: 60.611115}
+        - {x: -102.44446, y: 55.611115}
+        - {x: -95.44446, y: 55.611115}
+        - {x: -91.44446, y: 56.611115}
+        - {x: -90.44446, y: 60.611115}
+        - {x: -90.44446, y: 65.611115}
+        - {x: -100.44446, y: 73.611115}
+      - - {x: -13.444458, y: 69.611115}
+        - {x: -16.444458, y: 64.611115}
+        - {x: -16.444458, y: 58.611115}
+        - {x: -13.444458, y: 57.611115}
+        - {x: -10.444458, y: 57.611115}
+        - {x: -5.444458, y: 64.611115}
+        - {x: -5.444458, y: 67.611115}
+        - {x: -7.444458, y: 69.611115}
+      - - {x: 150.55554, y: 73.611115}
+        - {x: 149.55554, y: 71.611115}
+        - {x: 149.55554, y: 63.611115}
+        - {x: 152.55554, y: 62.611115}
+        - {x: 161.55554, y: 62.611115}
+        - {x: 161.55554, y: 68.611115}
+        - {x: 159.55554, y: 73.611115}
+      - - {x: -163.44446, y: 83.611115}
+        - {x: -164.44446, y: 81.611115}
+        - {x: -164.44446, y: 74.611115}
+        - {x: -162.44446, y: 73.611115}
+        - {x: -155.44446, y: 73.611115}
+        - {x: -154.44446, y: 76.611115}
+        - {x: -154.44446, y: 82.611115}
+        - {x: -156.44446, y: 83.611115}
+      - - {x: -93.44446, y: 89.611115}
+        - {x: -97.44446, y: 83.611115}
+        - {x: -97.44446, y: 79.611115}
+        - {x: -92.44446, y: 73.611115}
+        - {x: -85.44446, y: 73.611115}
+        - {x: -81.44446, y: 75.611115}
+        - {x: -81.44446, y: 86.611115}
+        - {x: -82.44446, y: 89.611115}
+      - - {x: -16.444458, y: 87.611115}
+        - {x: -20.444458, y: 87.611115}
+        - {x: -22.444458, y: 85.611115}
+        - {x: -22.444458, y: 75.611115}
+        - {x: -12.444458, y: 75.611115}
+        - {x: -10.444458, y: 77.611115}
+        - {x: -10.444458, y: 84.611115}
+      - - {x: 78.55554, y: 93.611115}
+        - {x: 74.55554, y: 89.611115}
+        - {x: 74.55554, y: 83.611115}
+        - {x: 77.55554, y: 80.611115}
+        - {x: 83.55554, y: 81.611115}
+        - {x: 86.55554, y: 82.611115}
+        - {x: 86.55554, y: 90.611115}
+        - {x: 85.55554, y: 93.611115}
+      - - {x: -120.44446, y: 102.611115}
+        - {x: -120.44446, y: 89.611115}
+        - {x: -119.44446, y: 84.611115}
+        - {x: -116.44446, y: 81.611115}
+        - {x: -106.44446, y: 81.611115}
+        - {x: -95.44446, y: 85.611115}
+        - {x: -95.44446, y: 94.611115}
+        - {x: -110.44446, y: 102.611115}
+      - - {x: -64.44446, y: 81.611115}
+        - {x: -56.444458, y: 81.611115}
+        - {x: -54.444458, y: 82.611115}
+        - {x: -54.444458, y: 86.611115}
+        - {x: -56.444458, y: 90.611115}
+        - {x: -62.444458, y: 90.611115}
+        - {x: -64.44446, y: 89.611115}
+      - - {x: 98.55554, y: 96.611115}
+        - {x: 96.55554, y: 95.611115}
+        - {x: 96.55554, y: 91.611115}
+        - {x: 100.55554, y: 85.611115}
+        - {x: 104.55554, y: 85.611115}
+        - {x: 108.55554, y: 86.611115}
+        - {x: 108.55554, y: 93.611115}
+        - {x: 106.55554, y: 96.611115}
+      - - {x: 38.555542, y: 116.611115}
+        - {x: 32.555542, y: 116.611115}
+        - {x: 26.555542, y: 109.611115}
+        - {x: 26.555542, y: 101.611115}
+        - {x: 28.555542, y: 96.611115}
+        - {x: 41.555542, y: 96.611115}
+        - {x: 42.555542, y: 102.611115}
+        - {x: 42.555542, y: 114.611115}
+      - - {x: 120.55554, y: 111.611115}
+        - {x: 117.55554, y: 109.611115}
+        - {x: 117.55554, y: 103.611115}
+        - {x: 121.55554, y: 102.611115}
+        - {x: 131.55554, y: 102.611115}
+        - {x: 132.55554, y: 104.611115}
+        - {x: 132.55554, y: 109.611115}
+        - {x: 129.55554, y: 111.611115}
+      - - {x: -79.44446, y: 117.611115}
+        - {x: -79.44446, y: 110.611115}
+        - {x: -76.44446, y: 107.611115}
+        - {x: -73.44446, y: 107.611115}
+        - {x: -69.44446, y: 109.611115}
+        - {x: -69.44446, y: 114.611115}
+        - {x: -70.44446, y: 117.611115}
+      - - {x: 55.555542, y: 121.611115}
+        - {x: 51.555542, y: 117.611115}
+        - {x: 51.555542, y: 111.611115}
+        - {x: 53.555542, y: 109.611115}
+        - {x: 59.555542, y: 110.611115}
+        - {x: 64.55554, y: 114.611115}
+        - {x: 64.55554, y: 117.611115}
+        - {x: 60.555542, y: 121.611115}
+      - - {x: -152.44446, y: 139.61111}
+        - {x: -159.44446, y: 131.61111}
+        - {x: -159.44446, y: 121.611115}
+        - {x: -153.44446, y: 121.611115}
+        - {x: -143.44446, y: 128.61111}
+        - {x: -143.44446, y: 134.61111}
+        - {x: -147.44446, y: 139.61111}
+      - - {x: -122.44446, y: 134.61111}
+        - {x: -129.44446, y: 134.61111}
+        - {x: -133.44446, y: 131.61111}
+        - {x: -133.44446, y: 124.611115}
+        - {x: -132.44446, y: 122.611115}
+        - {x: -125.44446, y: 122.611115}
+        - {x: -121.44446, y: 124.611115}
+        - {x: -121.44446, y: 133.61111}
+      - - {x: 63.555542, y: 150.61111}
+        - {x: 56.555542, y: 145.61111}
+        - {x: 56.555542, y: 134.61111}
+        - {x: 57.555542, y: 131.61111}
+        - {x: 59.555542, y: 128.61111}
+        - {x: 71.55554, y: 128.61111}
+        - {x: 76.55554, y: 130.61111}
+        - {x: 76.55554, y: 142.61111}
+        - {x: 72.55554, y: 150.61111}
+      - - {x: -41.444458, y: 131.61111}
+        - {x: -39.444458, y: 129.61111}
+        - {x: -32.444458, y: 129.61111}
+        - {x: -29.444458, y: 130.61111}
+        - {x: -29.444458, y: 136.61111}
+        - {x: -30.444458, y: 139.61111}
+        - {x: -39.444458, y: 139.61111}
+        - {x: -41.444458, y: 135.61111}
+      - - {x: 8.555542, y: 143.61111}
+        - {x: 8.555542, y: 134.61111}
+        - {x: 10.555542, y: 129.61111}
+        - {x: 23.555542, y: 129.61111}
+        - {x: 25.555542, y: 130.61111}
+        - {x: 25.555542, y: 140.61111}
+        - {x: 22.555542, y: 143.61111}
+    - name: Office_Male_Explode_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 672
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 645
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 674
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 665
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 672
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 671
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 654
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 656
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 661
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 655
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 644
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 643
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 638
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 633
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 653
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 642
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 633
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 619
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 632
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 638
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 643
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 609
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 623
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 619
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 614
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 618
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 605
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 609
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 603
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 593
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 582
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 588
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 593
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 592
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 591
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 595
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 592
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 570
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 569
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 568
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 564
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 574
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 565
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 577
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 564
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 564
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 563
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 552
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 557
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 531
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 534
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 548
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 546
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 542
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 546
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 525
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 528
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 530
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 513
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 530
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 522
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 498
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 500
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 513
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 517
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 518
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 517
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 508
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 516
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 515
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 504
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 511
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 516
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 514
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 508
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 492
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 506
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 508
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 484
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 485
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 495
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 485
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 493
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 484
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 373
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 376
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 374
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 362
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 364
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 345
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 342
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 349
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 345
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 324
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 338
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 321
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 314
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_214
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 306
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 310
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 304
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 308
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 291
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_219
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 285
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_220
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 291
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_221
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 273
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_222
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 264
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_223
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 251
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_224
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 258
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_225
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_226
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 243
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_227
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 242
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_228
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 239
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_229
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 38
+        width: 390
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.611115, y: -147.72223}
+        - {x: 58.611115, y: -150.72223}
+        - {x: 58.611115, y: -155.72223}
+        - {x: 62.611115, y: -157.72223}
+        - {x: 68.611115, y: -157.72223}
+        - {x: 69.611115, y: -155.72223}
+        - {x: 69.611115, y: -149.72223}
+        - {x: 65.611115, y: -147.72223}
+      - - {x: 80.611115, y: -132.72223}
+        - {x: 86.611115, y: -132.72223}
+        - {x: 88.611115, y: -131.72223}
+        - {x: 88.611115, y: -124.72223}
+        - {x: 80.611115, y: -124.72223}
+      - - {x: 41.611115, y: -117.72223}
+        - {x: 38.611115, y: -120.72223}
+        - {x: 38.611115, y: -122.72223}
+        - {x: 41.611115, y: -125.72223}
+        - {x: 47.611115, y: -125.72223}
+        - {x: 47.611115, y: -120.72223}
+        - {x: 46.611115, y: -117.72223}
+      - - {x: 151.61111, y: -113.72223}
+        - {x: 151.61111, y: -122.72223}
+        - {x: 153.61111, y: -124.72223}
+        - {x: 161.61111, y: -124.72223}
+        - {x: 164.61111, y: -118.72223}
+        - {x: 164.61111, y: -113.72223}
+      - - {x: -126.388885, y: -81.72223}
+        - {x: -130.38889, y: -84.72223}
+        - {x: -130.38889, y: -92.72223}
+        - {x: -129.38889, y: -95.72223}
+        - {x: -123.388885, y: -95.72223}
+        - {x: -121.388885, y: -94.72223}
+        - {x: -121.388885, y: -84.72223}
+        - {x: -122.388885, y: -81.72223}
+      - - {x: 49.611115, y: -73.72223}
+        - {x: 46.611115, y: -76.72223}
+        - {x: 46.611115, y: -87.72223}
+        - {x: 49.611115, y: -89.72223}
+        - {x: 56.611115, y: -89.72223}
+        - {x: 58.611115, y: -87.72223}
+        - {x: 58.611115, y: -78.72223}
+        - {x: 56.611115, y: -73.72223}
+      - - {x: -11.3888855, y: -65.72223}
+        - {x: -12.3888855, y: -68.72223}
+        - {x: -12.3888855, y: -77.72223}
+        - {x: -3.3888855, y: -77.72223}
+        - {x: -2.3888855, y: -74.72223}
+        - {x: -2.3888855, y: -67.72223}
+        - {x: -5.3888855, y: -65.72223}
+      - - {x: 5.6111145, y: -58.72223}
+        - {x: 3.6111145, y: -62.72223}
+        - {x: 3.6111145, y: -68.72223}
+        - {x: 6.6111145, y: -69.72223}
+        - {x: 12.6111145, y: -69.72223}
+        - {x: 14.6111145, y: -68.72223}
+        - {x: 14.6111145, y: -61.72223}
+        - {x: 13.6111145, y: -58.72223}
+      - - {x: 35.611115, y: -38.72223}
+        - {x: 28.611115, y: -47.72223}
+        - {x: 28.611115, y: -54.72223}
+        - {x: 30.611115, y: -56.72223}
+        - {x: 40.611115, y: -56.72223}
+        - {x: 44.611115, y: -52.72223}
+        - {x: 44.611115, y: -40.72223}
+        - {x: 43.611115, y: -38.72223}
+      - - {x: 71.611115, y: -42.72223}
+        - {x: 67.611115, y: -46.72223}
+        - {x: 66.611115, y: -51.72223}
+        - {x: 68.611115, y: -53.72223}
+        - {x: 75.611115, y: -53.72223}
+        - {x: 77.611115, y: -51.72223}
+        - {x: 77.611115, y: -45.72223}
+        - {x: 74.611115, y: -42.72223}
+      - - {x: -17.388885, y: 22.277771}
+        - {x: -31.388885, y: 16.277771}
+        - {x: -31.388885, y: -12.722229}
+        - {x: 7.6111145, y: -40.72223}
+        - {x: 31.611115, y: -40.72223}
+        - {x: 54.611115, y: -22.722229}
+        - {x: 54.611115, y: 15.277771}
+        - {x: 32.611115, y: 22.277771}
+      - - {x: 91.611115, y: -26.722229}
+        - {x: 91.611115, y: -35.72223}
+        - {x: 93.611115, y: -36.72223}
+        - {x: 101.611115, y: -36.72223}
+        - {x: 101.611115, y: -26.722229}
+      - - {x: -59.388885, y: -25.722229}
+        - {x: -56.388885, y: -28.722229}
+        - {x: -47.388885, y: -28.722229}
+        - {x: -43.388885, y: -23.722229}
+        - {x: -43.388885, y: -12.722229}
+        - {x: -50.388885, y: -12.722229}
+        - {x: -59.388885, y: -16.722229}
+      - - {x: -137.38889, y: 1.277771}
+        - {x: -141.38889, y: -2.722229}
+        - {x: -142.38889, y: -5.722229}
+        - {x: -142.38889, y: -9.722229}
+        - {x: -139.38889, y: -13.722229}
+        - {x: -132.38889, y: -13.722229}
+        - {x: -127.388885, y: -5.722229}
+        - {x: -127.388885, y: 0.277771}
+        - {x: -129.38889, y: 1.277771}
+      - - {x: 162.61111, y: -2.722229}
+        - {x: 162.61111, y: -10.722229}
+        - {x: 163.61111, y: -13.722229}
+        - {x: 169.61111, y: -13.722229}
+        - {x: 170.61111, y: -12.722229}
+        - {x: 170.61111, y: -3.722229}
+        - {x: 168.61111, y: -2.722229}
+      - - {x: 128.61111, y: 23.277771}
+        - {x: 127.611115, y: 22.277771}
+        - {x: 127.611115, y: 14.277771}
+        - {x: 135.61111, y: 14.277771}
+        - {x: 135.61111, y: 22.277771}
+        - {x: 133.61111, y: 23.277771}
+      - - {x: -69.388885, y: 32.27777}
+        - {x: -70.388885, y: 30.277771}
+        - {x: -70.388885, y: 22.277771}
+        - {x: -69.388885, y: 18.277771}
+        - {x: -57.388885, y: 18.277771}
+        - {x: -50.388885, y: 22.277771}
+        - {x: -50.388885, y: 32.27777}
+      - - {x: -155.38889, y: 32.27777}
+        - {x: -155.38889, y: 27.277771}
+        - {x: -154.38889, y: 24.277771}
+        - {x: -148.38889, y: 24.277771}
+        - {x: -146.38889, y: 25.277771}
+        - {x: -146.38889, y: 31.277771}
+        - {x: -149.38889, y: 32.27777}
+      - - {x: 77.611115, y: 45.27777}
+        - {x: 67.611115, y: 35.27777}
+        - {x: 67.611115, y: 26.277771}
+        - {x: 78.611115, y: 26.277771}
+        - {x: 83.611115, y: 27.277771}
+        - {x: 86.611115, y: 33.27777}
+        - {x: 86.611115, y: 45.27777}
+      - - {x: -105.388885, y: 64.27777}
+        - {x: -106.388885, y: 61.27777}
+        - {x: -106.388885, y: 48.27777}
+        - {x: -102.388885, y: 45.27777}
+        - {x: -97.388885, y: 45.27777}
+        - {x: -91.388885, y: 54.27777}
+        - {x: -91.388885, y: 62.27777}
+        - {x: -96.388885, y: 64.27777}
+      - - {x: -63.388885, y: 78.27777}
+        - {x: -68.388885, y: 69.27777}
+        - {x: -68.388885, y: 60.27777}
+        - {x: -64.388885, y: 56.27777}
+        - {x: -44.388885, y: 56.27777}
+        - {x: -37.388885, y: 65.27777}
+        - {x: -37.388885, y: 77.27777}
+        - {x: -40.388885, y: 78.27777}
+      - - {x: -91.388885, y: 73.27777}
+        - {x: -92.388885, y: 69.27777}
+        - {x: -92.388885, y: 61.27777}
+        - {x: -85.388885, y: 61.27777}
+        - {x: -77.388885, y: 63.27777}
+        - {x: -77.388885, y: 71.27777}
+        - {x: -80.388885, y: 73.27777}
+      - - {x: -24.388885, y: 63.27777}
+        - {x: -21.388885, y: 61.27777}
+        - {x: -11.3888855, y: 61.27777}
+        - {x: -9.3888855, y: 62.27777}
+        - {x: -9.3888855, y: 73.27777}
+        - {x: -10.3888855, y: 76.27777}
+        - {x: -20.388885, y: 76.27777}
+        - {x: -24.388885, y: 70.27777}
+      - - {x: -151.38889, y: 74.27777}
+        - {x: -145.38889, y: 74.27777}
+        - {x: -145.38889, y: 82.27777}
+        - {x: -153.38889, y: 82.27777}
+        - {x: -153.38889, y: 77.27777}
+      - - {x: -75.388885, y: 90.27777}
+        - {x: -77.388885, y: 89.27777}
+        - {x: -77.388885, y: 80.27777}
+        - {x: -76.388885, y: 78.27777}
+        - {x: -68.388885, y: 78.27777}
+        - {x: -65.388885, y: 81.27777}
+        - {x: -65.388885, y: 87.27777}
+        - {x: -66.388885, y: 90.27777}
+      - - {x: 123.611115, y: 98.27777}
+        - {x: 121.611115, y: 96.27777}
+        - {x: 121.611115, y: 89.27777}
+        - {x: 124.611115, y: 88.27777}
+        - {x: 129.61111, y: 88.27777}
+        - {x: 131.61111, y: 92.27777}
+        - {x: 131.61111, y: 96.27777}
+        - {x: 129.61111, y: 98.27777}
+      - - {x: -108.388885, y: 100.27777}
+        - {x: -107.388885, y: 93.27777}
+        - {x: -104.388885, y: 90.27777}
+        - {x: -92.388885, y: 90.27777}
+        - {x: -90.388885, y: 91.27777}
+        - {x: -90.388885, y: 104.27777}
+        - {x: -91.388885, y: 109.27777}
+        - {x: -97.388885, y: 111.27777}
+        - {x: -108.388885, y: 111.27777}
+      - - {x: 152.61111, y: 111.27777}
+        - {x: 149.61111, y: 110.27777}
+        - {x: 149.61111, y: 105.27777}
+        - {x: 150.61111, y: 103.27777}
+        - {x: 154.61111, y: 103.27777}
+        - {x: 158.61111, y: 107.27777}
+        - {x: 158.61111, y: 108.27777}
+        - {x: 155.61111, y: 111.27777}
+      - - {x: 58.611115, y: 119.27777}
+        - {x: 45.611115, y: 119.27777}
+        - {x: 44.611115, y: 115.27777}
+        - {x: 44.611115, y: 110.27777}
+        - {x: 48.611115, y: 108.27777}
+        - {x: 53.611115, y: 106.27777}
+        - {x: 56.611115, y: 106.27777}
+        - {x: 59.611115, y: 111.27777}
+        - {x: 59.611115, y: 117.27777}
+      - - {x: -60.388885, y: 118.27777}
+        - {x: -62.388885, y: 117.27777}
+        - {x: -62.388885, y: 113.27777}
+        - {x: -61.388885, y: 109.27777}
+        - {x: -55.388885, y: 109.27777}
+        - {x: -52.388885, y: 110.27777}
+        - {x: -52.388885, y: 116.27777}
+        - {x: -53.388885, y: 118.27777}
+      - - {x: 80.611115, y: 120.27777}
+        - {x: 78.611115, y: 118.27777}
+        - {x: 78.611115, y: 115.27777}
+        - {x: 80.611115, y: 113.27777}
+        - {x: 84.611115, y: 113.27777}
+        - {x: 86.611115, y: 115.27777}
+        - {x: 86.611115, y: 118.27777}
+        - {x: 84.611115, y: 120.27777}
+      - - {x: -142.38889, y: 132.27777}
+        - {x: -142.38889, y: 127.27777}
+        - {x: -140.38889, y: 124.27777}
+        - {x: -135.38889, y: 124.27777}
+        - {x: -131.38889, y: 126.27777}
+        - {x: -131.38889, y: 133.27777}
+        - {x: -134.38889, y: 136.27777}
+        - {x: -138.38889, y: 136.27777}
+      - - {x: -108.388885, y: 135.27777}
+        - {x: -113.388885, y: 131.27777}
+        - {x: -113.388885, y: 128.27777}
+        - {x: -111.388885, y: 126.27777}
+        - {x: -107.388885, y: 126.27777}
+        - {x: -103.388885, y: 130.27777}
+        - {x: -103.388885, y: 132.27777}
+        - {x: -104.388885, y: 134.27777}
+      - - {x: -19.388885, y: 142.27777}
+        - {x: -19.388885, y: 136.27777}
+        - {x: -18.388885, y: 134.27777}
+        - {x: -11.3888855, y: 134.27777}
+        - {x: -10.3888855, y: 136.27777}
+        - {x: -10.3888855, y: 142.27777}
+      - - {x: 80.611115, y: 150.27777}
+        - {x: 75.611115, y: 145.27777}
+        - {x: 75.611115, y: 140.27777}
+        - {x: 81.611115, y: 135.27777}
+        - {x: 92.611115, y: 135.27777}
+        - {x: 95.611115, y: 141.27777}
+        - {x: 95.611115, y: 149.27777}
+        - {x: 91.611115, y: 150.27777}
+      - - {x: 38.611115, y: 147.27777}
+        - {x: 32.611115, y: 147.27777}
+        - {x: 30.611115, y: 144.27777}
+        - {x: 30.611115, y: 138.27777}
+        - {x: 33.611115, y: 137.27777}
+        - {x: 38.611115, y: 137.27777}
+        - {x: 40.611115, y: 140.27777}
+        - {x: 40.611115, y: 146.27777}
+    - name: Office_Male_Explode_sheet_230
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 238
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_231
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 226
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_232
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 211
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_233
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 221
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_234
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 207
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_235
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 213
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_236
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 218
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_237
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_238
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 200
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_239
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 60
+        width: 345
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.833374, y: -56.16667}
+        - {x: 12.833374, y: -60.16667}
+        - {x: 12.833374, y: -65.16667}
+        - {x: 13.833374, y: -67.16667}
+        - {x: 20.833374, y: -67.16667}
+        - {x: 23.833374, y: -66.16667}
+        - {x: 23.833374, y: -56.16667}
+      - - {x: -6.166626, y: -26.166672}
+        - {x: 12.833374, y: -26.166672}
+        - {x: 21.833374, y: -22.166672}
+        - {x: 21.833374, y: -5.1666718}
+        - {x: 15.833374, y: -4.1666718}
+        - {x: -4.166626, y: -4.1666718}
+        - {x: -6.166626, y: -8.166672}
+      - - {x: -17.166626, y: 13.833328}
+        - {x: -27.166626, y: 8.833328}
+        - {x: -31.166626, y: 5.8333282}
+        - {x: -31.166626, y: 1.8333282}
+        - {x: -28.166626, y: -4.1666718}
+        - {x: -8.166626, y: -4.1666718}
+        - {x: -5.166626, y: -1.1666718}
+        - {x: -5.166626, y: 8.833328}
+        - {x: -7.166626, y: 13.833328}
+      - - {x: -51.166626, y: 11.833328}
+        - {x: -57.166626, y: 11.833328}
+        - {x: -59.166626, y: 7.8333282}
+        - {x: -59.166626, y: 2.8333282}
+        - {x: -57.166626, y: 1.8333282}
+        - {x: -51.166626, y: 1.8333282}
+        - {x: -49.166626, y: 5.8333282}
+        - {x: -49.166626, y: 10.833328}
+      - - {x: 38.833374, y: 14.833328}
+        - {x: 35.833374, y: 11.833328}
+        - {x: 35.833374, y: 9.833328}
+        - {x: 40.833374, y: 4.8333282}
+        - {x: 42.833374, y: 4.8333282}
+        - {x: 45.833374, y: 7.8333282}
+        - {x: 45.833374, y: 12.833328}
+        - {x: 43.833374, y: 14.833328}
+      - - {x: -9.166626, y: 35.83333}
+        - {x: -9.166626, y: 24.833328}
+        - {x: -7.166626, y: 20.833328}
+        - {x: 0.833374, y: 20.833328}
+        - {x: 2.833374, y: 23.833328}
+        - {x: 2.833374, y: 35.83333}
+      - - {x: 71.833374, y: 47.83333}
+        - {x: 67.833374, y: 43.83333}
+        - {x: 67.833374, y: 37.83333}
+        - {x: 75.833374, y: 37.83333}
+        - {x: 78.833374, y: 38.83333}
+        - {x: 78.833374, y: 45.83333}
+        - {x: 74.833374, y: 47.83333}
+      - - {x: -87.166626, y: 91.83333}
+        - {x: -87.166626, y: 83.83333}
+        - {x: -85.166626, y: 81.83333}
+        - {x: -82.166626, y: 81.83333}
+        - {x: -78.166626, y: 83.83333}
+        - {x: -78.166626, y: 88.83333}
+        - {x: -79.166626, y: 91.83333}
+    - name: Office_Male_Explode_sheet_240
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 190
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_241
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 184
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_242
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 38
+        width: 403
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.888916, y: -104.72223}
+        - {x: 57.888916, y: -104.72223}
+        - {x: 55.888916, y: -107.72223}
+        - {x: 55.888916, y: -112.72223}
+        - {x: 57.888916, y: -113.72223}
+        - {x: 63.888916, y: -113.72223}
+        - {x: 65.888916, y: -110.72223}
+        - {x: 65.888916, y: -105.72223}
+      - - {x: 38.888916, y: -72.72223}
+        - {x: 36.888916, y: -74.72223}
+        - {x: 36.888916, y: -78.72223}
+        - {x: 38.888916, y: -83.72223}
+        - {x: 38.888916, y: -84.72223}
+        - {x: 46.888916, y: -84.72223}
+        - {x: 51.888916, y: -81.72223}
+        - {x: 51.888916, y: -72.72223}
+      - - {x: 28.888916, y: -53.72223}
+        - {x: 24.888916, y: -57.72223}
+        - {x: 24.888916, y: -65.72223}
+        - {x: 25.888916, y: -66.72223}
+        - {x: 31.888916, y: -66.72223}
+        - {x: 34.888916, y: -59.72223}
+        - {x: 34.888916, y: -57.72223}
+        - {x: 30.888916, y: -53.72223}
+      - - {x: -50.111084, y: -44.72223}
+        - {x: -50.111084, y: -52.72223}
+        - {x: -47.111084, y: -53.72223}
+        - {x: -40.111084, y: -53.72223}
+        - {x: -40.111084, y: -46.72223}
+        - {x: -41.111084, y: -44.72223}
+      - - {x: 14.888916, y: 7.277771}
+        - {x: 12.888916, y: 4.277771}
+        - {x: -3.111084, y: -11.722229}
+        - {x: -3.111084, y: -18.722229}
+        - {x: 27.888916, y: -50.72223}
+        - {x: 29.888916, y: -51.72223}
+        - {x: 37.888916, y: -51.72223}
+        - {x: 47.888916, y: -44.72223}
+        - {x: 47.888916, y: -15.722229}
+        - {x: 36.888916, y: 7.277771}
+      - - {x: 57.888916, y: -38.72223}
+        - {x: 54.888916, y: -39.72223}
+        - {x: 54.888916, y: -47.72223}
+        - {x: 55.888916, y: -49.72223}
+        - {x: 63.888916, y: -49.72223}
+        - {x: 68.888916, y: -45.72223}
+        - {x: 68.888916, y: -41.72223}
+        - {x: 65.888916, y: -38.72223}
+      - - {x: -132.11108, y: -24.722229}
+        - {x: -134.11108, y: -26.722229}
+        - {x: -134.11108, y: -30.722229}
+        - {x: -132.11108, y: -32.72223}
+        - {x: -130.11108, y: -32.72223}
+        - {x: -127.111084, y: -29.722229}
+        - {x: -127.111084, y: -26.722229}
+        - {x: -129.11108, y: -24.722229}
+      - - {x: -27.111084, y: -5.722229}
+        - {x: -30.111084, y: -14.722229}
+        - {x: -30.111084, y: -25.722229}
+        - {x: -17.111084, y: -25.722229}
+        - {x: -12.111084, y: -21.722229}
+        - {x: -12.111084, y: -8.722229}
+        - {x: -14.111084, y: -5.722229}
+      - - {x: 48.888916, y: -8.722229}
+        - {x: 47.888916, y: -12.722229}
+        - {x: 47.888916, y: -22.722229}
+        - {x: 49.888916, y: -23.722229}
+        - {x: 55.888916, y: -23.722229}
+        - {x: 61.888916, y: -21.722229}
+        - {x: 61.888916, y: -10.722229}
+        - {x: 58.888916, y: -8.722229}
+      - - {x: -47.111084, y: 10.277771}
+        - {x: -52.111084, y: 10.277771}
+        - {x: -53.111084, y: 7.277771}
+        - {x: -53.111084, y: 1.277771}
+        - {x: -50.111084, y: 0.277771}
+        - {x: -46.111084, y: 0.277771}
+        - {x: -44.111084, y: 4.277771}
+        - {x: -44.111084, y: 9.277771}
+      - - {x: 80.888916, y: 20.277771}
+        - {x: 80.888916, y: 12.277771}
+        - {x: 82.888916, y: 11.277771}
+        - {x: 92.888916, y: 11.277771}
+        - {x: 94.888916, y: 16.277771}
+        - {x: 94.888916, y: 22.277771}
+        - {x: 84.888916, y: 23.277771}
+      - - {x: -106.111084, y: 37.27777}
+        - {x: -112.111084, y: 33.27777}
+        - {x: -112.111084, y: 28.277771}
+        - {x: -111.111084, y: 26.277771}
+        - {x: -101.111084, y: 26.277771}
+        - {x: -99.111084, y: 28.277771}
+        - {x: -99.111084, y: 37.27777}
+      - - {x: -62.111084, y: 62.27777}
+        - {x: -64.111084, y: 56.27777}
+        - {x: -64.111084, y: 48.27777}
+        - {x: -61.111084, y: 45.27777}
+        - {x: -52.111084, y: 45.27777}
+        - {x: -48.111084, y: 47.27777}
+        - {x: -48.111084, y: 58.27777}
+        - {x: -53.111084, y: 62.27777}
+      - - {x: -107.111084, y: 92.27777}
+        - {x: -108.111084, y: 89.27777}
+        - {x: -108.111084, y: 83.27777}
+        - {x: -105.111084, y: 81.27777}
+        - {x: -92.111084, y: 81.27777}
+        - {x: -91.111084, y: 83.27777}
+        - {x: -91.111084, y: 89.27777}
+        - {x: -95.111084, y: 92.27777}
+      - - {x: 60.888916, y: 101.27777}
+        - {x: 57.888916, y: 100.27777}
+        - {x: 57.888916, y: 91.27777}
+        - {x: 59.888916, y: 90.27777}
+        - {x: 64.888916, y: 90.27777}
+        - {x: 68.888916, y: 94.27777}
+        - {x: 68.888916, y: 101.27777}
+      - - {x: 92.888916, y: 123.27777}
+        - {x: 92.888916, y: 118.27777}
+        - {x: 95.888916, y: 116.27777}
+        - {x: 97.888916, y: 116.27777}
+        - {x: 103.888916, y: 119.27777}
+        - {x: 103.888916, y: 124.27777}
+        - {x: 101.888916, y: 126.27777}
+        - {x: 95.888916, y: 126.27777}
+    - name: Office_Male_Explode_sheet_243
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 186
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_244
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_245
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 176
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_246
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 158
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_247
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 161
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_248
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 157
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_249
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 152
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_250
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 144
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_251
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 138
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_252
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 140
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_253
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 134
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_254
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 121
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_255
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 114
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_256
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 118
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_257
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_258
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 82
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_259
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 85
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_260
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 73
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Office_Male_Explode_sheet_261
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 45
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

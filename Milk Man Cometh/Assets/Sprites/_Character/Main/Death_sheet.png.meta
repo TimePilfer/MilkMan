@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: abf9d9f6c28922b4db5516d0ad2ecf54
+timeCreated: 1487020826
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Death_sheet_0
+    21300002: Death_sheet_1
+    21300004: Death_sheet_2
+    21300006: Death_sheet_3
+    21300008: Death_sheet_4
+    21300010: Death_sheet_5
+    21300012: Death_sheet_6
+    21300014: Death_sheet_7
+    21300016: Death_sheet_8
+    21300018: Death_sheet_9
+    21300020: Death_sheet_10
+    21300022: Death_sheet_11
+    21300024: Death_sheet_12
+    21300026: Death_sheet_13
+    21300028: Death_sheet_14
+    21300030: Death_sheet_15
+    21300032: Death_sheet_16
+    21300034: Death_sheet_17
+    21300036: Death_sheet_18
+    21300038: Death_sheet_19
+    21300040: Death_sheet_20
+    21300042: Death_sheet_21
+    21300044: Death_sheet_22
+    21300046: Death_sheet_23
+    21300048: Death_sheet_24
+    21300050: Death_sheet_25
+    21300052: Death_sheet_26
+    21300054: Death_sheet_27
+    21300056: Death_sheet_28
+    21300058: Death_sheet_29
+    21300060: Death_sheet_30
+    21300062: Death_sheet_31
+    21300064: Death_sheet_32
+    21300066: Death_sheet_33
+    21300068: Death_sheet_34
+    21300070: Death_sheet_35
+    21300072: Death_sheet_36
+    21300074: Death_sheet_37
+    21300076: Death_sheet_38
+    21300078: Death_sheet_39
+    21300080: Death_sheet_40
+    21300082: Death_sheet_41
+    21300084: Death_sheet_42
+    21300086: Death_sheet_43
+    21300088: Death_sheet_44
+    21300090: Death_sheet_45
+    21300092: Death_sheet_46
+    21300094: Death_sheet_47
+    21300096: Death_sheet_48
+    21300098: Death_sheet_49
+    21300100: Death_sheet_50
+    21300102: Death_sheet_51
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3596
+        width: 310
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3597
+        width: 236
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 3597
+        width: 248
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 3597
+        width: 276
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 3599
+        width: 276
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3242
+        width: 277
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3239
+        width: 277
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3239
+        width: 276
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 3240
+        width: 277
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 3240
+        width: 276
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2876
+        width: 277
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2878
+        width: 277
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2878
+        width: 276
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2876
+        width: 277
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 2878
+        width: 277
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2520
+        width: 277
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2520
+        width: 277
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2520
+        width: 278
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2520
+        width: 277
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2520
+        width: 277
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2157
+        width: 277
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2157
+        width: 276
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2155
+        width: 276
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2157
+        width: 277
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 2155
+        width: 278
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1791
+        width: 306
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1789
+        width: 307
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1789
+        width: 308
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1790
+        width: 305
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1788
+        width: 305
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1428
+        width: 306
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1428
+        width: 307
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1428
+        width: 304
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1428
+        width: 307
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1428
+        width: 309
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1068
+        width: 304
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1068
+        width: 307
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1068
+        width: 312
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1068
+        width: 319
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1066
+        width: 334
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 709
+        width: 350
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 707
+        width: 370
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 720
+        width: 397
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 720
+        width: 429
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 359
+        width: 428
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 359
+        width: 429
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 361
+        width: 428
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 357
+        width: 429
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3
+        width: 428
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 429
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 429
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Death_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 3
+        width: 429
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
