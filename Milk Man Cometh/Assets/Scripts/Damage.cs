@@ -62,15 +62,31 @@ public class Damage : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player" || collision.gameObject.tag == "Bullet")
         {
-            health--;
+            if (gameObject.tag != "Enemy")
+            {
+                health--;
 
                 if(health<=0)
                 {
                     Die();
                 }
+            }
+            
         }
 
-        
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Bullet")
+        {
+                health--;
+
+                if (health <= 0)
+                {
+                    Die();
+                }
+
+
+        }
+
+
     }
     /*
      * Handles when something dies or is destroyed
@@ -79,7 +95,7 @@ public class Damage : MonoBehaviour {
     {
         if (gameObject.tag == "Enemy")
         {
-            anim.SetTrigger("Dead");
+            anim.SetBool("Dead", true);
             //BasicControls.player.anim.SetBool("Dead", true);
         }
 

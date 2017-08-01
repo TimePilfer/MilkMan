@@ -38,7 +38,7 @@ public class AIAttack : MonoBehaviour {
     private int attackTime = 1;
     Transform myTransform; 
     bool PauseRunning = false;
-    Animation Anim;
+    Animator anim;
     int lookStrength = 2;
     bool option = false;
     bool option2 = false;
@@ -57,13 +57,14 @@ public class AIAttack : MonoBehaviour {
     {
 
         myTransform = transform;
+        anim = GetComponent<Animator>();
     }
 
 
 
     void Start()
     {
-        Anim.Play(idleAnim);
+        //anim.Play(idleAnim);
         target = GameObject.FindWithTag("Player").transform;
 
     }
@@ -72,116 +73,125 @@ public class AIAttack : MonoBehaviour {
 
     void Update()
     {
-        Debug.DrawLine(target.position, BulletPos.position, Color.cyan);
-        var distance = (target.position - BulletPos.position).magnitude;
+        //Debug.DrawLine(target.position, BulletPos.position, Color.cyan);
+        var distance = (target.position - myTransform.position).magnitude;
 
-        if (target.position.y == transform.position.y)
-        {
-            idleaimAnimReal = idleaimAnim;
-        }
-        if (target.position.y > transform.position.y)
-        {
-            idleaimAnimReal = idleaimhighAnim;
-        }
-        if (target.position.y < transform.position.y)
-        {
-            idleaimAnimReal = idleaimlowAnim;
-        }
-
-        BulletPos.LookAt(target);
-
-
-        if (distance < chaseRange)
+        if (distance < 100.0f)
         {
 
-            chasing = true;
-
+                anim.SetBool("Melee", true);
+            
         }
-
-        if (chasing)
+        else if (distance >= 100.0f)
         {
-            if (PauseRunning == false)
-            {
-
-                Vector3 targetRot = new Vector3(target.position.x, this.transform.position.y, target.position.z);
-                transform.LookAt(targetRot);
-
-                controller.SimpleMove(runSpeed * transform.forward);
-
-                Anim.Play(runAnim);
-            }
+            anim.SetBool("Melee", false);
         }
-        else
-        {
-            Anim.Play(idleAnim);
-
-        }
-
-        if (distance > giveUpRange)
-        {
-
-            chasing = false;
-
-        }
-
-        if (distance < biteRange)
-        {
-
-            Anim.Play(biteAnim);
-            attackRepeatTime = 0;
-
-        }
-
-        if (distance < dontComeCloserRange)
-        {
-            //            targetRotation = Quaternion.LookRotation (target.position - transform.position);
-            //    
-            //               str = Mathf.Min (lookStrength * Time.deltaTime, 1);
-
-            Vector3 targetRot = new Vector3(target.position.x, this.transform.position.y, target.position.z);
-            //       transform.rotation.z = Quaternion.Lerp (transform.rotation, targetRotation, str);
-            transform.LookAt(targetRot);
-            PauseRunning = true;
-            if (option == false)
-            {
-                InvokeRepeating("Fire", 0, attackRepeatTime);
-                option = true;
-                dontComeCloserRange += 5;
-                option2 = true;
-            }
-        }
-        if (distance > dontComeCloserRange)
-        {
-            PauseRunning = false;
-            CancelInvoke();
-            option = false;
-            if (option2 == true)
-            {
-                dontComeCloserRange -= 5;
-                option2 = false;
-            }
-        }
-
-        if (PauseRunning == true)
-        {
-            Anim.Play(idleaimAnim);
-
-
-        }
-    }
-
-    void Fire()
-    {
-        Anim.Play(shootAnim);
-        attackRepeatTime = 2;
-        Debug.Log("Shoot1");
-        Transform Bullet;
-        GameObject Muzzle;
-        AudSource.Play();
-        Bullet = Instantiate(Proj, BulletPos.position, BulletPos.rotation);
-        Muzzle = Instantiate(MuzzleFlash, BulletPos.position, BulletPos.rotation).gameObject;
-        Bullet.GetComponent< Rigidbody > ().AddForce(Bullet.transform.forward * BulletSpeed);
-        Debug.Log("Shoot");
 
     }
+    //    if (target.position.y == transform.position.y)
+    //    {
+    //        idleaimAnimReal = idleaimAnim;
+    //    }
+    //    if (target.position.y > transform.position.y)
+    //    {
+    //        idleaimAnimReal = idleaimhighAnim;
+    //    }
+    //    if (target.position.y < transform.position.y)
+    //    {
+    //        idleaimAnimReal = idleaimlowAnim;
+    //    }
+
+    //    BulletPos.LookAt(target);
+
+
+    //    if (distance < chaseRange)
+    //    {
+
+    //        chasing = true;
+
+    //    }
+
+    //    if (chasing)
+    //    {
+    //        if (PauseRunning == false)
+    //        {
+
+    //            Vector3 targetRot = new Vector3(target.position.x, this.transform.position.y, target.position.z);
+    //            transform.LookAt(targetRot);
+
+    //            controller.SimpleMove(runSpeed * transform.forward);
+
+    //            Anim.Play(runAnim);
+    //        }
+    //    }
+    //    else
+    //    {
+    //        Anim.Play(idleAnim);
+
+    //    }
+
+    //    if (distance > giveUpRange)
+    //    {
+
+    //        chasing = false;
+
+    //    }
+
+    //    if (distance < biteRange)
+    //    {
+
+    //        Anim.Play(biteAnim);
+    //        attackRepeatTime = 0;
+
+    //    }
+
+    //    if (distance < dontComeCloserRange)
+    //    {
+    //        //            targetRotation = Quaternion.LookRotation (target.position - transform.position);
+    //        //    
+    //        //               str = Mathf.Min (lookStrength * Time.deltaTime, 1);
+
+    //        Vector3 targetRot = new Vector3(target.position.x, this.transform.position.y, target.position.z);
+    //        //       transform.rotation.z = Quaternion.Lerp (transform.rotation, targetRotation, str);
+    //        transform.LookAt(targetRot);
+    //        PauseRunning = true;
+    //        if (option == false)
+    //        {
+    //            InvokeRepeating("Fire", 0, attackRepeatTime);
+    //            option = true;
+    //            dontComeCloserRange += 5;
+    //            option2 = true;
+    //        }
+    //    }
+    //    if (distance > dontComeCloserRange)
+    //    {
+    //        PauseRunning = false;
+    //        CancelInvoke();
+    //        option = false;
+    //        if (option2 == true)
+    //        {
+    //            dontComeCloserRange -= 5;
+    //            option2 = false;
+    //        }
+    //    }
+
+    //    if (PauseRunning == true)
+    //    {
+    //        Anim.Play(idleaimAnim);
+    //    }
+    //}
+
+    //void Fire()
+    //{
+    //    Anim.Play(shootAnim);
+    //    attackRepeatTime = 2;
+    //    Debug.Log("Shoot1");
+    //    Transform Bullet;
+    //    GameObject Muzzle;
+    //    AudSource.Play();
+    //    Bullet = Instantiate(Proj, BulletPos.position, BulletPos.rotation);
+    //    Muzzle = Instantiate(MuzzleFlash, BulletPos.position, BulletPos.rotation).gameObject;
+    //    Bullet.GetComponent< Rigidbody > ().AddForce(Bullet.transform.forward * BulletSpeed);
+    //    Debug.Log("Shoot");
+    //}
 }
