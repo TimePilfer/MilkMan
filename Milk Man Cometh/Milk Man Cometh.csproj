@@ -84,6 +84,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL10.cs" />
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL11.cs" />
     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL12.cs" />
@@ -102,6 +106,7 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\ButtonInteract.cs" />
+    <Compile Include="Assets\Scripts\CameraLock.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\DeathFall.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
@@ -169,6 +174,15 @@
   <ItemGroup>
     <None Include="Assets\BasicBeamShot\HowToUse_EN.txt" />
     <None Include="Assets\BasicBeamShot\HowToUse_JP.txt" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\DLAA.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAA2.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAA3Console.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAAPreset2.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAAPreset3.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\NFAA.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\SSAA.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\Fluvio\README.txt" />
     <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.cginc" />
     <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.compute" />
