@@ -26,9 +26,5 @@ MonoBehaviour:
   m_EnableOpenCLGPUOnMac: 0
   m_OpenCLPlatformBlacklist: []
   m_OpenCLDeviceBlacklist: []
-<<<<<<< HEAD
-  m_ProjectID: 6c984e75-d95f-4d06-8b89-dfa45d377f4d
-=======
-  m_ProjectID: d29091a2-22ed-48d5-88a4-27d9a89f0667
->>>>>>> refs/remotes/origin/Eric_2
+  m_ProjectID: d8eccb1c-0304-4dcb-ae6d-0d58e42792a3
   m_SortingLayerUniqueIDs: 00000000f17d7ac853738c5ba16bae95f1e2113d91b8e508
