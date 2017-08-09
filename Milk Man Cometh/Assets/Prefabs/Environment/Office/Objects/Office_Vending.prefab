@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33685034101809202}
   - component: {fileID: 64058241314409460}
   - component: {fileID: 23072819595624774}
+  - component: {fileID: 210189915387893902}
   m_Layer: 0
   m_Name: Office_Vending
   m_TagString: background
@@ -36,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1414996874370012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.6, y: 20.2, z: 16.4}
-  m_LocalScale: {x: 12, y: 20, z: 1}
+  m_LocalPosition: {x: -85.3, y: 20.9, z: 18.6}
+  m_LocalScale: {x: 13, y: 22, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,3 +96,13 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!210 &210189915387893902
+SortingGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414996874370012}
+  m_Enabled: 1
+  m_SortingLayerID: -1783731295
+  m_SortingLayer: 3
+  m_SortingOrder: 1
