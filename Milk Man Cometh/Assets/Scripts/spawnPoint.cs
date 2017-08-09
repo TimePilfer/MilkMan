@@ -7,7 +7,7 @@ public class spawnPoint : MonoBehaviour {
 
     public static spawnPoint playerSpawn;
 
-    public Transform spawn;
+    public static Transform spawn;
 
     public void setSpawn()
     {
@@ -15,12 +15,8 @@ public class spawnPoint : MonoBehaviour {
         transform.position = spawn.position;
     }
 
-    void Update()
+    void Awake()
     {
-        if (Damage.player.health <= 0)
-        {
-
-        }
 
         if (spawn == null)
         {

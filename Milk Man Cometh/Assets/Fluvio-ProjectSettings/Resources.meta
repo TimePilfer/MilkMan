@@ -1,7 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 5dee64970ed6fa7498b9d882bd1b4e65
 folderAsset: yes
 timeCreated: 1501788393
+=======
+<<<<<<< HEAD
+guid: 5dee64970ed6fa7498b9d882bd1b4e65
+folderAsset: yes
+timeCreated: 1501788393
+=======
+guid: 3735b49fdcaec48b5aa93c92bf579be1
+folderAsset: yes
+timeCreated: 1502306622
+>>>>>>> refs/remotes/origin/Eric_2
+>>>>>>> origin/master
 licenseType: Free
 DefaultImporter:
   userData: 
