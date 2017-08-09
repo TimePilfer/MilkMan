@@ -12,6 +12,9 @@ public class bulletSpawn : MonoBehaviour {
     public float fireRate;
     //The bullet prefab
     public Rigidbody2D bulletPrefab;
+
+    public GameObject stream;
+    
     public float yValue = 0f; // Used to make it look like it's shot from the gun itself (offset)
     public float xValue = 0f; // Same as above
 
@@ -41,20 +44,30 @@ public class bulletSpawn : MonoBehaviour {
             if (!isPaused)
             {
                 //If the next bullet is able to fire and the fire button is being pressed
-                if (Input.GetButton("Fire1") && Time.time > nextFire)
+                if (Input.GetButton("Fire1"))// && Time.time > nextFire)
                 {
-                    //Sets the time for the next bullet to be able to be fired
-                    nextFire = Time.time + fireRate;
-                    //Spawns a new bullet based on the bullet prefab and the location of the bullet spawn position
-                    Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
-                        transform.position.z), transform.rotation) as Rigidbody2D;
-                    //The position of the camera, and therefore the character
-                    Vector3 sp = Camera.main.WorldToScreenPoint(transform.position);
-                    //The mouse position in relation to the player
-                    Vector3 dir = (Input.mousePosition - sp).normalized;
-                    //Shoots the bullet toward the mouse
-                    bPrefab.AddForce(dir * shotSpeed);
+                    ////Sets the time for the next bullet to be able to be fired
+                    //nextFire = Time.time + fireRate;
+                    ////Spawns a new bullet based on the bullet prefab and the location of the bullet spawn position
+                    //Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
+                    //    transform.position.z), transform.rotation) as Rigidbody2D;
+                    ////The position of the camera, and therefore the character
+                    //Vector3 sp = Camera.main.WorldToScreenPoint(transform.position);
+                    ////The mouse position in relation to the player
+                    //Vector3 dir = (Input.mousePosition - sp).normalized;
+                    ////Shoots the bullet toward the mouse
+                    //bPrefab.AddForce(dir * shotSpeed);
+
+                    stream.SetActive(true);
                 }
+                else
+                {
+                    stream.SetActive(false);
+                }
+            }
+            else
+            {
+                stream.SetActive(false);
             }
 
         }

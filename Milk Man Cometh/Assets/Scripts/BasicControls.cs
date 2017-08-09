@@ -98,7 +98,6 @@ public class BasicControls : MonoBehaviour {
 
     void FixedUpdate()
     {
-
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
             if (!isPaused)

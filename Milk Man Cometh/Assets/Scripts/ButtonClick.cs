@@ -14,6 +14,8 @@ public class ButtonClick : MonoBehaviour
     public Transform player;                // The player's current position
     public int scene;
 
+    //spawnPoint spawn;
+
     Animator anim;                          // Reference to the animator component.
 
     void Awake () {
@@ -42,8 +44,8 @@ public class ButtonClick : MonoBehaviour
      * The restart level button
      */
     public void restartLevel()
-    { 
-        //player.transform.position = xY; // Reset the player's position to the starting position in the level
+    {
+        player.transform.position = new Vector3(spawnPoint.spawn.transform.position.x, spawnPoint.spawn.transform.position.y); //spawn.spawn; // Reset the player's position to the starting position in the level
         
         SceneManager.LoadScene(level);
         //anim.SetBool("Dead", false);
