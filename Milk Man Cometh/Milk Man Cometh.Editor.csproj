@@ -115,11 +115,11 @@
     <Reference Include="Ionic.Zip.Reduced">
       <HintPath>Assets\Fluvio\Editor\Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
-    <Reference Include="Cloo">
-      <HintPath>Assets\Fluvio\_Main\Cloo.dll</HintPath>
-    </Reference>
     <Reference Include="Fluvio.Editor">
       <HintPath>Assets\Fluvio\Editor\Fluvio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cloo">
+      <HintPath>Assets\Fluvio\_Main\Cloo.dll</HintPath>
     </Reference>
     <Reference Include="Fluvio.Runtime">
       <HintPath>Assets\Fluvio\_Main\Fluvio.Runtime.dll</HintPath>
