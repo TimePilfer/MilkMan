@@ -1,9 +1,34 @@
 fileFormatVersion: 2
 guid: 1c6c4abce1bb50142a5a900183e57d71
-timeCreated: 1493667114
+timeCreated: 1502920456
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Female2_Explode_sheet_0
+    21300002: Office_Female2_Explode_sheet_1
+    21300004: Office_Female2_Explode_sheet_2
+    21300006: Office_Female2_Explode_sheet_3
+    21300008: Office_Female2_Explode_sheet_4
+    21300010: Office_Female2_Explode_sheet_5
+    21300012: Office_Female2_Explode_sheet_6
+    21300014: Office_Female2_Explode_sheet_7
+    21300016: Office_Female2_Explode_sheet_8
+    21300018: Office_Female2_Explode_sheet_9
+    21300020: Office_Female2_Explode_sheet_10
+    21300022: Office_Female2_Explode_sheet_11
+    21300024: Office_Female2_Explode_sheet_12
+    21300026: Office_Female2_Explode_sheet_13
+    21300028: Office_Female2_Explode_sheet_14
+    21300030: Office_Female2_Explode_sheet_15
+    21300032: Office_Female2_Explode_sheet_16
+    21300034: Office_Female2_Explode_sheet_17
+    21300036: Office_Female2_Explode_sheet_18
+    21300038: Office_Female2_Explode_sheet_19
+    21300040: Office_Female2_Explode_sheet_20
+    21300042: Office_Female2_Explode_sheet_21
+    21300044: Office_Female2_Explode_sheet_22
+    21300046: Office_Female2_Explode_sheet_23
+    21300048: Office_Female2_Explode_sheet_24
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +83,342 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2156
+        width: 208
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2148
+        width: 222
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 2159
+        width: 212
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2148
+        width: 219
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2152
+        width: 227
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1796
+        width: 222
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1796
+        width: 215
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1796
+        width: 245
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1796
+        width: 274
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1796
+        width: 286
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1447
+        width: 326
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1429
+        width: 330
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1432
+        width: 341
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1436
+        width: 363
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1436
+        width: 367
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1062
+        width: 434
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1028
+        width: 438
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1021
+        width: 475
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1013
+        width: 452
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 617
+        width: 456
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 609
+        width: 530
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 609
+        width: 523
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 42
+        width: 504
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 53
+        width: 474
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Explode_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 60
+        width: 493
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

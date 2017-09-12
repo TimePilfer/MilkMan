@@ -24,6 +24,7 @@ public class Bullet : MonoBehaviour {
         _rb = GetComponent<Rigidbody2D>();
         //Puts a velocity on the bullet based on the bullet speed
         _rb.velocity = new Vector2(_bulletSpeed, 0);
+
         //Adds a force to the bullet based on the velocity
         _rb.AddForce(_rb.velocity, (ForceMode2D.Force));
 
