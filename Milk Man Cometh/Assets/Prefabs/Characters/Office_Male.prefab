@@ -8,7 +8,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 450932}
-  - component: {fileID: 114724324963068334}
   - component: {fileID: 114044973086054164}
   - component: {fileID: 50819436836821530}
   - component: {fileID: 114394870081704114}
@@ -18,6 +17,7 @@ GameObject:
   - component: {fileID: 61423497082620142}
   - component: {fileID: 114145055282645682}
   - component: {fileID: 114590503007552276}
+  - component: {fileID: 114312888255741300}
   m_Layer: 10
   m_Name: Office_Male
   m_TagString: Enemy
@@ -32,7 +32,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 193902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 14, z: 2.5}
+  m_LocalPosition: {x: 0, y: 14.425325, z: 2.5}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -140,8 +140,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ab83f001cfcb1c4e9ffd76151b3ee9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 100
   die: 0
+--- !u!114 &114312888255741300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae73ab1d415c7c4a9ffbd954f482d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!114 &114394870081704114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -172,18 +184,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1618aa0dbc54ba3409d9cfe55820e2c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
---- !u!114 &114724324963068334
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 193902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae73ab1d415c7c4a9ffbd954f482d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}

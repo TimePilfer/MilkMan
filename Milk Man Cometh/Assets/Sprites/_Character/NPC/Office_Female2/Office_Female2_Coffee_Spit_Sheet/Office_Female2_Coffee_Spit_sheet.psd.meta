@@ -1,9 +1,49 @@
 fileFormatVersion: 2
 guid: 09d4d54426419fe489d5e1f3a09c59d7
-timeCreated: 1493667094
+timeCreated: 1502920174
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Female2_Coffee_Spit_sheet_0
+    21300002: Office_Female2_Coffee_Spit_sheet_1
+    21300004: Office_Female2_Coffee_Spit_sheet_2
+    21300006: Office_Female2_Coffee_Spit_sheet_3
+    21300008: Office_Female2_Coffee_Spit_sheet_4
+    21300010: Office_Female2_Coffee_Spit_sheet_5
+    21300012: Office_Female2_Coffee_Spit_sheet_6
+    21300014: Office_Female2_Coffee_Spit_sheet_7
+    21300016: Office_Female2_Coffee_Spit_sheet_8
+    21300018: Office_Female2_Coffee_Spit_sheet_9
+    21300020: Office_Female2_Coffee_Spit_sheet_10
+    21300022: Office_Female2_Coffee_Spit_sheet_11
+    21300024: Office_Female2_Coffee_Spit_sheet_12
+    21300026: Office_Female2_Coffee_Spit_sheet_13
+    21300028: Office_Female2_Coffee_Spit_sheet_14
+    21300030: Office_Female2_Coffee_Spit_sheet_15
+    21300032: Office_Female2_Coffee_Spit_sheet_16
+    21300034: Office_Female2_Coffee_Spit_sheet_17
+    21300036: Office_Female2_Coffee_Spit_sheet_18
+    21300038: Office_Female2_Coffee_Spit_sheet_19
+    21300040: Office_Female2_Coffee_Spit_sheet_20
+    21300042: Office_Female2_Coffee_Spit_sheet_21
+    21300044: Office_Female2_Coffee_Spit_sheet_22
+    21300046: Office_Female2_Coffee_Spit_sheet_23
+    21300048: Office_Female2_Coffee_Spit_sheet_24
+    21300050: Office_Female2_Coffee_Spit_sheet_25
+    21300052: Office_Female2_Coffee_Spit_sheet_26
+    21300054: Office_Female2_Coffee_Spit_sheet_27
+    21300056: Office_Female2_Coffee_Spit_sheet_28
+    21300058: Office_Female2_Coffee_Spit_sheet_29
+    21300060: Office_Female2_Coffee_Spit_sheet_30
+    21300062: Office_Female2_Coffee_Spit_sheet_31
+    21300064: Office_Female2_Coffee_Spit_sheet_32
+    21300066: Office_Female2_Coffee_Spit_sheet_33
+    21300068: Office_Female2_Coffee_Spit_sheet_34
+    21300070: Office_Female2_Coffee_Spit_sheet_35
+    21300072: Office_Female2_Coffee_Spit_sheet_36
+    21300074: Office_Female2_Coffee_Spit_sheet_37
+    21300076: Office_Female2_Coffee_Spit_sheet_38
+    21300078: Office_Female2_Coffee_Spit_sheet_39
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +98,537 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2521
+        width: 195
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2518
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2518
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2518
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2518
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2161
+        width: 195
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2161
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2161
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2161
+        width: 195
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 2161
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1805
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1801
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1801
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1801
+        width: 201
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1801
+        width: 204
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1448
+        width: 210
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1442
+        width: 217
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1442
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1442
+        width: 192
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1441
+        width: 196
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1081
+        width: 195
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1081
+        width: 191
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1081
+        width: 195
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1081
+        width: 216
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1085
+        width: 209
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 721
+        width: 204
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 721
+        width: 201
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 721
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 718
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 718
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 361
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 365
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 361
+        width: 194
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 361
+        width: 195
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 361
+        width: 196
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 12
+        width: 195
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 12
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 12
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Coffee_Spit_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 15
+        width: 194
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

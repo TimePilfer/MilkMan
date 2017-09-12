@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6170866}
   - component: {fileID: 11437092}
   - component: {fileID: 11431404}
+  - component: {fileID: 210485980547475192}
   m_Layer: 13
   m_Name: Shot
   m_TagString: Bullet
@@ -118,7 +119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -186,3 +187,13 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137664}
   m_IsPrefabParent: 1
+--- !u!210 &210485980547475192
+SortingGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137664}
+  m_Enabled: 1
+  m_SortingLayerID: 1024582385
+  m_SortingLayer: 4
+  m_SortingOrder: 0

@@ -1,9 +1,32 @@
 fileFormatVersion: 2
 guid: 7403091a670f959429c46b02d0bf44a8
-timeCreated: 1493667201
+timeCreated: 1502920609
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Female2_Melee_Attack_Walking_Sheet_0
+    21300002: Office_Female2_Melee_Attack_Walking_Sheet_1
+    21300004: Office_Female2_Melee_Attack_Walking_Sheet_2
+    21300006: Office_Female2_Melee_Attack_Walking_Sheet_3
+    21300008: Office_Female2_Melee_Attack_Walking_Sheet_4
+    21300010: Office_Female2_Melee_Attack_Walking_Sheet_5
+    21300012: Office_Female2_Melee_Attack_Walking_Sheet_6
+    21300014: Office_Female2_Melee_Attack_Walking_Sheet_7
+    21300016: Office_Female2_Melee_Attack_Walking_Sheet_8
+    21300018: Office_Female2_Melee_Attack_Walking_Sheet_9
+    21300020: Office_Female2_Melee_Attack_Walking_Sheet_10
+    21300022: Office_Female2_Melee_Attack_Walking_Sheet_11
+    21300024: Office_Female2_Melee_Attack_Walking_Sheet_12
+    21300026: Office_Female2_Melee_Attack_Walking_Sheet_13
+    21300028: Office_Female2_Melee_Attack_Walking_Sheet_14
+    21300030: Office_Female2_Melee_Attack_Walking_Sheet_15
+    21300032: Office_Female2_Melee_Attack_Walking_Sheet_16
+    21300034: Office_Female2_Melee_Attack_Walking_Sheet_17
+    21300036: Office_Female2_Melee_Attack_Walking_Sheet_18
+    21300038: Office_Female2_Melee_Attack_Walking_Sheet_19
+    21300040: Office_Female2_Melee_Attack_Walking_Sheet_20
+    21300042: Office_Female2_Melee_Attack_Walking_Sheet_21
+    21300044: Office_Female2_Melee_Attack_Walking_Sheet_22
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +57,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +81,316 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1441
+        width: 193
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1439
+        width: 240
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1441
+        width: 284
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1438
+        width: 302
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1440
+        width: 305
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1083
+        width: 265
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1081
+        width: 252
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1081
+        width: 219
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1079
+        width: 215
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1079
+        width: 210
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 718
+        width: 209
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 716
+        width: 216
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 716
+        width: 211
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 719
+        width: 274
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 720
+        width: 344
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 362
+        width: 382
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 362
+        width: 387
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 364
+        width: 352
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 365
+        width: 329
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 7
+        width: 264
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3
+        width: 240
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5
+        width: 210
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female2_Melee_Attack_Walking_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 8
+        width: 205
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

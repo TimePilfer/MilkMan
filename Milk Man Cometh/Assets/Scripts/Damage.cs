@@ -18,10 +18,12 @@ public class Damage : MonoBehaviour {
     // A boolean to track if the player is dead
     public bool die = false;
 
+    public UnityEngine.UI.Slider healthBar;
+
     void Awake()
     {
         //Get the animator for the enemy
-        if(gameObject.tag == "Enemy")
+        if (gameObject.tag == "Enemy")
         {
             anim = GetComponent<Animator>();
         }
@@ -60,37 +62,33 @@ public class Damage : MonoBehaviour {
      */
     void OnCollisionEnter2D(Collision2D collision)
     {
+
+        Debug.Log("Collision");
+
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player" || collision.gameObject.tag == "Bullet")
         {
-            if (gameObject.tag != "Enemy")
-            {
-                health--;
 
-                if(health<=0)
-                {
-                    Die();
-                }
+            Debug.Log("Damage Hit");
+            health--;
+
+            if (gameObject.tag == "Player")
+            {
+                healthBar.value = health;
             }
             
-        }
 
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Bullet")
-        {
-                health--;
-
-                if (health <= 0)
-                {
-                    Die();
-                }
-
+            if (health <= 0)
+            {
+                Die();
+            }
 
         }
-
 
     }
     /*
      * Handles when something dies or is destroyed
      */
+
     void Die()
     {
         if (gameObject.tag == "Enemy")
@@ -104,6 +102,11 @@ public class Damage : MonoBehaviour {
             Destroy(gameObject);
         }
         
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     public void Save()

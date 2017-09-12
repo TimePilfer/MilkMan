@@ -1,9 +1,261 @@
 fileFormatVersion: 2
 guid: 6e094e456a31d524d8643206cda6842a
-timeCreated: 1493670999
+timeCreated: 1502917977
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Male2_Explode_sheet_0
+    21300002: Office_Male2_Explode_sheet_1
+    21300004: Office_Male2_Explode_sheet_2
+    21300006: Office_Male2_Explode_sheet_3
+    21300008: Office_Male2_Explode_sheet_4
+    21300010: Office_Male2_Explode_sheet_5
+    21300012: Office_Male2_Explode_sheet_6
+    21300014: Office_Male2_Explode_sheet_7
+    21300016: Office_Male2_Explode_sheet_8
+    21300018: Office_Male2_Explode_sheet_9
+    21300020: Office_Male2_Explode_sheet_10
+    21300022: Office_Male2_Explode_sheet_11
+    21300024: Office_Male2_Explode_sheet_12
+    21300026: Office_Male2_Explode_sheet_13
+    21300028: Office_Male2_Explode_sheet_14
+    21300030: Office_Male2_Explode_sheet_15
+    21300032: Office_Male2_Explode_sheet_16
+    21300034: Office_Male2_Explode_sheet_17
+    21300036: Office_Male2_Explode_sheet_18
+    21300038: Office_Male2_Explode_sheet_19
+    21300040: Office_Male2_Explode_sheet_20
+    21300042: Office_Male2_Explode_sheet_21
+    21300044: Office_Male2_Explode_sheet_22
+    21300046: Office_Male2_Explode_sheet_23
+    21300048: Office_Male2_Explode_sheet_24
+    21300050: Office_Male2_Explode_sheet_25
+    21300052: Office_Male2_Explode_sheet_26
+    21300054: Office_Male2_Explode_sheet_27
+    21300056: Office_Male2_Explode_sheet_28
+    21300058: Office_Male2_Explode_sheet_29
+    21300060: Office_Male2_Explode_sheet_30
+    21300062: Office_Male2_Explode_sheet_31
+    21300064: Office_Male2_Explode_sheet_32
+    21300066: Office_Male2_Explode_sheet_33
+    21300068: Office_Male2_Explode_sheet_34
+    21300070: Office_Male2_Explode_sheet_35
+    21300072: Office_Male2_Explode_sheet_36
+    21300074: Office_Male2_Explode_sheet_37
+    21300076: Office_Male2_Explode_sheet_38
+    21300078: Office_Male2_Explode_sheet_39
+    21300080: Office_Male2_Explode_sheet_40
+    21300082: Office_Male2_Explode_sheet_41
+    21300084: Office_Male2_Explode_sheet_42
+    21300086: Office_Male2_Explode_sheet_43
+    21300088: Office_Male2_Explode_sheet_44
+    21300090: Office_Male2_Explode_sheet_45
+    21300092: Office_Male2_Explode_sheet_46
+    21300094: Office_Male2_Explode_sheet_47
+    21300096: Office_Male2_Explode_sheet_48
+    21300098: Office_Male2_Explode_sheet_49
+    21300100: Office_Male2_Explode_sheet_50
+    21300102: Office_Male2_Explode_sheet_51
+    21300104: Office_Male2_Explode_sheet_52
+    21300106: Office_Male2_Explode_sheet_53
+    21300108: Office_Male2_Explode_sheet_54
+    21300110: Office_Male2_Explode_sheet_55
+    21300112: Office_Male2_Explode_sheet_56
+    21300114: Office_Male2_Explode_sheet_57
+    21300116: Office_Male2_Explode_sheet_58
+    21300118: Office_Male2_Explode_sheet_59
+    21300120: Office_Male2_Explode_sheet_60
+    21300122: Office_Male2_Explode_sheet_61
+    21300124: Office_Male2_Explode_sheet_62
+    21300126: Office_Male2_Explode_sheet_63
+    21300128: Office_Male2_Explode_sheet_64
+    21300130: Office_Male2_Explode_sheet_65
+    21300132: Office_Male2_Explode_sheet_66
+    21300134: Office_Male2_Explode_sheet_67
+    21300136: Office_Male2_Explode_sheet_68
+    21300138: Office_Male2_Explode_sheet_69
+    21300140: Office_Male2_Explode_sheet_70
+    21300142: Office_Male2_Explode_sheet_71
+    21300144: Office_Male2_Explode_sheet_72
+    21300146: Office_Male2_Explode_sheet_73
+    21300148: Office_Male2_Explode_sheet_74
+    21300150: Office_Male2_Explode_sheet_75
+    21300152: Office_Male2_Explode_sheet_76
+    21300154: Office_Male2_Explode_sheet_77
+    21300156: Office_Male2_Explode_sheet_78
+    21300158: Office_Male2_Explode_sheet_79
+    21300160: Office_Male2_Explode_sheet_80
+    21300162: Office_Male2_Explode_sheet_81
+    21300164: Office_Male2_Explode_sheet_82
+    21300166: Office_Male2_Explode_sheet_83
+    21300168: Office_Male2_Explode_sheet_84
+    21300170: Office_Male2_Explode_sheet_85
+    21300172: Office_Male2_Explode_sheet_86
+    21300174: Office_Male2_Explode_sheet_87
+    21300176: Office_Male2_Explode_sheet_88
+    21300178: Office_Male2_Explode_sheet_89
+    21300180: Office_Male2_Explode_sheet_90
+    21300182: Office_Male2_Explode_sheet_91
+    21300184: Office_Male2_Explode_sheet_92
+    21300186: Office_Male2_Explode_sheet_93
+    21300188: Office_Male2_Explode_sheet_94
+    21300190: Office_Male2_Explode_sheet_95
+    21300192: Office_Male2_Explode_sheet_96
+    21300194: Office_Male2_Explode_sheet_97
+    21300196: Office_Male2_Explode_sheet_98
+    21300198: Office_Male2_Explode_sheet_99
+    21300200: Office_Male2_Explode_sheet_100
+    21300202: Office_Male2_Explode_sheet_101
+    21300204: Office_Male2_Explode_sheet_102
+    21300206: Office_Male2_Explode_sheet_103
+    21300208: Office_Male2_Explode_sheet_104
+    21300210: Office_Male2_Explode_sheet_105
+    21300212: Office_Male2_Explode_sheet_106
+    21300214: Office_Male2_Explode_sheet_107
+    21300216: Office_Male2_Explode_sheet_108
+    21300218: Office_Male2_Explode_sheet_109
+    21300220: Office_Male2_Explode_sheet_110
+    21300222: Office_Male2_Explode_sheet_111
+    21300224: Office_Male2_Explode_sheet_112
+    21300226: Office_Male2_Explode_sheet_113
+    21300228: Office_Male2_Explode_sheet_114
+    21300230: Office_Male2_Explode_sheet_115
+    21300232: Office_Male2_Explode_sheet_116
+    21300234: Office_Male2_Explode_sheet_117
+    21300236: Office_Male2_Explode_sheet_118
+    21300238: Office_Male2_Explode_sheet_119
+    21300240: Office_Male2_Explode_sheet_120
+    21300242: Office_Male2_Explode_sheet_121
+    21300244: Office_Male2_Explode_sheet_122
+    21300246: Office_Male2_Explode_sheet_123
+    21300248: Office_Male2_Explode_sheet_124
+    21300250: Office_Male2_Explode_sheet_125
+    21300252: Office_Male2_Explode_sheet_126
+    21300254: Office_Male2_Explode_sheet_127
+    21300256: Office_Male2_Explode_sheet_128
+    21300258: Office_Male2_Explode_sheet_129
+    21300260: Office_Male2_Explode_sheet_130
+    21300262: Office_Male2_Explode_sheet_131
+    21300264: Office_Male2_Explode_sheet_132
+    21300266: Office_Male2_Explode_sheet_133
+    21300268: Office_Male2_Explode_sheet_134
+    21300270: Office_Male2_Explode_sheet_135
+    21300272: Office_Male2_Explode_sheet_136
+    21300274: Office_Male2_Explode_sheet_137
+    21300276: Office_Male2_Explode_sheet_138
+    21300278: Office_Male2_Explode_sheet_139
+    21300280: Office_Male2_Explode_sheet_140
+    21300282: Office_Male2_Explode_sheet_141
+    21300284: Office_Male2_Explode_sheet_142
+    21300286: Office_Male2_Explode_sheet_143
+    21300288: Office_Male2_Explode_sheet_144
+    21300290: Office_Male2_Explode_sheet_145
+    21300292: Office_Male2_Explode_sheet_146
+    21300294: Office_Male2_Explode_sheet_147
+    21300296: Office_Male2_Explode_sheet_148
+    21300298: Office_Male2_Explode_sheet_149
+    21300300: Office_Male2_Explode_sheet_150
+    21300302: Office_Male2_Explode_sheet_151
+    21300304: Office_Male2_Explode_sheet_152
+    21300306: Office_Male2_Explode_sheet_153
+    21300308: Office_Male2_Explode_sheet_154
+    21300310: Office_Male2_Explode_sheet_155
+    21300312: Office_Male2_Explode_sheet_156
+    21300314: Office_Male2_Explode_sheet_157
+    21300316: Office_Male2_Explode_sheet_158
+    21300318: Office_Male2_Explode_sheet_159
+    21300320: Office_Male2_Explode_sheet_160
+    21300322: Office_Male2_Explode_sheet_161
+    21300324: Office_Male2_Explode_sheet_162
+    21300326: Office_Male2_Explode_sheet_163
+    21300328: Office_Male2_Explode_sheet_164
+    21300330: Office_Male2_Explode_sheet_165
+    21300332: Office_Male2_Explode_sheet_166
+    21300334: Office_Male2_Explode_sheet_167
+    21300336: Office_Male2_Explode_sheet_168
+    21300338: Office_Male2_Explode_sheet_169
+    21300340: Office_Male2_Explode_sheet_170
+    21300342: Office_Male2_Explode_sheet_171
+    21300344: Office_Male2_Explode_sheet_172
+    21300346: Office_Male2_Explode_sheet_173
+    21300348: Office_Male2_Explode_sheet_174
+    21300350: Office_Male2_Explode_sheet_175
+    21300352: Office_Male2_Explode_sheet_176
+    21300354: Office_Male2_Explode_sheet_177
+    21300356: Office_Male2_Explode_sheet_178
+    21300358: Office_Male2_Explode_sheet_179
+    21300360: Office_Male2_Explode_sheet_180
+    21300362: Office_Male2_Explode_sheet_181
+    21300364: Office_Male2_Explode_sheet_182
+    21300366: Office_Male2_Explode_sheet_183
+    21300368: Office_Male2_Explode_sheet_184
+    21300370: Office_Male2_Explode_sheet_185
+    21300372: Office_Male2_Explode_sheet_186
+    21300374: Office_Male2_Explode_sheet_187
+    21300376: Office_Male2_Explode_sheet_188
+    21300378: Office_Male2_Explode_sheet_189
+    21300380: Office_Male2_Explode_sheet_190
+    21300382: Office_Male2_Explode_sheet_191
+    21300384: Office_Male2_Explode_sheet_192
+    21300386: Office_Male2_Explode_sheet_193
+    21300388: Office_Male2_Explode_sheet_194
+    21300390: Office_Male2_Explode_sheet_195
+    21300392: Office_Male2_Explode_sheet_196
+    21300394: Office_Male2_Explode_sheet_197
+    21300396: Office_Male2_Explode_sheet_198
+    21300398: Office_Male2_Explode_sheet_199
+    21300400: Office_Male2_Explode_sheet_200
+    21300402: Office_Male2_Explode_sheet_201
+    21300404: Office_Male2_Explode_sheet_202
+    21300406: Office_Male2_Explode_sheet_203
+    21300408: Office_Male2_Explode_sheet_204
+    21300410: Office_Male2_Explode_sheet_205
+    21300412: Office_Male2_Explode_sheet_206
+    21300414: Office_Male2_Explode_sheet_207
+    21300416: Office_Male2_Explode_sheet_208
+    21300418: Office_Male2_Explode_sheet_209
+    21300420: Office_Male2_Explode_sheet_210
+    21300422: Office_Male2_Explode_sheet_211
+    21300424: Office_Male2_Explode_sheet_212
+    21300426: Office_Male2_Explode_sheet_213
+    21300428: Office_Male2_Explode_sheet_214
+    21300430: Office_Male2_Explode_sheet_215
+    21300432: Office_Male2_Explode_sheet_216
+    21300434: Office_Male2_Explode_sheet_217
+    21300436: Office_Male2_Explode_sheet_218
+    21300438: Office_Male2_Explode_sheet_219
+    21300440: Office_Male2_Explode_sheet_220
+    21300442: Office_Male2_Explode_sheet_221
+    21300444: Office_Male2_Explode_sheet_222
+    21300446: Office_Male2_Explode_sheet_223
+    21300448: Office_Male2_Explode_sheet_224
+    21300450: Office_Male2_Explode_sheet_225
+    21300452: Office_Male2_Explode_sheet_226
+    21300454: Office_Male2_Explode_sheet_227
+    21300456: Office_Male2_Explode_sheet_228
+    21300458: Office_Male2_Explode_sheet_229
+    21300460: Office_Male2_Explode_sheet_230
+    21300462: Office_Male2_Explode_sheet_231
+    21300464: Office_Male2_Explode_sheet_232
+    21300466: Office_Male2_Explode_sheet_233
+    21300468: Office_Male2_Explode_sheet_234
+    21300470: Office_Male2_Explode_sheet_235
+    21300472: Office_Male2_Explode_sheet_236
+    21300474: Office_Male2_Explode_sheet_237
+    21300476: Office_Male2_Explode_sheet_238
+    21300478: Office_Male2_Explode_sheet_239
+    21300480: Office_Male2_Explode_sheet_240
+    21300482: Office_Male2_Explode_sheet_241
+    21300484: Office_Male2_Explode_sheet_242
+    21300486: Office_Male2_Explode_sheet_243
+    21300488: Office_Male2_Explode_sheet_244
+    21300490: Office_Male2_Explode_sheet_245
+    21300492: Office_Male2_Explode_sheet_246
+    21300494: Office_Male2_Explode_sheet_247
+    21300496: Office_Male2_Explode_sheet_248
+    21300498: Office_Male2_Explode_sheet_249
+    21300500: Office_Male2_Explode_sheet_250
+    21300502: Office_Male2_Explode_sheet_251
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +286,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +310,329 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2288
+        width: 230
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2288
+        width: 238
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2288
+        width: 245
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2288
+        width: 238
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2288
+        width: 269
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1840
+        width: 262
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1840
+        width: 292
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1840
+        width: 293
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1840
+        width: 311
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1840
+        width: 313
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396
+        width: 352
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1396
+        width: 365
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1392
+        width: 385
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1392
+        width: 402
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 420
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 944
+        width: 440
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 944
+        width: 418
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 944
+        width: 443
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 496
+        width: 439
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 496
+        width: 423
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 496
+        width: 427
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 485
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 48
+        width: 507
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Explode_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 48
+        width: 468
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
