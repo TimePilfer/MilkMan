@@ -46,6 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Scripts\Tonemapping.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL10.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL11.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL12.cs" />
@@ -64,6 +68,7 @@
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\ButtonClick.cs" />
      <Compile Include="Assets\Scripts\ButtonInteract.cs" />
+     <Compile Include="Assets\Scripts\CameraLock.cs" />
      <Compile Include="Assets\Scripts\Damage.cs" />
      <Compile Include="Assets\Scripts\DeathFall.cs" />
      <Compile Include="Assets\Scripts\DestroyObject.cs" />
@@ -136,6 +141,7 @@
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Mobile-Particles-Multiply.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceMetal.shader" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAAPreset2.shader" />
      <None Include="Assets\unity-movement-ai\Models\Materials\Lines.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-VertexLitBlended.shader" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Fluvio-FluidEffectSpecular.shader" />
@@ -150,22 +156,29 @@
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectComposite.shader" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectBlur.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader-Mobile.cginc" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\BasicBeamShot\HowToUse_JP.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffectShadow.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Includes\FluvioLanguageSupport.cginc" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceDepth.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\SSAA.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffect.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.compute" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\NFAA.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAA3Console.shader" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\ComputeShader.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Additive.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAA2.shader" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\FXAAPreset3.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\OpenCLShader.cl.txt" />
@@ -177,6 +190,7 @@
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\README.txt" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AlphaBlended.shader" />
+     <None Include="Assets\Fluvio Shared\VersionSpecific\Common\ImageEffects\Shaders\DLAA.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AlphaBlended.shader" />
      <None Include="Assets\BasicBeamShot\HowToUse_EN.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.compute" />
