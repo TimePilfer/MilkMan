@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 11477792}
   m_Layer: 9
   m_Name: Bullet Spawn
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.5, y: 14.29, z: 2.58}
+  m_LocalPosition: {x: 1398, y: 14.29, z: 2.5}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children:
   - {fileID: 402578}
@@ -290,11 +290,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ca5792933b10148ae50b60d175d0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSpeed: 3000
+  shotSpeed: 1000
   fireRate: 0.1
   bulletPrefab: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
   yValue: 0
   xValue: 0
+  coneRotation: 30
   isPaused: 0
   anim: {fileID: 0}
 --- !u!124 &12423158

@@ -1,9 +1,32 @@
 fileFormatVersion: 2
 guid: 0b20a6c91a6fed64a9f67e4d15d655d1
-timeCreated: 1493670945
+timeCreated: 1502918139
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Male2_Melee_Attack_Standing_Sheet_0
+    21300002: Office_Male2_Melee_Attack_Standing_Sheet_1
+    21300004: Office_Male2_Melee_Attack_Standing_Sheet_2
+    21300006: Office_Male2_Melee_Attack_Standing_Sheet_3
+    21300008: Office_Male2_Melee_Attack_Standing_Sheet_4
+    21300010: Office_Male2_Melee_Attack_Standing_Sheet_5
+    21300012: Office_Male2_Melee_Attack_Standing_Sheet_6
+    21300014: Office_Male2_Melee_Attack_Standing_Sheet_7
+    21300016: Office_Male2_Melee_Attack_Standing_Sheet_8
+    21300018: Office_Male2_Melee_Attack_Standing_Sheet_9
+    21300020: Office_Male2_Melee_Attack_Standing_Sheet_10
+    21300022: Office_Male2_Melee_Attack_Standing_Sheet_11
+    21300024: Office_Male2_Melee_Attack_Standing_Sheet_12
+    21300026: Office_Male2_Melee_Attack_Standing_Sheet_13
+    21300028: Office_Male2_Melee_Attack_Standing_Sheet_14
+    21300030: Office_Male2_Melee_Attack_Standing_Sheet_15
+    21300032: Office_Male2_Melee_Attack_Standing_Sheet_16
+    21300034: Office_Male2_Melee_Attack_Standing_Sheet_17
+    21300036: Office_Male2_Melee_Attack_Standing_Sheet_18
+    21300038: Office_Male2_Melee_Attack_Standing_Sheet_19
+    21300040: Office_Male2_Melee_Attack_Standing_Sheet_20
+    21300042: Office_Male2_Melee_Attack_Standing_Sheet_21
+    21300044: Office_Male2_Melee_Attack_Standing_Sheet_22
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +57,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +81,316 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1729
+        width: 225
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1729
+        width: 247
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1729
+        width: 287
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1728
+        width: 304
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1730
+        width: 297
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1298
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1296
+        width: 221
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1297
+        width: 221
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1295
+        width: 221
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1295
+        width: 221
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 860
+        width: 221
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 861
+        width: 221
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 861
+        width: 242
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 861
+        width: 277
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 860
+        width: 341
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 430
+        width: 380
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 433
+        width: 385
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 432
+        width: 348
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 432
+        width: 334
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 12
+        width: 294
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 14
+        width: 267
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 15
+        width: 238
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Male2_Melee_Attack_Standing_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 12
+        width: 221
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,9 +1,32 @@
 fileFormatVersion: 2
 guid: 7c78f9de702666749897214b2fc1f745
-timeCreated: 1493667210
+timeCreated: 1502919404
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Office_Female_Melee_Attack_Standing_Sheet_0
+    21300002: Office_Female_Melee_Attack_Standing_Sheet_1
+    21300004: Office_Female_Melee_Attack_Standing_Sheet_2
+    21300006: Office_Female_Melee_Attack_Standing_Sheet_3
+    21300008: Office_Female_Melee_Attack_Standing_Sheet_4
+    21300010: Office_Female_Melee_Attack_Standing_Sheet_5
+    21300012: Office_Female_Melee_Attack_Standing_Sheet_6
+    21300014: Office_Female_Melee_Attack_Standing_Sheet_7
+    21300016: Office_Female_Melee_Attack_Standing_Sheet_8
+    21300018: Office_Female_Melee_Attack_Standing_Sheet_9
+    21300020: Office_Female_Melee_Attack_Standing_Sheet_10
+    21300022: Office_Female_Melee_Attack_Standing_Sheet_11
+    21300024: Office_Female_Melee_Attack_Standing_Sheet_12
+    21300026: Office_Female_Melee_Attack_Standing_Sheet_13
+    21300028: Office_Female_Melee_Attack_Standing_Sheet_14
+    21300030: Office_Female_Melee_Attack_Standing_Sheet_15
+    21300032: Office_Female_Melee_Attack_Standing_Sheet_16
+    21300034: Office_Female_Melee_Attack_Standing_Sheet_17
+    21300036: Office_Female_Melee_Attack_Standing_Sheet_18
+    21300038: Office_Female_Melee_Attack_Standing_Sheet_19
+    21300040: Office_Female_Melee_Attack_Standing_Sheet_20
+    21300042: Office_Female_Melee_Attack_Standing_Sheet_21
+    21300044: Office_Female_Melee_Attack_Standing_Sheet_22
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +57,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +81,316 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1440
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1440
+        width: 232
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1439
+        width: 277
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1440
+        width: 290
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1439
+        width: 289
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1083
+        width: 247
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1080
+        width: 231
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1082
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1080
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1079
+        width: 213
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 721
+        width: 212
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 719
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 719
+        width: 235
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 720
+        width: 277
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 719
+        width: 345
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 360
+        width: 383
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 361
+        width: 389
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 360
+        width: 354
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 362
+        width: 330
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 290
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 4
+        width: 264
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 6
+        width: 233
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Melee_Attack_Standing_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 6
+        width: 212
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
