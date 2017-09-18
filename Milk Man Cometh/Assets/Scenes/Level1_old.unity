@@ -8168,7 +8168,8 @@ Prefab:
       propertyPath: m_Name
       value: Left Wall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 33859223896308648, guid: 8e8ee8de6f51fdf40b79ca045d61a9a1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8e8ee8de6f51fdf40b79ca045d61a9a1, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &720484038
