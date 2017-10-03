@@ -1,9 +1,55 @@
 fileFormatVersion: 2
 guid: 2ad357ae8e825184489e2ddba4a6fa4d
-timeCreated: 1503517416
+timeCreated: 1506283524
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Milk_tank_One_Damage_jump_sheet_0
+    21300002: Milk_tank_One_Damage_jump_sheet_1
+    21300004: Milk_tank_One_Damage_jump_sheet_2
+    21300006: Milk_tank_One_Damage_jump_sheet_3
+    21300008: Milk_tank_One_Damage_jump_sheet_4
+    21300010: Milk_tank_One_Damage_jump_sheet_5
+    21300012: Milk_tank_One_Damage_jump_sheet_6
+    21300014: Milk_tank_One_Damage_jump_sheet_7
+    21300016: Milk_tank_One_Damage_jump_sheet_8
+    21300018: Milk_tank_One_Damage_jump_sheet_9
+    21300020: Milk_tank_One_Damage_jump_sheet_10
+    21300022: Milk_tank_One_Damage_jump_sheet_11
+    21300024: Milk_tank_One_Damage_jump_sheet_12
+    21300026: Milk_tank_One_Damage_jump_sheet_13
+    21300028: Milk_tank_One_Damage_jump_sheet_14
+    21300030: Milk_tank_One_Damage_jump_sheet_15
+    21300032: Milk_tank_One_Damage_jump_sheet_16
+    21300034: Milk_tank_One_Damage_jump_sheet_17
+    21300036: Milk_tank_One_Damage_jump_sheet_18
+    21300038: Milk_tank_One_Damage_jump_sheet_19
+    21300040: Milk_tank_One_Damage_jump_sheet_20
+    21300042: Milk_tank_One_Damage_jump_sheet_21
+    21300044: Milk_tank_One_Damage_jump_sheet_22
+    21300046: Milk_tank_One_Damage_jump_sheet_23
+    21300048: Milk_tank_One_Damage_jump_sheet_24
+    21300050: Milk_tank_One_Damage_jump_sheet_25
+    21300052: Milk_tank_One_Damage_jump_sheet_26
+    21300054: Milk_tank_One_Damage_jump_sheet_27
+    21300056: Milk_tank_One_Damage_jump_sheet_28
+    21300058: Milk_tank_One_Damage_jump_sheet_29
+    21300060: Milk_tank_One_Damage_jump_sheet_30
+    21300062: Milk_tank_One_Damage_jump_sheet_31
+    21300064: Milk_tank_One_Damage_jump_sheet_32
+    21300066: Milk_tank_One_Damage_jump_sheet_33
+    21300068: Milk_tank_One_Damage_jump_sheet_34
+    21300070: Milk_tank_One_Damage_jump_sheet_35
+    21300072: Milk_tank_One_Damage_jump_sheet_36
+    21300074: Milk_tank_One_Damage_jump_sheet_37
+    21300076: Milk_tank_One_Damage_jump_sheet_38
+    21300078: Milk_tank_One_Damage_jump_sheet_39
+    21300080: Milk_tank_One_Damage_jump_sheet_40
+    21300082: Milk_tank_One_Damage_jump_sheet_41
+    21300084: Milk_tank_One_Damage_jump_sheet_42
+    21300086: Milk_tank_One_Damage_jump_sheet_43
+    21300088: Milk_tank_One_Damage_jump_sheet_44
+    21300090: Milk_tank_One_Damage_jump_sheet_45
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +104,639 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5593
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 5598
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 5595
+        width: 278
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 5595
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5081
+        width: 273
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 5078
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 5088
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 5084
+        width: 275
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4573
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4564
+        width: 268
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 4573
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 4573
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4062
+        width: 269
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 4059
+        width: 268
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 4059
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 4062
+        width: 268
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3581
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 3578
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3578
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3578
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3070
+        width: 269
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 3070
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3070
+        width: 269
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 3064
+        width: 275
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2554
+        width: 276
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2556
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2556
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 2559
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2047
+        width: 270
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2045
+        width: 268
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2042
+        width: 269
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 2042
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1567
+        width: 277
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1561
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1567
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1567
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1050
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1050
+        width: 268
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1053
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1055
+        width: 275
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 542
+        width: 273
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 539
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 539
+        width: 274
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 542
+        width: 275
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_jump_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 31
+        width: 272
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

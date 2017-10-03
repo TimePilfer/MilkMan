@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4e598dd94d6729e4fbf735182c967961
-timeCreated: 1499468972
+timeCreated: 1506708232
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -81,7 +81,7 @@ TextureImporter:
       name: Jumping_sheet 1_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 35
         y: 1441
         width: 300
         height: 300
@@ -94,7 +94,7 @@ TextureImporter:
       name: Jumping_sheet 1_1
       rect:
         serializedVersion: 2
-        x: 375
+        x: 395
         y: 1441
         width: 300
         height: 300
@@ -107,7 +107,7 @@ TextureImporter:
       name: Jumping_sheet 1_2
       rect:
         serializedVersion: 2
-        x: 735
+        x: 755
         y: 1441
         width: 300
         height: 300
@@ -120,7 +120,7 @@ TextureImporter:
       name: Jumping_sheet 1_3
       rect:
         serializedVersion: 2
-        x: 1095
+        x: 1115
         y: 1441
         width: 300
         height: 300
@@ -133,7 +133,7 @@ TextureImporter:
       name: Jumping_sheet 1_4
       rect:
         serializedVersion: 2
-        x: 1455
+        x: 1475
         y: 1440
         width: 300
         height: 300
@@ -146,7 +146,7 @@ TextureImporter:
       name: Jumping_sheet 1_5
       rect:
         serializedVersion: 2
-        x: 15
+        x: 35
         y: 1083
         width: 300
         height: 300
@@ -159,7 +159,7 @@ TextureImporter:
       name: Jumping_sheet 1_6
       rect:
         serializedVersion: 2
-        x: 375
+        x: 395
         y: 1085
         width: 300
         height: 300
@@ -172,7 +172,7 @@ TextureImporter:
       name: Jumping_sheet 1_7
       rect:
         serializedVersion: 2
-        x: 735
+        x: 755
         y: 1085
         width: 300
         height: 300
@@ -185,7 +185,7 @@ TextureImporter:
       name: Jumping_sheet 1_8
       rect:
         serializedVersion: 2
-        x: 1095
+        x: 1115
         y: 1084
         width: 300
         height: 300
@@ -198,7 +198,7 @@ TextureImporter:
       name: Jumping_sheet 1_9
       rect:
         serializedVersion: 2
-        x: 1455
+        x: 1475
         y: 1084
         width: 300
         height: 300
@@ -211,7 +211,7 @@ TextureImporter:
       name: Jumping_sheet 1_10
       rect:
         serializedVersion: 2
-        x: 15
+        x: 35
         y: 724
         width: 300
         height: 300
@@ -224,7 +224,7 @@ TextureImporter:
       name: Jumping_sheet 1_11
       rect:
         serializedVersion: 2
-        x: 375
+        x: 395
         y: 722
         width: 300
         height: 300
@@ -237,7 +237,7 @@ TextureImporter:
       name: Jumping_sheet 1_12
       rect:
         serializedVersion: 2
-        x: 735
+        x: 755
         y: 723
         width: 300
         height: 300
@@ -250,7 +250,7 @@ TextureImporter:
       name: Jumping_sheet 1_13
       rect:
         serializedVersion: 2
-        x: 1095
+        x: 1115
         y: 724
         width: 300
         height: 300
@@ -263,7 +263,7 @@ TextureImporter:
       name: Jumping_sheet 1_14
       rect:
         serializedVersion: 2
-        x: 1455
+        x: 1475
         y: 722
         width: 300
         height: 300
@@ -276,7 +276,7 @@ TextureImporter:
       name: Jumping_sheet 1_15
       rect:
         serializedVersion: 2
-        x: 15
+        x: 35
         y: 365
         width: 300
         height: 300
