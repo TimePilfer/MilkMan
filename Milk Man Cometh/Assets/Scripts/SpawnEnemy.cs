@@ -11,6 +11,7 @@ public class SpawnEnemy : MonoBehaviour
     public SpawnType spawnType;
     public GameObject[] spawnPoints;    //The array that will contain the different spawn points
     public string toSpawnResourceName = "GameObject";
+    public string animationToPlay = "Open";
 
     [Header("Extra parameters")]
     public int numberOfObjectsToSpawnOnContact = 1;
@@ -20,18 +21,37 @@ public class SpawnEnemy : MonoBehaviour
     private int spawnedObjects = 0;
     private GameObject toSpawn;
 
+    //public GameObject[] obj;
+    private Animator anim;
+
     // Use this for initialization
     void Start()
     {
         toSpawn = Resources.Load(toSpawnResourceName) as GameObject;    //Load the gameobject to spawn from resources
+        //obj = spawnPoints[];
+        
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Player") //Check for what you want about the collider here
         {
+            PlayAnimation();
             SpawnAnObject();
         }
+    }
+
+    private void PlayAnimation()
+    {
+        if (spawnedObjects >= maxGameobjectsToSpawn)    //If enough objects spawned , stop here
+        { return; }
+        else
+        {
+            anim = spawnPoints[spawnedObjects].GetComponent<Animator>();
+        }
+        
+        anim.SetBool(animationToPlay, true); //set your animator bool name here
+        anim.Play(animationToPlay); //set animation name here
     }
 
     private void SpawnAnObject()

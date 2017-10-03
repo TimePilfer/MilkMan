@@ -20,6 +20,8 @@ public class Damage : MonoBehaviour {
 
     public UnityEngine.UI.Slider healthBar;
 
+    
+
     void Awake()
     {
         //Get the animator for the enemy
@@ -36,6 +38,8 @@ public class Damage : MonoBehaviour {
 
                 DontDestroyOnLoad(gameObject);
 
+                //healthBar.onValueChanged.AddListener(ListenerMethod);
+
             }
         }
         //If there is a player already, get rid of the second player object
@@ -50,11 +54,36 @@ public class Damage : MonoBehaviour {
                 
                 BasicControls.player.anim.SetBool("Dead", false);
 
+                //healthBar.onValueChanged.AddListener(ListenerMethod);
             }
             
         }
         
 
+    }
+
+    private void Update()
+    {
+
+        if (gameObject.tag == "Player")
+        {
+            
+
+            if (healthBar == null)
+            {
+                
+
+                healthBar = FindObjectOfType<UnityEngine.UI.Slider>();
+            }
+
+            if (health != healthBar.value)
+            {
+                healthBar.value = health;
+            }
+        }
+
+        
+        
     }
 
     /*
@@ -71,10 +100,7 @@ public class Damage : MonoBehaviour {
             Debug.Log("Damage Hit");
             health--;
 
-            if (gameObject.tag == "Player")
-            {
-                healthBar.value = health;
-            }
+            
             
 
             if (health <= 0)
@@ -85,6 +111,15 @@ public class Damage : MonoBehaviour {
         }
 
     }
+
+    
+     
+    //public void ListenerMethod(float value)
+    //{
+
+    //    healthBar.value = health;
+
+    //}
     /*
      * Handles when something dies or is destroyed
      */
