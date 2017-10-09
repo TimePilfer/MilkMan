@@ -13401,18 +13401,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 116
       objectReference: {fileID: 0}
-    - target: {fileID: 212347912417844740, guid: ec152920f5043164fa271808af2adca7,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 1cfc920b3bd66466abd6df4e67104a88,
-        type: 3}
-    - target: {fileID: 95374113959522310, guid: ec152920f5043164fa271808af2adca7,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 22100000, guid: d61f9cc2159aa874ea331e64b61dd1ab,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec152920f5043164fa271808af2adca7, type: 2}
   m_IsPrefabParent: 0
@@ -16729,6 +16717,11 @@ Prefab:
     - target: {fileID: 114033725192557214, guid: b2c326d4a4e06a54d8e64e8c5ff632b1,
         type: 2}
       propertyPath: maxGameobjectsToSpawn
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114033725192557214, guid: b2c326d4a4e06a54d8e64e8c5ff632b1,
+        type: 2}
+      propertyPath: numberOfObjectsToSpawnOnContact
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []

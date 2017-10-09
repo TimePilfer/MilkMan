@@ -36,7 +36,7 @@ public class SpawnEnemy : MonoBehaviour
     {
         if (col.tag == "Player") //Check for what you want about the collider here
         {
-            PlayAnimation();
+            //PlayAnimation();
             SpawnAnObject();
         }
     }
@@ -75,7 +75,7 @@ public class SpawnEnemy : MonoBehaviour
                 if (nextSpawnPointIndex >= spawnPoints.Length)
                     nextSpawnPointIndex = 0;
             }
-
+            PlayAnimation();
             Instantiate(toSpawn, spawnPoint.transform.position, Quaternion.identity);   //Spawn the wanted GameObject
             spawnedObjects++;       //Increment the number of spawned object
 
