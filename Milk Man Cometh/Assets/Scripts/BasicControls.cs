@@ -29,6 +29,7 @@ public class BasicControls : MonoBehaviour {
     protected bool isGrounded = true;
     protected bool isCrouched = false;
     public Animator anim;
+    public Animator animHealth;
     protected Animation ani;
     protected Rigidbody2D rb2d;
     protected BoxCollider2D PlayerCollision;
@@ -55,6 +56,9 @@ public class BasicControls : MonoBehaviour {
     void Awake ()
     {
         anim = GetComponent<Animator>();
+
+        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+
         rb2d = GetComponent<Rigidbody2D>();
         PlayerCollision = GetComponent<BoxCollider2D>();
         //ani = GetComponent<Animation>();
@@ -65,6 +69,9 @@ public class BasicControls : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        //Need better solution to getting the healthbar later
+        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+
         if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
         {
             isPaused = true;
@@ -106,6 +113,8 @@ public class BasicControls : MonoBehaviour {
 
                 anim.SetFloat("Speed", Mathf.Abs(h));
 
+                animHealth.SetFloat("Speed", Mathf.Abs(h));
+
                 if (h * rb2d.velocity.x < maxSpeed)
                 {
                     rb2d.AddForce(Vector2.right * h * moveForce);
@@ -129,6 +138,8 @@ public class BasicControls : MonoBehaviour {
                 if (jump)
                 {
                     anim.SetTrigger("Jump");
+
+                    animHealth.SetTrigger("Jump");
 
                     jump = false;
                     StartCoroutine(jumpLag());

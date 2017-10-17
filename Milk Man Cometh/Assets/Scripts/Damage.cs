@@ -132,7 +132,7 @@ public class Damage : MonoBehaviour {
             //BasicControls.player.anim.SetBool("Dead", true);
         }
 
-        if (gameObject.tag != "Enemy" && gameObject.tag != "Player")
+        if (gameObject.tag != "Enemy" && gameObject.tag != "Player" && gameObject.tag != "Bullet")
         {
             Destroy(gameObject);
         }

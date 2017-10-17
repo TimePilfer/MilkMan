@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class GameOver : MonoBehaviour
 {
     //public int playerHealth;             // Reference to the player's health.
-    public float restartDelay = 3f;         // Time to wait before restarting the level
+    public float restartDelay = 2f;         // Time to wait before restarting the level
 
     Animator anim;                          // Reference to the animator component.
     float restartTimer;                     // Timer to count up to restarting the level
