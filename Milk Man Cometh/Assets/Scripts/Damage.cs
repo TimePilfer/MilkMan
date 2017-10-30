@@ -20,7 +20,7 @@ public class Damage : MonoBehaviour {
 
     public UnityEngine.UI.Slider healthBar;
 
-    
+    private bool isInvincible = false;
 
     void Awake()
     {
@@ -82,8 +82,18 @@ public class Damage : MonoBehaviour {
             }
         }
 
-        
-        
+        if (BasicControls.invincible)
+        {
+            //if (collision.gameObject.tag == "Player")
+            //{
+                Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), true);
+            //}
+        }
+        else
+        {
+            Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), false);
+        }
+
     }
 
     /*
@@ -92,21 +102,32 @@ public class Damage : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collision)
     {
 
+        //if (BasicControls.invincible)
+        //{
+        //    if (collision.gameObject.tag == "Player")
+        //    {
+        //        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
+        //    }
+        //}
+
         Debug.Log("Collision");
 
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player" || collision.gameObject.tag == "Bullet")
         {
-
-            Debug.Log("Damage Hit");
-            health--;
-
-            
-            
-
-            if (health <= 0)
+            if (!BasicControls.invincible)
             {
-                Die();
+                Debug.Log("Damage Hit");
+                health--;
+
+
+
+
+                if (health <= 0)
+                {
+                    Die();
+                }
             }
+            
 
         }
 
