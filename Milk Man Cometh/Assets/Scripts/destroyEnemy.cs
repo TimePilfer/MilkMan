@@ -40,6 +40,8 @@ public class destroyEnemy : MonoBehaviour {
             //Sets the destroy time for the gameobject
             Destroy(gameObject, lifetime.length + 1f);
         }
+
+        
         
     }
 }
