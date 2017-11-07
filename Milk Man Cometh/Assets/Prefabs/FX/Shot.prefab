@@ -163,7 +163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   die: 0
-  healthBar: {fileID: 0}
 --- !u!114 &11437092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beed14951c5f13b44b5e61e7a1317c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyOnImpact: 0
+  destroyOnImpact: 1
   lifetime: 3
 --- !u!1001 &100100000
 Prefab:

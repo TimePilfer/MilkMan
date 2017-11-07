@@ -49,7 +49,7 @@ public class bulletSpawn : MonoBehaviour {
             if (!isPaused)
             {
                 //If the next bullet is able to fire and the fire button is being pressed
-                if (Input.GetButton("Fire1") && Time.time > nextFire)
+                if (Input.GetButton("Fire1"))// && Time.time > nextFire)
                 {
 
                     //Sets the time for the next bullet to be able to be fired

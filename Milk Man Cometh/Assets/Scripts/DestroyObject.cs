@@ -5,7 +5,7 @@ using System.Collections;
  */
 public class DestroyObject : MonoBehaviour {
     //Bool to decide if the object should be destroyed
-    public bool destroyOnImpact = false;
+    public bool destroyOnImpact;
     //The time the bullet should exist.
     public float lifetime = 3.0f;
 
@@ -16,32 +16,13 @@ public class DestroyObject : MonoBehaviour {
 
     }
 
-    private void Update()
-    {
-        if (destroyOnImpact)
-        {
-            Destroy(gameObject);
-        }
-    }
-
     //Destroys the gameobject when the object collides with something
     void OnCollisionEnter2D(Collision2D collision)
     {
-        
-
-        if (collision.gameObject.tag == "Bullet")
+        if(destroyOnImpact)
         {
-            destroyOnImpact = false;
-
-            Debug.Log("Nope");
+            Destroy(gameObject);
         }
-        else
-        {
-            destroyOnImpact = true;
-
-            Debug.Log("Destroy");
-        }
-        
     }
 
 }

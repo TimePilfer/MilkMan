@@ -65,7 +65,7 @@ public class AIAttack : MonoBehaviour {
     void Start()
     {
         //anim.Play(idleAnim);
-        target = GameObject.Find("Robot").transform;
+        target = GameObject.FindWithTag("Player").transform;
 
     }
 
