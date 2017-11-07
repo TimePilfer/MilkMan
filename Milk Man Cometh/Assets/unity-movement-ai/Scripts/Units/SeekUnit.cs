@@ -10,7 +10,7 @@ public class SeekUnit : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         steeringBasics = GetComponent<SteeringBasics>();
-        target = GameObject.FindWithTag("Player").transform;
+        target = GameObject.Find("Robot").transform;
     }
 
     void FixedUpdate() {
