@@ -226,7 +226,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: MilkJumps
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101815134371692916}
@@ -238,7 +238,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d55835932694c08498a7a27ba941cc34, type: 2}
+  m_Motion: {fileID: 7400000, guid: 21faa1aacda6bba4d959b4bbdca754fb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
