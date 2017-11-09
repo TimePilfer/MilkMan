@@ -64,7 +64,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.79, y: 60.59}
+  m_Size: {x: 7.16, y: 60.59}
   m_EdgeRadius: 0
 --- !u!114 &114033725192557214
 MonoBehaviour:
@@ -80,8 +80,6 @@ MonoBehaviour:
   spawnType: 1
   spawnPoints:
   - {fileID: 0}
-  - {fileID: 0}
   toSpawnResourceName: Office_Female
-  animationToPlay: Open
   numberOfObjectsToSpawnOnContact: 1
-  maxGameobjectsToSpawn: 2
+  maxGameobjectsToSpawn: 1

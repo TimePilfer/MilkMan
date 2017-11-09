@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3e1a4b18a3ddb6042962db9bb3f4dc87
-timeCreated: 1499448007
+timeCreated: 1506707769
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,9 +85,9 @@ TextureImporter:
       name: standing_sheet_0
       rect:
         serializedVersion: 2
-        x: 107
+        x: 57
         y: 1441
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -98,9 +98,9 @@ TextureImporter:
       name: standing_sheet_1
       rect:
         serializedVersion: 2
-        x: 467
+        x: 417
         y: 1441
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -111,9 +111,9 @@ TextureImporter:
       name: standing_sheet_2
       rect:
         serializedVersion: 2
-        x: 825
+        x: 775
         y: 1440
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -124,9 +124,9 @@ TextureImporter:
       name: standing_sheet_3
       rect:
         serializedVersion: 2
-        x: 1185
+        x: 1135
         y: 1440
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -137,9 +137,9 @@ TextureImporter:
       name: standing_sheet_4
       rect:
         serializedVersion: 2
-        x: 1547
+        x: 1497
         y: 1441
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -150,9 +150,9 @@ TextureImporter:
       name: standing_sheet_5
       rect:
         serializedVersion: 2
-        x: 107
+        x: 57
         y: 1084
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -163,9 +163,9 @@ TextureImporter:
       name: standing_sheet_6
       rect:
         serializedVersion: 2
-        x: 467
+        x: 417
         y: 1084
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -176,9 +176,9 @@ TextureImporter:
       name: standing_sheet_7
       rect:
         serializedVersion: 2
-        x: 825
+        x: 775
         y: 1084
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -189,9 +189,9 @@ TextureImporter:
       name: standing_sheet_8
       rect:
         serializedVersion: 2
-        x: 1185
+        x: 1135
         y: 1083
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -202,9 +202,9 @@ TextureImporter:
       name: standing_sheet_9
       rect:
         serializedVersion: 2
-        x: 1547
+        x: 1497
         y: 1084
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -215,9 +215,9 @@ TextureImporter:
       name: standing_sheet_10
       rect:
         serializedVersion: 2
-        x: 107
+        x: 57
         y: 723
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -228,9 +228,9 @@ TextureImporter:
       name: standing_sheet_11
       rect:
         serializedVersion: 2
-        x: 467
+        x: 417
         y: 725
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -241,9 +241,9 @@ TextureImporter:
       name: standing_sheet_12
       rect:
         serializedVersion: 2
-        x: 825
+        x: 775
         y: 725
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -254,9 +254,9 @@ TextureImporter:
       name: standing_sheet_13
       rect:
         serializedVersion: 2
-        x: 1185
+        x: 1135
         y: 723
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -267,9 +267,9 @@ TextureImporter:
       name: standing_sheet_14
       rect:
         serializedVersion: 2
-        x: 1547
+        x: 1497
         y: 725
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -280,9 +280,9 @@ TextureImporter:
       name: standing_sheet_15
       rect:
         serializedVersion: 2
-        x: 107
+        x: 57
         y: 365
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -293,9 +293,9 @@ TextureImporter:
       name: standing_sheet_16
       rect:
         serializedVersion: 2
-        x: 467
+        x: 417
         y: 366
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -306,9 +306,9 @@ TextureImporter:
       name: standing_sheet_17
       rect:
         serializedVersion: 2
-        x: 825
+        x: 775
         y: 363
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -319,9 +319,9 @@ TextureImporter:
       name: standing_sheet_18
       rect:
         serializedVersion: 2
-        x: 1185
+        x: 1135
         y: 366
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -332,9 +332,9 @@ TextureImporter:
       name: standing_sheet_19
       rect:
         serializedVersion: 2
-        x: 1545
+        x: 1495
         y: 365
-        width: 200
+        width: 300
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

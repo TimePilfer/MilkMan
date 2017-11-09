@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2ad357ae8e825184489e2ddba4a6fa4d
-timeCreated: 1507575443
+timeCreated: 1506283524
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -112,6 +112,30 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,10 +143,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_jump_sheet_0
       rect:
         serializedVersion: 2
-        x: 56
+        x: 55
         y: 5593
-        width: 273
-        height: 46
+        width: 274
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,7 +159,7 @@ TextureImporter:
         x: 504
         y: 5598
         width: 271
-        height: 59
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +172,7 @@ TextureImporter:
         x: 917
         y: 5595
         width: 278
-        height: 73
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,7 +185,7 @@ TextureImporter:
         x: 1366
         y: 5595
         width: 272
-        height: 88
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,7 +198,7 @@ TextureImporter:
         x: 56
         y: 5081
         width: 273
-        height: 100
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +211,7 @@ TextureImporter:
         x: 533
         y: 5078
         width: 272
-        height: 112
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +224,7 @@ TextureImporter:
         x: 923
         y: 5088
         width: 272
-        height: 117
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +237,7 @@ TextureImporter:
         x: 1375
         y: 5084
         width: 275
-        height: 112
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +250,7 @@ TextureImporter:
         x: 87
         y: 4573
         width: 272
-        height: 91
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,7 +263,7 @@ TextureImporter:
         x: 510
         y: 4564
         width: 268
-        height: 83
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,7 +276,7 @@ TextureImporter:
         x: 926
         y: 4573
         width: 272
-        height: 112
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,7 +289,7 @@ TextureImporter:
         x: 1370
         y: 4573
         width: 271
-        height: 136
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +302,7 @@ TextureImporter:
         x: 87
         y: 4062
         width: 269
-        height: 138
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,7 +315,7 @@ TextureImporter:
         x: 507
         y: 4059
         width: 268
-        height: 138
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,7 +328,7 @@ TextureImporter:
         x: 924
         y: 4059
         width: 271
-        height: 142
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,7 +341,7 @@ TextureImporter:
         x: 1340
         y: 4062
         width: 268
-        height: 174
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +351,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_jump_sheet_16
       rect:
         serializedVersion: 2
-        x: 91
+        x: 90
         y: 3581
-        width: 271
-        height: 203
+        width: 272
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,7 +367,7 @@ TextureImporter:
         x: 477
         y: 3578
         width: 272
-        height: 218
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,9 +378,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 923
-        y: 3579
+        y: 3578
         width: 272
-        height: 224
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,7 +393,7 @@ TextureImporter:
         x: 1337
         y: 3578
         width: 271
-        height: 233
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,7 +406,7 @@ TextureImporter:
         x: 84
         y: 3070
         width: 269
-        height: 236
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,7 +419,7 @@ TextureImporter:
         x: 477
         y: 3070
         width: 272
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,7 +432,7 @@ TextureImporter:
         x: 923
         y: 3070
         width: 269
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,7 +445,7 @@ TextureImporter:
         x: 1366
         y: 3064
         width: 275
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,7 +458,7 @@ TextureImporter:
         x: 89
         y: 2554
         width: 276
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,7 +471,7 @@ TextureImporter:
         x: 507
         y: 2556
         width: 271
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,7 +484,7 @@ TextureImporter:
         x: 923
         y: 2556
         width: 272
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +494,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_jump_sheet_27
       rect:
         serializedVersion: 2
-        x: 1338
+        x: 1337
         y: 2559
-        width: 270
-        height: 244
+        width: 271
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,7 +510,7 @@ TextureImporter:
         x: 62
         y: 2047
         width: 270
-        height: 243
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,7 +523,7 @@ TextureImporter:
         x: 507
         y: 2045
         width: 268
-        height: 245
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,7 +536,7 @@ TextureImporter:
         x: 923
         y: 2042
         width: 269
-        height: 245
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,7 +549,7 @@ TextureImporter:
         x: 1366
         y: 2042
         width: 272
-        height: 245
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,10 +559,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_jump_sheet_32
       rect:
         serializedVersion: 2
-        x: 53
+        x: 52
         y: 1567
-        width: 276
-        height: 244
+        width: 277
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,9 +573,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 507
-        y: 1562
+        y: 1561
         width: 274
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,7 +588,7 @@ TextureImporter:
         x: 923
         y: 1567
         width: 272
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,7 +601,7 @@ TextureImporter:
         x: 1375
         y: 1567
         width: 272
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,10 +611,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_jump_sheet_36
       rect:
         serializedVersion: 2
-        x: 91
+        x: 90
         y: 1050
-        width: 271
-        height: 245
+        width: 272
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,7 +627,7 @@ TextureImporter:
         x: 504
         y: 1050
         width: 268
-        height: 245
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,7 +640,7 @@ TextureImporter:
         x: 950
         y: 1053
         width: 271
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,7 +653,7 @@ TextureImporter:
         x: 1369
         y: 1055
         width: 275
-        height: 243
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,7 +666,7 @@ TextureImporter:
         x: 61
         y: 542
         width: 273
-        height: 245
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,7 +679,7 @@ TextureImporter:
         x: 507
         y: 539
         width: 271
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,7 +692,7 @@ TextureImporter:
         x: 926
         y: 539
         width: 274
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,7 +705,7 @@ TextureImporter:
         x: 1372
         y: 542
         width: 275
-        height: 244
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,7 +718,7 @@ TextureImporter:
         x: 96
         y: 28
         width: 272
-        height: 242
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,7 +731,7 @@ TextureImporter:
         x: 536
         y: 31
         width: 272
-        height: 50
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

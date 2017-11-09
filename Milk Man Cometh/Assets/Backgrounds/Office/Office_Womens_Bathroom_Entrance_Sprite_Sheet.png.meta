@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 2a17d9c3d152f4435a09bc50d0d7c438
+timeCreated: 1505872192
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Womens_Bathroom_Entrance_Sprite_Sheet_0
+    21300002: Office_Womens_Bathroom_Entrance_Sprite_Sheet_1
+    21300004: Office_Womens_Bathroom_Entrance_Sprite_Sheet_2
+    21300006: Office_Womens_Bathroom_Entrance_Sprite_Sheet_3
+    21300008: Office_Womens_Bathroom_Entrance_Sprite_Sheet_4
+    21300010: Office_Womens_Bathroom_Entrance_Sprite_Sheet_5
+    21300012: Office_Womens_Bathroom_Entrance_Sprite_Sheet_6
+    21300014: Office_Womens_Bathroom_Entrance_Sprite_Sheet_7
+    21300016: Office_Womens_Bathroom_Entrance_Sprite_Sheet_8
+    21300018: Office_Womens_Bathroom_Entrance_Sprite_Sheet_9
+    21300020: Office_Womens_Bathroom_Entrance_Sprite_Sheet_10
+    21300022: Office_Womens_Bathroom_Entrance_Sprite_Sheet_11
+    21300024: Office_Womens_Bathroom_Entrance_Sprite_Sheet_12
+    21300026: Office_Womens_Bathroom_Entrance_Sprite_Sheet_13
+    21300028: Office_Womens_Bathroom_Entrance_Sprite_Sheet_14
+    21300030: Office_Womens_Bathroom_Entrance_Sprite_Sheet_15
+    21300032: Office_Womens_Bathroom_Entrance_Sprite_Sheet_16
+    21300034: Office_Womens_Bathroom_Entrance_Sprite_Sheet_17
+    21300036: Office_Womens_Bathroom_Entrance_Sprite_Sheet_18
+    21300038: Office_Womens_Bathroom_Entrance_Sprite_Sheet_19
+    21300040: Office_Womens_Bathroom_Entrance_Sprite_Sheet_20
+    21300042: Office_Womens_Bathroom_Entrance_Sprite_Sheet_21
+    21300044: Office_Womens_Bathroom_Entrance_Sprite_Sheet_22
+    21300046: Office_Womens_Bathroom_Entrance_Sprite_Sheet_23
+    21300048: Office_Womens_Bathroom_Entrance_Sprite_Sheet_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 6657
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 6654
+        width: 1200
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 6658
+        width: 1200
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 6657
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5923
+        y: 6658
+        width: 1200
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 5053
+        width: 1200
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 5042
+        width: 1200
+        height: 1086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 5049
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 5049
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 5049
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3618
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 3614
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 3618
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 3618
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 3614
+        width: 1200
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2133
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 2133
+        width: 1200
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 2129
+        width: 1200
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 2133
+        width: 1200
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 2119
+        width: 1200
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 539
+        width: 1200
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 524
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 539
+        width: 1200
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 539
+        width: 1200
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Womens_Bathroom_Entrance_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 520
+        width: 1200
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

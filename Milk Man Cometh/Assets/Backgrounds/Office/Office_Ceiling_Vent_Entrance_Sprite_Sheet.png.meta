@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: cb66b8ff1fea24fb68593e2c8b6de055
+timeCreated: 1506022546
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Ceiling_Vent_Entrance_Sprite_Sheet_0
+    21300002: Office_Ceiling_Vent_Entrance_Sprite_Sheet_1
+    21300004: Office_Ceiling_Vent_Entrance_Sprite_Sheet_2
+    21300006: Office_Ceiling_Vent_Entrance_Sprite_Sheet_3
+    21300008: Office_Ceiling_Vent_Entrance_Sprite_Sheet_4
+    21300010: Office_Ceiling_Vent_Entrance_Sprite_Sheet_5
+    21300012: Office_Ceiling_Vent_Entrance_Sprite_Sheet_6
+    21300014: Office_Ceiling_Vent_Entrance_Sprite_Sheet_7
+    21300016: Office_Ceiling_Vent_Entrance_Sprite_Sheet_8
+    21300018: Office_Ceiling_Vent_Entrance_Sprite_Sheet_9
+    21300020: Office_Ceiling_Vent_Entrance_Sprite_Sheet_10
+    21300022: Office_Ceiling_Vent_Entrance_Sprite_Sheet_11
+    21300024: Office_Ceiling_Vent_Entrance_Sprite_Sheet_12
+    21300026: Office_Ceiling_Vent_Entrance_Sprite_Sheet_13
+    21300028: Office_Ceiling_Vent_Entrance_Sprite_Sheet_14
+    21300030: Office_Ceiling_Vent_Entrance_Sprite_Sheet_15
+    21300032: Office_Ceiling_Vent_Entrance_Sprite_Sheet_16
+    21300034: Office_Ceiling_Vent_Entrance_Sprite_Sheet_17
+    21300036: Office_Ceiling_Vent_Entrance_Sprite_Sheet_18
+    21300038: Office_Ceiling_Vent_Entrance_Sprite_Sheet_19
+    21300040: Office_Ceiling_Vent_Entrance_Sprite_Sheet_20
+    21300042: Office_Ceiling_Vent_Entrance_Sprite_Sheet_21
+    21300044: Office_Ceiling_Vent_Entrance_Sprite_Sheet_22
+    21300046: Office_Ceiling_Vent_Entrance_Sprite_Sheet_23
+    21300048: Office_Ceiling_Vent_Entrance_Sprite_Sheet_24
+    21300050: Office_Ceiling_Vent_Entrance_Sprite_Sheet_25
+    21300052: Office_Ceiling_Vent_Entrance_Sprite_Sheet_26
+    21300054: Office_Ceiling_Vent_Entrance_Sprite_Sheet_27
+    21300056: Office_Ceiling_Vent_Entrance_Sprite_Sheet_28
+    21300058: Office_Ceiling_Vent_Entrance_Sprite_Sheet_29
+    21300060: Office_Ceiling_Vent_Entrance_Sprite_Sheet_30
+    21300062: Office_Ceiling_Vent_Entrance_Sprite_Sheet_31
+    21300064: Office_Ceiling_Vent_Entrance_Sprite_Sheet_32
+    21300066: Office_Ceiling_Vent_Entrance_Sprite_Sheet_33
+    21300068: Office_Ceiling_Vent_Entrance_Sprite_Sheet_34
+    21300070: Office_Ceiling_Vent_Entrance_Sprite_Sheet_35
+    21300072: Office_Ceiling_Vent_Entrance_Sprite_Sheet_36
+    21300074: Office_Ceiling_Vent_Entrance_Sprite_Sheet_37
+    21300076: Office_Ceiling_Vent_Entrance_Sprite_Sheet_38
+    21300078: Office_Ceiling_Vent_Entrance_Sprite_Sheet_39
+    21300080: Office_Ceiling_Vent_Entrance_Sprite_Sheet_40
+    21300082: Office_Ceiling_Vent_Entrance_Sprite_Sheet_41
+    21300084: Office_Ceiling_Vent_Entrance_Sprite_Sheet_42
+    21300086: Office_Ceiling_Vent_Entrance_Sprite_Sheet_43
+    21300088: Office_Ceiling_Vent_Entrance_Sprite_Sheet_44
+    21300090: Office_Ceiling_Vent_Entrance_Sprite_Sheet_45
+    21300092: Office_Ceiling_Vent_Entrance_Sprite_Sheet_46
+    21300094: Office_Ceiling_Vent_Entrance_Sprite_Sheet_47
+    21300096: Office_Ceiling_Vent_Entrance_Sprite_Sheet_48
+    21300098: Office_Ceiling_Vent_Entrance_Sprite_Sheet_49
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 9230
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 9490
+        width: 975
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4394
+        y: 9371
+        width: 975
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6112
+        y: 9284
+        width: 975
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 8535
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 8535
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 8525
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6117
+        y: 8535
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 7660
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 7660
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4409
+        y: 7660
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6112
+        y: 7660
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 6945
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 6940
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 6935
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6122
+        y: 6945
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 6255
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 6300
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 6300
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6117
+        y: 6320
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 5485
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 5500
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4409
+        y: 5500
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6117
+        y: 5525
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 4693
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 4693
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4409
+        y: 4725
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6113
+        y: 4760
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3980
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 4045
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 4065
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 6001
+        y: 4095
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 3325
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 3335
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 3350
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6001
+        y: 3370
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2490
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 2540
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 2555
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 6006
+        y: 2570
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1825
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1810
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 1810
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 6115
+        y: 1795
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1000
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1010
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 1030
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 6127
+        y: 1035
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 275
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Ceiling_Vent_Entrance_Sprite_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 275
+        width: 975
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

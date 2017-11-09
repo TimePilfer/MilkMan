@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3148a6340333c52478a3205144bbea13
-timeCreated: 1499469133
+timeCreated: 1506708395
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -71,9 +71,9 @@ TextureImporter:
       name: Landing_sheet_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 35
         y: 1439
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -84,9 +84,9 @@ TextureImporter:
       name: Landing_sheet_1
       rect:
         serializedVersion: 2
-        x: 380
+        x: 400
         y: 1440
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -97,9 +97,9 @@ TextureImporter:
       name: Landing_sheet_2
       rect:
         serializedVersion: 2
-        x: 735
+        x: 775
         y: 1438
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -110,9 +110,9 @@ TextureImporter:
       name: Landing_sheet_3
       rect:
         serializedVersion: 2
-        x: 1099
+        x: 1119
         y: 1439
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -123,9 +123,9 @@ TextureImporter:
       name: Landing_sheet_4
       rect:
         serializedVersion: 2
-        x: 1499
+        x: 1489
         y: 1440
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -136,9 +136,9 @@ TextureImporter:
       name: Landing_sheet_5
       rect:
         serializedVersion: 2
-        x: 25
+        x: 35
         y: 1078
-        width: 300
+        width: 310
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
