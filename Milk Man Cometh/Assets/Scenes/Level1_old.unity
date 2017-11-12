@@ -31873,11 +31873,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
       propertyPath: shotSpeed
-      value: 30
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
       propertyPath: fireRate
       value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: coneRotation
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
