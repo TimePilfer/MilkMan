@@ -17200,7 +17200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -164, y: 110.87999}
+  m_AnchoredPosition: {x: -164, y: 110.880005}
   m_SizeDelta: {x: 307, y: 39.043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1060428153
@@ -31861,11 +31861,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
       propertyPath: evadeTime
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
       propertyPath: evadeDistance
-      value: 55
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: shotSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: fireRate
+      value: 0.001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
