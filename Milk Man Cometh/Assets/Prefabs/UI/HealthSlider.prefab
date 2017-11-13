@@ -56,7 +56,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224539030862764626}
-  - component: {fileID: 210593810739205918}
   m_Layer: 5
   m_Name: Fill Area
   m_TagString: Untagged
@@ -74,7 +73,6 @@ GameObject:
   - component: {fileID: 224649796112898550}
   - component: {fileID: 222320980716019924}
   - component: {fileID: 114216974925370214}
-  - component: {fileID: 210994184403577956}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -110,7 +108,6 @@ GameObject:
   - component: {fileID: 222835371822227516}
   - component: {fileID: 114712328144812976}
   - component: {fileID: 114234973718913990}
-  - component: {fileID: 210342248910870676}
   m_Layer: 5
   m_Name: HealthSlider
   m_TagString: HealthBar
@@ -127,7 +124,7 @@ Animator:
   m_GameObject: {fileID: 1331921280395562}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b692fab7ddc2184c9dfe7cf5a0ed3ef, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8804ca236a65b444da07d64bcca4d810, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -324,16 +321,6 @@ SortingGroup:
   m_SortingLayerID: 149272721
   m_SortingLayer: 5
   m_SortingOrder: 1
---- !u!210 &210342248910870676
-SortingGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1972674989271128}
-  m_Enabled: 1
-  m_SortingLayerID: 149272721
-  m_SortingLayer: 5
-  m_SortingOrder: 0
 --- !u!210 &210432015573552136
 SortingGroup:
   m_ObjectHideFlags: 1
@@ -344,32 +331,12 @@ SortingGroup:
   m_SortingLayerID: 149272721
   m_SortingLayer: 5
   m_SortingOrder: 1
---- !u!210 &210593810739205918
-SortingGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1423010748607014}
-  m_Enabled: 1
-  m_SortingLayerID: 149272721
-  m_SortingLayer: 5
-  m_SortingOrder: 1
 --- !u!210 &210767953708530882
 SortingGroup:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1011413376124666}
-  m_Enabled: 1
-  m_SortingLayerID: 149272721
-  m_SortingLayer: 5
-  m_SortingOrder: 1
---- !u!210 &210994184403577956
-SortingGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1439768096061058}
   m_Enabled: 1
   m_SortingLayerID: 149272721
   m_SortingLayer: 5
@@ -451,7 +418,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 20}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224539030862764626
 RectTransform:
@@ -496,7 +463,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1972674989271128}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -506,8 +473,8 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 419.25, y: 176.00003}
-  m_SizeDelta: {x: -925.5, y: -409.6286}
+  m_AnchoredPosition: {x: -96.5, y: -60}
+  m_SizeDelta: {x: 51, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
