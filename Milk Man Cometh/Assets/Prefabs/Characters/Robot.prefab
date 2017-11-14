@@ -156,7 +156,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.42, y: 0, z: 0}
+  m_LocalPosition: {x: 4.42, y: 0, z: 22.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 406194}
@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1398, y: 14.29, z: 2.5}
+  m_LocalPosition: {x: 948.7, y: 19.58, z: 2.5}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children:
   - {fileID: 402578}
@@ -275,10 +275,19 @@ MonoBehaviour:
   jumpforce: 1400
   groundcheck: {fileID: 405238}
   anim: {fileID: 9512682}
+  animHealth: {fileID: 0}
   yValue: 0
   xValue: 3
   Shot: {fileID: 137664, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
   ShotSpawn: {fileID: 419814}
+  evadeTime: 1
+  evadeDistance: 100
+  evading: 0
+  cooldownTimer: 1
+  moveSpeed: 10
+  moveDirection: {x: 0, y: 0, z: 0}
+  arm: {fileID: 119984}
+  invincible2: 0
 --- !u!114 &11477792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -290,12 +299,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ca5792933b10148ae50b60d175d0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSpeed: 1000
-  fireRate: 0.1
+  shotSpeed: 23
+  fireRate: 0.001
   bulletPrefab: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
   yValue: 0
   xValue: 0
-  coneRotation: 30
+  coneRotation: 50
   isPaused: 0
   anim: {fileID: 0}
 --- !u!124 &12423158
@@ -432,7 +441,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 3}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -477,6 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   die: 0
+  healthBar: {fileID: 0}
 --- !u!114 &114722498087470378
 MonoBehaviour:
   m_ObjectHideFlags: 1
