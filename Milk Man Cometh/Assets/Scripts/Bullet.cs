@@ -29,4 +29,14 @@ public class Bullet : MonoBehaviour {
         _rb.AddForce(_rb.velocity, (ForceMode2D.Force));
 
     }
+
+    void OnCollisionEnter2D(Collision2D c)
+    {
+
+        //if (gameObject.tag == "Bullet")
+        //{
+            var joint = gameObject.AddComponent<FixedJoint2D>();
+            joint.connectedBody = c.rigidbody;
+        //}
+    }
 }

@@ -29,6 +29,7 @@ public class BasicControls : MonoBehaviour {
     protected bool isGrounded = true;
     protected bool isCrouched = false;
     public Animator anim;
+    public Animator animHealth;
     protected Animation ani;
     protected Rigidbody2D rb2d;
     protected BoxCollider2D PlayerCollision;
@@ -51,11 +52,30 @@ public class BasicControls : MonoBehaviour {
     protected float standHeight = 2.24f;
     protected float crouchOffset = -0.75f;
 
+    //Dodge/Roll Variables
+    public float evadeTime; // this tells us how long the evade takes
+    public float evadeDistance; // this tells us how far player will evade
+    public bool evading; //is the character currently dodging?
+    public float cooldownTimer; //the amount of time a player must wait between rolls
+    //private Input InputManager; //the input manager from unity
+    private float evadeTimer; //the timer until the next roll can happen
+    public float moveSpeed; //the movement speed of the roll
+    public Vector3 moveDirection; // the direction the character is rolling
+    public GameObject arm; //The Robot's arm
+    public static bool invincible = false;
+    public bool invincible2 = false;
+
     // Use this for initialization
     void Awake ()
     {
         anim = GetComponent<Animator>();
+
+        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+
         rb2d = GetComponent<Rigidbody2D>();
+
+        //arm = GetComponentInChildren<GameObject>();
+
         PlayerCollision = GetComponent<BoxCollider2D>();
         //ani = GetComponent<Animation>();
         player = this;
@@ -65,6 +85,9 @@ public class BasicControls : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        //Need better solution to getting the healthbar later
+        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+
         if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
         {
             isPaused = true;
@@ -93,6 +116,8 @@ public class BasicControls : MonoBehaviour {
                 StandUp();
             }
         }
+
+        ProcessEvasion();
         
     }
 
@@ -105,6 +130,8 @@ public class BasicControls : MonoBehaviour {
                 float h = Input.GetAxisRaw("Horizontal");
 
                 anim.SetFloat("Speed", Mathf.Abs(h));
+
+                animHealth.SetFloat("Speed", Mathf.Abs(h));
 
                 if (h * rb2d.velocity.x < maxSpeed)
                 {
@@ -129,6 +156,8 @@ public class BasicControls : MonoBehaviour {
                 if (jump)
                 {
                     anim.SetTrigger("Jump");
+
+                    animHealth.SetTrigger("Jump");
 
                     jump = false;
                     StartCoroutine(jumpLag());
@@ -186,5 +215,57 @@ public class BasicControls : MonoBehaviour {
         PlayerCollision.size = new Vector2(PlayerCollision.size.x, standHeight);
         //PlayerCollision.offset = new Vector2(0, 0);
         anim.ResetTrigger("Duck");
+    }
+
+    void ProcessEvasion()
+    {
+        cooldownTimer = Mathf.Max(0f, cooldownTimer - Time.deltaTime);
+
+        if (!evading && cooldownTimer == 0 && Input.GetButton("Roll"))
+        {
+            //arm.SetActive(false);// = false;
+            evading = true;
+            
+            evadeTimer = evadeTime;
+            anim.SetTrigger("Evading");
+            Debug.Log("Rolling");
+        }
+
+        if (evading)
+        {
+            
+            arm.SetActive(false);
+            evading = false;
+            invincible = true;
+            invincible2 = true;
+            StartCoroutine(WaitAndPrint(1.1F));
+            
+            evadeTimer = Mathf.Max(0f, evadeTimer - Time.deltaTime);
+
+            // Evasion overrides speed and direction
+            moveDirection = rb2d.transform.forward; // evasion = full speed forward
+            moveSpeed = evadeDistance / evadeTime;
+            
+            cooldownTimer = 3.0f;
+
+
+        }
+        if (evadeTimer == 0)
+        {
+            //anim.SetBool("Evading", false);
+            
+            anim.ResetTrigger("Evading");
+
+        }
+
+    }
+
+    IEnumerator WaitAndPrint(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        arm.SetActive(true);
+        invincible = false;
+        invincible2 = false;
+        Debug.Log("WaitAndPrint " + Time.time);
     }
 }

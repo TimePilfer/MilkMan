@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EnemyEntrance_Closet
+  m_Controller: {fileID: 9100000, guid: a95332e7c046bd84d8db1fb34677bc6f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 26fccbb6bd14a8049abcef6b85b5fd21, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1594b8a4dc7901d41b2c443d15f9c0ad, type: 2}
