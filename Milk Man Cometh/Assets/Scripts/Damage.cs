@@ -150,6 +150,7 @@ public class Damage : MonoBehaviour {
         if (gameObject.tag == "Enemy")
         {
             anim.SetBool("Dead", true);
+            gameObject.GetComponent<Collider2D>().enabled = false;
             //BasicControls.player.anim.SetBool("Dead", true);
         }
 
