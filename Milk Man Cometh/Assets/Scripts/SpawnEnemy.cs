@@ -59,6 +59,8 @@ public class SpawnEnemy : MonoBehaviour
         if (spawnedObjects >= maxGameobjectsToSpawn)    //If enough objects spawned , stop here
             return;
 
+        
+
         for (int i = 0; i < numberOfObjectsToSpawnOnContact; i++)
         {
             GameObject spawnPoint = spawnPoints[0]; //Set a default spawnpoint to avoid errors
