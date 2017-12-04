@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: abfd4f2d16463d94f87538450c8846a1
+timeCreated: 1511209972
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Female_Standing_Up_sheet_0
+    21300002: Office_Female_Standing_Up_sheet_1
+    21300004: Office_Female_Standing_Up_sheet_2
+    21300006: Office_Female_Standing_Up_sheet_3
+    21300008: Office_Female_Standing_Up_sheet_4
+    21300010: Office_Female_Standing_Up_sheet_5
+    21300012: Office_Female_Standing_Up_sheet_6
+    21300014: Office_Female_Standing_Up_sheet_7
+    21300016: Office_Female_Standing_Up_sheet_8
+    21300018: Office_Female_Standing_Up_sheet_9
+    21300020: Office_Female_Standing_Up_sheet_10
+    21300022: Office_Female_Standing_Up_sheet_11
+    21300024: Office_Female_Standing_Up_sheet_12
+    21300026: Office_Female_Standing_Up_sheet_13
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1135
+        width: 181
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1133
+        width: 192
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1131
+        width: 203
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 772
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 771
+        width: 224
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 759
+        width: 221
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 749
+        width: 215
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 739
+        width: 211
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 375
+        width: 210
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 366
+        width: 213
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 360
+        width: 188
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 360
+        width: 184
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 361
+        width: 181
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Office_Female_Standing_Up_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 49
+        width: 175
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -228,6 +228,7 @@ public class BasicControls : MonoBehaviour {
             
             evadeTimer = evadeTime;
             anim.SetTrigger("Evading");
+            animHealth.SetTrigger("Roll");
             Debug.Log("Rolling");
         }
 
