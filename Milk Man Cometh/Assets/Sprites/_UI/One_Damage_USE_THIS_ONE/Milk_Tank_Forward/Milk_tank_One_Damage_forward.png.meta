@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2ee053019e71ea646818c3b25b83919d
-timeCreated: 1506283174
+timeCreated: 1511911514
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -24,6 +24,30 @@ TextureImporter:
     21300034: Milk_tank_One_Damage_forward_17
     21300036: Milk_tank_One_Damage_forward_18
     21300038: Milk_tank_One_Damage_forward_19
+    21300040: Milk_tank_One_Damage_forward_20
+    21300042: Milk_tank_One_Damage_forward_21
+    21300044: Milk_tank_One_Damage_forward_22
+    21300046: Milk_tank_One_Damage_forward_23
+    21300048: Milk_tank_One_Damage_forward_24
+    21300050: Milk_tank_One_Damage_forward_25
+    21300052: Milk_tank_One_Damage_forward_26
+    21300054: Milk_tank_One_Damage_forward_27
+    21300056: Milk_tank_One_Damage_forward_28
+    21300058: Milk_tank_One_Damage_forward_29
+    21300060: Milk_tank_One_Damage_forward_30
+    21300062: Milk_tank_One_Damage_forward_31
+    21300064: Milk_tank_One_Damage_forward_32
+    21300066: Milk_tank_One_Damage_forward_33
+    21300068: Milk_tank_One_Damage_forward_34
+    21300070: Milk_tank_One_Damage_forward_35
+    21300072: Milk_tank_One_Damage_forward_36
+    21300074: Milk_tank_One_Damage_forward_37
+    21300076: Milk_tank_One_Damage_forward_38
+    21300078: Milk_tank_One_Damage_forward_39
+    21300080: Milk_tank_One_Damage_forward_40
+    21300082: Milk_tank_One_Damage_forward_41
+    21300084: Milk_tank_One_Damage_forward_42
+    21300086: Milk_tank_One_Damage_forward_43
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -86,6 +110,30 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -93,10 +141,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 2037
-        width: 267
-        height: 130
+        x: 72
+        y: 4052
+        width: 268
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,10 +154,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_1
       rect:
         serializedVersion: 2
-        x: 510
-        y: 2035
-        width: 266
-        height: 130
+        x: 509
+        y: 4052
+        width: 267
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,10 +167,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_2
       rect:
         serializedVersion: 2
-        x: 941
-        y: 2041
-        width: 267
-        height: 130
+        x: 939
+        y: 4049
+        width: 269
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,22 +181,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1373
-        y: 2041
+        y: 4048
         width: 267
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Milk_tank_One_Damage_forward_4
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 1560
-        width: 263
-        height: 130
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +193,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_5
       rect:
         serializedVersion: 2
-        x: 507
-        y: 1557
-        width: 271
-        height: 130
+        x: 66
+        y: 3574
+        width: 261
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +206,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_6
       rect:
         serializedVersion: 2
-        x: 925
-        y: 1557
-        width: 267
-        height: 130
+        x: 506
+        y: 3574
+        width: 268
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +219,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_7
       rect:
         serializedVersion: 2
-        x: 1366
-        y: 1565
-        width: 267
-        height: 130
+        x: 925
+        y: 3574
+        width: 266
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +232,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_8
       rect:
         serializedVersion: 2
-        x: 59
-        y: 1048
-        width: 271
-        height: 130
+        x: 1365
+        y: 3574
+        width: 268
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,23 +245,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_9
       rect:
         serializedVersion: 2
-        x: 509
-        y: 1045
-        width: 269
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Milk_tank_One_Damage_forward_10
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 1043
-        width: 267
-        height: 130
+        x: 61
+        y: 3064
+        width: 268
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +258,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_11
       rect:
         serializedVersion: 2
-        x: 1369
-        y: 1048
-        width: 266
-        height: 130
+        x: 921
+        y: 3064
+        width: 268
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +271,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_12
       rect:
         serializedVersion: 2
-        x: 59
-        y: 535
-        width: 268
-        height: 130
+        x: 511
+        y: 3065
+        width: 269
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,23 +284,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_13
       rect:
         serializedVersion: 2
-        x: 540
-        y: 535
-        width: 265
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Milk_tank_One_Damage_forward_14
-      rect:
-        serializedVersion: 2
-        x: 956
-        y: 531
-        width: 265
-        height: 130
+        x: 1370
+        y: 3064
+        width: 264
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,23 +297,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_15
       rect:
         serializedVersion: 2
-        x: 1369
-        y: 532
-        width: 266
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Milk_tank_One_Damage_forward_16
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 54
-        width: 266
-        height: 130
+        x: 63
+        y: 2550
+        width: 264
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +310,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_17
       rect:
         serializedVersion: 2
-        x: 508
-        y: 52
-        width: 265
-        height: 130
+        x: 537
+        y: 2551
+        width: 266
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +323,10 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_18
       rect:
         serializedVersion: 2
-        x: 925
-        y: 54
-        width: 267
-        height: 130
+        x: 956
+        y: 2551
+        width: 266
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +336,231 @@ TextureImporter:
       name: Milk_tank_One_Damage_forward_19
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 54
+        x: 1370
+        y: 2557
+        width: 264
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2074
+        width: 265
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_21
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2074
         width: 266
-        height: 130
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_23
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2072
+        width: 269
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_24
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2072
+        width: 261
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1552
+        width: 262
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1554
+        width: 261
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_28
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1554
+        width: 265
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_29
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1554
+        width: 261
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_30
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1045
+        width: 265
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_32
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1045
+        width: 262
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_33
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1047
+        width: 261
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_34
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1045
+        width: 262
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_39
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 546
+        width: 263
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_40
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 546
+        width: 262
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_41
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 546
+        width: 264
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 548
+        width: 261
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Milk_tank_One_Damage_forward_43
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 37
+        width: 264
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

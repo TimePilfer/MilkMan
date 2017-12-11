@@ -21,6 +21,11 @@ public class SpawnEnemy : MonoBehaviour
     private int spawnedObjects = 0;
     private GameObject toSpawn;
 
+    public bool isWaitToSpawn = false;
+    private bool isSpawning = false;
+
+    public float xOffset;
+
     //public GameObject[] obj;
     private Animator anim;
 
@@ -30,6 +35,20 @@ public class SpawnEnemy : MonoBehaviour
         toSpawn = Resources.Load(toSpawnResourceName) as GameObject;    //Load the gameobject to spawn from resources
         //obj = spawnPoints[];
         
+    }
+
+    private void Update()
+    {
+        if (isSpawning)
+        {
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName(animationToPlay) && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+            {
+                isSpawning = false;
+                GameObject spawnPoint = spawnPoints[0]; //Set a default spawnpoint to avoid errors
+                Instantiate(toSpawn, spawnPoint.transform.position, Quaternion.identity);   //Spawn the wanted GameObject
+                
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -59,11 +78,11 @@ public class SpawnEnemy : MonoBehaviour
         if (spawnedObjects >= maxGameobjectsToSpawn)    //If enough objects spawned , stop here
             return;
 
-        
+        GameObject spawnPoint = spawnPoints[0]; //Set a default spawnpoint to avoid errors
 
         for (int i = 0; i < numberOfObjectsToSpawnOnContact; i++)
         {
-            GameObject spawnPoint = spawnPoints[0]; //Set a default spawnpoint to avoid errors
+            
 
             if (spawnType == SpawnType.Random)
             {
@@ -77,9 +96,22 @@ public class SpawnEnemy : MonoBehaviour
                 if (nextSpawnPointIndex >= spawnPoints.Length)
                     nextSpawnPointIndex = 0;
             }
-            PlayAnimation();
-            Instantiate(toSpawn, spawnPoint.transform.position, Quaternion.identity);   //Spawn the wanted GameObject
-            spawnedObjects++;       //Increment the number of spawned object
+
+            if (isWaitToSpawn)
+            {
+                PlayAnimation();
+
+                isSpawning = true;
+                spawnedObjects++;       //Increment the number of spawned object
+
+            }
+            else
+            {
+                PlayAnimation();
+                Instantiate(toSpawn, new Vector3(spawnPoint.transform.position.x - xOffset, 14.15439f, 2.5f), Quaternion.identity);   //Spawn the wanted GameObject
+                spawnedObjects++;       //Increment the number of spawned object
+            }
+            
 
         }
     }
