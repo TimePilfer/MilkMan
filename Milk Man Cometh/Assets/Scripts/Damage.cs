@@ -151,6 +151,7 @@ public class Damage : MonoBehaviour {
         {
             anim.SetBool("Dead", true);
             gameObject.GetComponent<Collider2D>().enabled = false;
+            MilkLusted.LustMeter += 1;
             //BasicControls.player.anim.SetBool("Dead", true);
         }
 
