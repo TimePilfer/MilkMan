@@ -70,7 +70,8 @@ public class BasicControls : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
 
-        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+        //animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+        animHealth = GameObject.Find("HUDCanvas/Slider/Handle Slide Area/Handle").GetComponent<Animator>();
 
         rb2d = GetComponent<Rigidbody2D>();
 
@@ -85,8 +86,12 @@ public class BasicControls : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        //Need better solution to getting the healthbar later
-        animHealth = FindObjectOfType<UnityEngine.UI.Slider>().GetComponentInChildren<Animator>();
+        if (animHealth == null)
+        {
+            //Need better solution to getting the healthbar later
+            animHealth = GameObject.Find("HUDCanvas/Slider/Handle Slide Area/Handle").GetComponent<Animator>();
+        }
+        
 
         if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
         {
@@ -228,6 +233,7 @@ public class BasicControls : MonoBehaviour {
             
             evadeTimer = evadeTime;
             anim.SetTrigger("Evading");
+            animHealth.SetTrigger("Roll");
             Debug.Log("Rolling");
         }
 
