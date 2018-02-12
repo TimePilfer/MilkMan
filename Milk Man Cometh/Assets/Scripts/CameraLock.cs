@@ -16,6 +16,6 @@ public class CameraLock : MonoBehaviour {
 
     void LateUpdate()
     {
-        GetComponent<Camera>().transform.position = new Vector3(transform.position.x, 14.29f, transform.position.z);
+        //GetComponent<Camera>().transform.position = new Vector3(transform.position.x, 14.29f, transform.position.z);
     }
 }

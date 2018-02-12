@@ -5,7 +5,8 @@ using System.Collections;
  * and checking if the player is on the ground or not. Shooting, however, is handled in the Arm class, with shots handled in the bullet script. Arm movement is also in
  * the Arm script.
  */
-public class BasicControls : MonoBehaviour {
+public class BasicControls : MonoBehaviour
+{
 
     public static BasicControls player;
 
@@ -26,7 +27,7 @@ public class BasicControls : MonoBehaviour {
     public Transform groundcheck;
 
     protected bool isGround = false;
-    protected bool isGrounded = true;
+    protected bool isGrounded = false;
     protected bool isCrouched = false;
     public Animator anim;
     public Animator animHealth;
@@ -66,7 +67,7 @@ public class BasicControls : MonoBehaviour {
     public bool invincible2 = false;
 
     // Use this for initialization
-    void Awake ()
+    void Awake()
     {
         anim = GetComponent<Animator>();
 
@@ -82,16 +83,19 @@ public class BasicControls : MonoBehaviour {
         player = this;
         DontDestroyOnLoad(gameObject);
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 0.1f);
+
+
         if (animHealth == null)
         {
             //Need better solution to getting the healthbar later
             animHealth = GameObject.Find("HUDCanvas/Slider/Handle Slide Area/Handle").GetComponent<Animator>();
         }
-        
+
 
         if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
         {
@@ -104,9 +108,9 @@ public class BasicControls : MonoBehaviour {
 
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
-            isGround = Physics2D.Linecast(transform.position, groundcheck.position, 1 << LayerMask.NameToLayer("Ground"));
+            //OnCollisionExit();
 
-            if (Input.GetButtonDown("Jump") && isGround)
+            if (Input.GetButtonDown("Jump") && hit.collider != null)
             {
                 jump = true;
             }
@@ -123,7 +127,7 @@ public class BasicControls : MonoBehaviour {
         }
 
         ProcessEvasion();
-        
+
     }
 
     void FixedUpdate()
@@ -170,7 +174,8 @@ public class BasicControls : MonoBehaviour {
 
                 if (canJump)
                 {
-                    rb2d.AddForce(new Vector2(0f, jumpforce));
+                    //rb2d.AddForce(new Vector2(0f, jumpforce));
+                    rb2d.velocity += 8f * Vector2.up;
                     canJump = false;
                 }
 
@@ -184,7 +189,7 @@ public class BasicControls : MonoBehaviour {
                     rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
                 }
             }
-            
+
         }
     }
 
@@ -197,7 +202,7 @@ public class BasicControls : MonoBehaviour {
         xValue = -(xValue);
     }
 
-    IEnumerator jumpLag ()
+    IEnumerator jumpLag()
     {
         yield return new WaitForSeconds(jumpdelay);
 
@@ -230,7 +235,7 @@ public class BasicControls : MonoBehaviour {
         {
             //arm.SetActive(false);// = false;
             evading = true;
-            
+
             evadeTimer = evadeTime;
             anim.SetTrigger("Evading");
             animHealth.SetTrigger("Roll");
@@ -239,19 +244,19 @@ public class BasicControls : MonoBehaviour {
 
         if (evading)
         {
-            
+
             arm.SetActive(false);
             evading = false;
             invincible = true;
             invincible2 = true;
             StartCoroutine(WaitAndPrint(1.1F));
-            
+
             evadeTimer = Mathf.Max(0f, evadeTimer - Time.deltaTime);
 
             // Evasion overrides speed and direction
             moveDirection = rb2d.transform.forward; // evasion = full speed forward
             moveSpeed = evadeDistance / evadeTime;
-            
+
             cooldownTimer = 3.0f;
 
 
@@ -259,12 +264,14 @@ public class BasicControls : MonoBehaviour {
         if (evadeTimer == 0)
         {
             //anim.SetBool("Evading", false);
-            
+
             anim.ResetTrigger("Evading");
 
         }
 
     }
+
+    
 
     IEnumerator WaitAndPrint(float waitTime)
     {
@@ -275,3 +282,4 @@ public class BasicControls : MonoBehaviour {
         Debug.Log("WaitAndPrint " + Time.time);
     }
 }
+
