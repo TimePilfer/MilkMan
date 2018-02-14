@@ -45,8 +45,8 @@ public class SpawnEnemy : MonoBehaviour
             {
                 isSpawning = false;
                 GameObject spawnPoint = spawnPoints[0]; //Set a default spawnpoint to avoid errors
-                Instantiate(toSpawn, spawnPoint.transform.position, Quaternion.identity);   //Spawn the wanted GameObject
-                
+                //Instantiate(toSpawn, spawnPoint.transform.position, Quaternion.identity);   //Spawn the wanted GameObject
+                Instantiate(toSpawn, new Vector3(spawnPoint.transform.position.x - xOffset, 14.15439f, 2.5f), Quaternion.identity);
             }
         }
     }
