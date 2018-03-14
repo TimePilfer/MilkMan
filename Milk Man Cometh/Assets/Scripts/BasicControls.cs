@@ -26,7 +26,7 @@ public class BasicControls : MonoBehaviour
     public float jumpforce = 1000f;
     public Transform groundcheck;
 
-    protected bool isGround = false;
+    public bool isGround = false;
     protected bool isGrounded = false;
     protected bool isCrouched = false;
     public Animator anim;
@@ -110,7 +110,7 @@ public class BasicControls : MonoBehaviour
         {
             //OnCollisionExit();
 
-            if (Input.GetButtonDown("Jump") && hit.collider != null)
+            if (Input.GetButtonDown("Jump") && isGround)
             {
                 jump = true;
             }
@@ -136,6 +136,8 @@ public class BasicControls : MonoBehaviour
         {
             if (!isPaused)
             {
+                GroundedUpdater();
+
                 float h = Input.GetAxisRaw("Horizontal");
 
                 anim.SetFloat("Speed", Mathf.Abs(h));
@@ -175,7 +177,9 @@ public class BasicControls : MonoBehaviour
                 if (canJump)
                 {
                     //rb2d.AddForce(new Vector2(0f, jumpforce));
-                    rb2d.velocity += 8f * Vector2.up;
+                    //rb2d.velocity += 8f * Vector2.up;
+                    rb2d.AddForce(Vector3.up * jumpforce, ForceMode2D.Impulse);
+                    isGrounded = false; //Avoid direct double jump
                     canJump = false;
                 }
 
@@ -225,6 +229,24 @@ public class BasicControls : MonoBehaviour
         PlayerCollision.size = new Vector2(PlayerCollision.size.x, standHeight);
         //PlayerCollision.offset = new Vector2(0, 0);
         anim.ResetTrigger("Duck");
+    }
+
+    void GroundedUpdater()
+    {
+        isGround = false; //Set to false every frame by default
+        RaycastHit2D[] hit;
+        hit = Physics2D.RaycastAll(transform.position, Vector2.down, 5f);
+        // you can increase RaycastLength and adjust direction for your case
+        foreach (var hited in hit)
+        {
+            if (hited.collider.gameObject == gameObject) //Ignore my character
+                continue;
+            // Don't forget to add tag to your ground
+            if (hited.collider.gameObject.tag == "Ground")
+            { //Change it to match ground tag
+                isGround = true;
+            }
+        }
     }
 
     void ProcessEvasion()

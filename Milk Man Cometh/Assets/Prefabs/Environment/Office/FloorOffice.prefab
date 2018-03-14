@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3303268}
   - component: {fileID: 6479420}
   - component: {fileID: 2383152}
-  - component: {fileID: 210426188076807656}
+  - component: {fileID: 210108239824246084}
   m_Layer: 16
   m_Name: FloorOffice
   m_TagString: background
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188800}
   m_LocalRotation: {x: 0.66043085, y: -0, z: -0, w: 0.7508869}
-  m_LocalPosition: {x: 854.4, y: -52.8, z: -28.1}
-  m_LocalScale: {x: 2135.9941, y: 102.04289, z: 1}
+  m_LocalPosition: {x: 1093.6, y: -52.8, z: -28.1}
+  m_LocalScale: {x: 1658.9758, y: 102.04289, z: 1}
   m_Children:
   - {fileID: 4212131076487174}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 82.665, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 86.093, y: 0, z: 0}
 --- !u!23 &2383152
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 61848627886306848}
   m_Layer: 16
   m_Name: Floor
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,7 +151,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!210 &210426188076807656
+--- !u!210 &210108239824246084
 SortingGroup:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
