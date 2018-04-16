@@ -1980,6 +1980,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25ba598924ab1e64d8c52e898f45ff62, type: 2}
   m_IsPrefabParent: 0
+GameObject:
+  m_PrefabParentObject: {fileID: 1380398898644308, guid: 25ba598924ab1e64d8c52e898f45ff62,
+    type: 2}
+  m_PrefabInternal: {fileID: 60099488}
+--- !u!114 &60099490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 60099489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388debe0aaec2e24daa5cb28701fe478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  xPosition: 0
+  yPosition: 0
 --- !u!1 &64011025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18558,15 +18576,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1953496908779574, guid: e2c0dcfa25fbde448baf05db49c1a394, type: 2}
-      propertyPath: m_Name
-      value: respawnPoint
-      objectReference: {fileID: 0}
     - target: {fileID: 114591993852207690, guid: e2c0dcfa25fbde448baf05db49c1a394,
         type: 2}
       propertyPath: test
       value: 
       objectReference: {fileID: 71790900}
+    - target: {fileID: 1953496908779574, guid: e2c0dcfa25fbde448baf05db49c1a394, type: 2}
+      propertyPath: m_Name
+      value: respawnPoint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2c0dcfa25fbde448baf05db49c1a394, type: 2}
   m_IsPrefabParent: 0
@@ -42196,22 +42214,6 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 952480500}
-    - target: {fileID: 2020438, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
-      propertyPath: field of view
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 11477792, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
-      propertyPath: coneRotation
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 419814, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
-      propertyPath: jumpforce
-      value: 30
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
   m_IsPrefabParent: 0
