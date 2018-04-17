@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\ButtonClick.cs" />
      <Compile Include="Assets\Scripts\ButtonInteract.cs" />
      <Compile Include="Assets\Scripts\CameraLock.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\Damage.cs" />
      <Compile Include="Assets\Scripts\DeathFall.cs" />
      <Compile Include="Assets\Scripts\destroyEnemy.cs" />
