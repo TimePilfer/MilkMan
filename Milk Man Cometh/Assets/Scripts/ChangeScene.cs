@@ -10,12 +10,13 @@ public class ChangeScene : MonoBehaviour {
     public float xPosition;
     public float yPosition;
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.tag == "Player")
         {
             other.transform.position = new Vector3(xPosition, yPosition, 0);
-            SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+            Debug.Log("Change Scene");
         }
     }
 }
