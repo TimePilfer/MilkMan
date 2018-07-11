@@ -13,8 +13,10 @@ public class bulletSpawn : MonoBehaviour {
     //The bullet prefab
     public Rigidbody2D bulletPrefab;
 
+    public static bulletSpawn bulletSpawnInstance;
+
     //public GameObject stream;
-    
+
     public float yValue = 0f; // Used to make it look like it's shot from the gun itself (offset)
     public float xValue = 0f; // Same as above
     public float coneRotation = 0f;
@@ -26,6 +28,8 @@ public class bulletSpawn : MonoBehaviour {
     void Start()
     {
         anim = GetComponentInParent<Animator>();
+
+        bulletSpawnInstance = this;
     }
 
     // Update is called once per frame

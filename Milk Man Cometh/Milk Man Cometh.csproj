@@ -101,6 +101,7 @@
     <Compile Include="Assets\Scripts\PauseMenuController.cs" />
     <Compile Include="Assets\Scripts\Persistence.cs" />
     <Compile Include="Assets\Scripts\PlayerFall.cs" />
+    <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\SaveLoad.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
