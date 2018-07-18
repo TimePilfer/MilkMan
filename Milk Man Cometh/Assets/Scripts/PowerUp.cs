@@ -45,6 +45,14 @@ public class PowerUp : MonoBehaviour {
         }
 
         //Goat Milk - higher knockback
+        if (other.gameObject.name == "Goat Milk")
+        {
+            Debug.Log("Goat Milk");
+            bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
+            bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
+            bulletSpawn.bulletSpawnInstance.coneRotation = 10;
+            weaponUnlocks[3] = true;
+        }
 
         //Strawberry Milk - explosive shot
 
