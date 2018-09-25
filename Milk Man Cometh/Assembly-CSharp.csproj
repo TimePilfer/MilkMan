@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\Persistence.cs" />
      <Compile Include="Assets\Scripts\PlayerFall.cs" />
      <Compile Include="Assets\Scripts\playVideo.cs" />
+     <Compile Include="Assets\Scripts\PowerUp.cs" />
      <Compile Include="Assets\Scripts\SaveLoad.cs" />
      <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\SpawnManager.cs" />
@@ -127,8 +128,8 @@
      <Compile Include="Assets\unity-movement-ai\Scripts\Units\Wander2Unit.cs" />
      <Compile Include="Assets\unity-movement-ai\Scripts\Units\WanderAvoidUnit.cs" />
      <None Include="Assets\unity-movement-ai\Models\Materials\Lines.shader" />
-     <None Include="Assets\BasicBeamShot\HowToUse_JP.txt" />
-     <None Include="Assets\BasicBeamShot\HowToUse_EN.txt" />
+     <None Include="Assets\Scripts\BasicBeamShot\HowToUse_JP.txt" />
+     <None Include="Assets\Scripts\BasicBeamShot\HowToUse_EN.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
