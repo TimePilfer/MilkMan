@@ -66,6 +66,9 @@ public class BasicControls : MonoBehaviour
     public static bool invincible = false;
     public bool invincible2 = false;
 
+    //Prefab for the bullets in the special attack
+    public Rigidbody2D bulletPrefab;
+
     // Use this for initialization
     void Awake()
     {
@@ -132,6 +135,8 @@ public class BasicControls : MonoBehaviour
 
     void FixedUpdate()
     {
+        Vector2 parentSpeed = GetComponent<Rigidbody2D>().velocity;
+
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("RobotDeath"))
         {
             if (!isPaused)
@@ -191,6 +196,27 @@ public class BasicControls : MonoBehaviour
                 if (test)
                 {
                     rb2d.velocity = new Vector2((rb2d.velocity.x / 2), rb2d.velocity.y);
+                }
+
+                if (MilkLusted.canSpecial && Input.GetButton("Fire2"))
+                {
+                    Debug.Log("Special");
+
+                    for (int i = 0; i < 100; i++)
+                    {
+                        //Add logic for doing the special attack
+                        Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
+                            transform.position.z), transform.rotation) as Rigidbody2D;
+
+                        Vector2 dir = (new Vector2(Random.insideUnitCircle.normalized.x, Random.insideUnitCircle.normalized.y));
+
+                        bPrefab.velocity = (dir * 35 + parentSpeed);
+                    }
+                    
+                    MilkLusted.LustMeter = 0;
+
+                    MilkLusted.canSpecial = false;
+
                 }
             }
 
@@ -296,6 +322,15 @@ public class BasicControls : MonoBehaviour
     
 
     IEnumerator WaitAndPrint(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        arm.SetActive(true);
+        invincible = false;
+        invincible2 = false;
+        Debug.Log("WaitAndPrint " + Time.time);
+    }
+
+    IEnumerator Special(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         arm.SetActive(true);

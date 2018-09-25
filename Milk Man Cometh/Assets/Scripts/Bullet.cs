@@ -5,7 +5,7 @@ using System.Collections;
  * projectiles, but may change to one stream of milk.
  */
 public class Bullet : MonoBehaviour {
-
+    
     //The speed of the bullet as it moves through the scene.
     public float _bulletSpeed;
     //The rigidbody of the bullet
@@ -15,7 +15,6 @@ public class Bullet : MonoBehaviour {
     {
         //Gets the bullet's rigidbody
         _rb = GetComponent<Rigidbody2D>();
-
     }
 
     void Awake()

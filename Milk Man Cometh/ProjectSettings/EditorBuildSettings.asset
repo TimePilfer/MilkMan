@@ -7,9 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
+    guid: d877c95a9b2fce94f8ece34a1edd16d3
   - enabled: 1
     path: Assets/Scenes/Intro.unity
-  - enabled: 1
+    guid: 7ccc8f5c131c5794380bb3e7ebc95213
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/Level.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/BoxFort.unity
+    guid: f6eb1a153346eaa4886b8398e33017a2
+  - enabled: 1
+    path: Assets/Scenes/Level1_old.unity
+    guid: 2c58f548d266b424bb193211b50ddefe

@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class MilkLusted : MonoBehaviour {
 
-    public static int LustMeter = 0;
+    public static int LustMeter = 10;
     private static int Last_LustMeter = 0;
 
     private UnityEngine.UI.Slider MilkLust;
+
+    public static bool canSpecial = false;
 
 	// Use this for initialization
 	void Start () {
@@ -18,9 +20,16 @@ public class MilkLusted : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Last_LustMeter != LustMeter)
-        {
+        {   
             MilkLust.value = LustMeter;
             Last_LustMeter = LustMeter;
         }
+
+        if (LustMeter == 10)
+        {
+            Debug.Log("Can Special");
+            canSpecial = true;
+        }
+
 	}
 }

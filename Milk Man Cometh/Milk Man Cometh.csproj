@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.6.1f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -101,6 +103,7 @@
     <Compile Include="Assets\Scripts\PauseMenuController.cs" />
     <Compile Include="Assets\Scripts\Persistence.cs" />
     <Compile Include="Assets\Scripts\PlayerFall.cs" />
+    <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\SaveLoad.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
@@ -155,8 +158,8 @@
     <Compile Include="Assets\unity-movement-ai\Scripts\Units\WanderAvoidUnit.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\BasicBeamShot\HowToUse_EN.txt" />
-    <None Include="Assets\BasicBeamShot\HowToUse_JP.txt" />
+    <None Include="Assets\Scripts\BasicBeamShot\HowToUse_EN.txt" />
+    <None Include="Assets\Scripts\BasicBeamShot\HowToUse_JP.txt" />
     <None Include="Assets\unity-movement-ai\Models\Materials\Lines.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
