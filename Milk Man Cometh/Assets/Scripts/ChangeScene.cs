@@ -15,7 +15,7 @@ public class ChangeScene : MonoBehaviour {
         if (other.collider.tag == "Player")
         {
             other.transform.position = new Vector3(xPosition, yPosition, 0);
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
             Debug.Log("Change Scene");
         }
     }

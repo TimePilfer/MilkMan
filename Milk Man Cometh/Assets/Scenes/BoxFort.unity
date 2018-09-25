@@ -2780,7 +2780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level1_old
-  xPosition: 1625
+  xPosition: 1590
   yPosition: -40
 --- !u!1 &1591916708
 GameObject:
@@ -3265,6 +3265,10 @@ Prefab:
       propertyPath: shotSpeed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
   m_IsPrefabParent: 0
@@ -3489,6 +3493,11 @@ Prefab:
       propertyPath: m_Name
       value: Entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 114637238203838630, guid: fa08c34f1bbd22b4aba74bf10c7c886b,
+        type: 2}
+      propertyPath: xPosition
+      value: 1810
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa08c34f1bbd22b4aba74bf10c7c886b, type: 2}
   m_IsPrefabParent: 0
@@ -3565,6 +3574,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25ba598924ab1e64d8c52e898f45ff62, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1868759745 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 166522, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+  m_PrefabInternal: {fileID: 1731256524}
+--- !u!114 &1868759746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868759745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa124284639d0246985169074634534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1896118544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4352,7 +4376,7 @@ Prefab:
     - target: {fileID: 224501495308303916, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224501495308303916, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
@@ -4362,7 +4386,7 @@ Prefab:
     - target: {fileID: 224501495308303916, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114216974925370214, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
@@ -4447,7 +4471,7 @@ Prefab:
     - target: {fileID: 114604014364273244, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
       propertyPath: m_Value
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114604014364273244, guid: b4498702bbc00ad49b20bfe0685b2316,
         type: 2}
