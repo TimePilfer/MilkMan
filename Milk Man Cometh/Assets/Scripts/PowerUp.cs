@@ -15,7 +15,6 @@ public class PowerUp : MonoBehaviour {
         bullet = GetComponent<bulletSpawn>();
         weaponUnlocks[0] = true; // The starting shot - Regular Milk
         //weaponUnlocks[9] = true; // Possible second starting shot - Chocolate Milk?
-
     }
 	
 	// Update is called once per frame
@@ -88,18 +87,12 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Strawberry Milk")
         {
             Debug.Log("Strawberry Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[4] = true;
         }
         //Almond Milk - bouncing shots
         if (other.gameObject.name == "Almond Milk")
         {
             Debug.Log("Almond Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[5] = true;
         }
 
@@ -107,9 +100,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Hemp Milk")
         {
             Debug.Log("Hemp Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[6] = true;
         }
 
@@ -117,9 +107,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Powdered Milk")
         {
             Debug.Log("Powdered Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[7] = true;
         }
 
@@ -127,9 +114,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Nanobot Milk")
         {
             Debug.Log("Nanobot Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[8] = true;
         }
 
