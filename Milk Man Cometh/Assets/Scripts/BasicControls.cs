@@ -216,7 +216,6 @@ public class BasicControls : MonoBehaviour
                     MilkLusted.LustMeter = 0;
 
                     MilkLusted.canSpecial = false;
-
                 }
             }
 
