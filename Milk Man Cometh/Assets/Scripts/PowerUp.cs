@@ -14,7 +14,7 @@ public class PowerUp : MonoBehaviour {
     void Start () {
         bullet = GetComponent<bulletSpawn>();
         weaponUnlocks[0] = true; // The starting shot - Regular Milk
-        //weaponUnlocks[9] = true; // Possible second starting shot - Chocolate Milk?
+        weaponUnlocks[9] = true; // Possible second starting shot - Chocolate Milk?
     }
 	
 	// Update is called once per frame
@@ -55,6 +55,10 @@ public class PowerUp : MonoBehaviour {
         if (weaponUnlocks[8] && (Input.GetKeyDown(KeyCode.Alpha9) || Input.GetKeyDown(KeyCode.Keypad9)))
         {
             NanobotMilk();
+        }
+        if (weaponUnlocks[9] && (Input.GetKeyDown(KeyCode.Alpha0) || Input.GetKeyDown(KeyCode.Keypad0)))
+        {
+            ChocolateMilk();
         }
     }
 
@@ -117,6 +121,13 @@ public class PowerUp : MonoBehaviour {
             weaponUnlocks[8] = true;
         }
 
+        //Chocolate Milk - Charge Shot
+        if (other.gameObject.name == "Chocolate Milk")
+        {
+            Debug.Log("Chocolate Milk");
+            weaponUnlocks[9] = true;
+        }
+
     }
 
     public void Milk()
@@ -172,4 +183,8 @@ public class PowerUp : MonoBehaviour {
         throw new NotImplementedException();
     }
 
+    private void ChocolateMilk()
+    {
+        throw new NotImplementedException();
+    }
 }

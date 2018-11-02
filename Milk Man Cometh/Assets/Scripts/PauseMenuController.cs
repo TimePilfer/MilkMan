@@ -26,7 +26,11 @@ public class PauseMenuController : MonoBehaviour {
             {
                 test.SetActive(false);
 
-                Time.timeScale = 1;
+                if(!Input.GetButton("Weapons"))
+                {
+                    Time.timeScale = 1;
+                }
+                
             }
         }
         else
