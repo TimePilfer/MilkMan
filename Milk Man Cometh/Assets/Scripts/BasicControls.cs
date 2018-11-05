@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 /*
  * This class handles all of the player's controls. This includes all moving, jumping, speed, as well as checking which way the character is facing, flipping the character,
  * and checking if the player is on the ground or not. Shooting, however, is handled in the Arm class, with shots handled in the bullet script. Arm movement is also in
@@ -11,9 +12,21 @@ public class BasicControls : MonoBehaviour
 
     public static BasicControls player;
 
+    public PowerUp powerUp;
+
     public bool myBool = false;
 
     public bool isPaused;
+
+    const int RAD_ZERO = 0;
+    const int RAD_FIRST_WEAPON = 45;
+    const int RAD_SECOND_WEAPON = 90;
+    const int RAD_THIRD_WEAPON = 135;
+    const int RAD_FOURTH_WEAPON = 180;
+    const int RAD_FIFTH_WEAPON = 225;
+    const int RAD_SIXTH_WEAPON = 270;
+    const int RAD_SEVENTH_WEAPON = 315;
+    const int RAD_EIGHTH_WEAPON = 360;
 
     // and expose static members through properties
     // this way, you have a lot more control over what is actually being sent out.
@@ -215,7 +228,7 @@ public class BasicControls : MonoBehaviour
                         Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
                             transform.position.z), transform.rotation) as Rigidbody2D;
 
-                        Vector2 dir = (new Vector2(Random.insideUnitCircle.normalized.x, Random.insideUnitCircle.normalized.y));
+                        Vector2 dir = (new Vector2(UnityEngine.Random.insideUnitCircle.normalized.x, UnityEngine.Random.insideUnitCircle.normalized.y));
 
                         bPrefab.velocity = (dir * 35 + parentSpeed);
                     }
@@ -231,7 +244,7 @@ public class BasicControls : MonoBehaviour
 
                     //Implement logic to make the wheel popup.
                     weaponWheel.SetActive(true);
-                    weaponSelected(arm.dir);
+                    weaponSelected(arm.ls.x);
                 }
                 else
                 {
@@ -355,9 +368,55 @@ public class BasicControls : MonoBehaviour
         Debug.Log("WaitAndPrint " + Time.time);
     }
 
-    void weaponSelected(Vector3 weaponSelection)
+    void weaponSelected(float weaponSelection)
     {
+        if (weaponSelection > RAD_ZERO && weaponSelection <= RAD_FIRST_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
 
+            powerUp.weaponSelected[0] = true;
+        }
+        if (weaponSelection > RAD_FIRST_WEAPON && weaponSelection <= RAD_SECOND_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[1] = true;
+        }
+        if (weaponSelection > RAD_SECOND_WEAPON && weaponSelection <= RAD_THIRD_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[2] = true;
+        }
+        if (weaponSelection > RAD_THIRD_WEAPON && weaponSelection <= RAD_FOURTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[3] = true;
+        }
+        if (weaponSelection > RAD_FOURTH_WEAPON && weaponSelection <= RAD_FIFTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[4] = true;
+        }
+        if (weaponSelection > RAD_FIFTH_WEAPON && weaponSelection <= RAD_SIXTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[5] = true;
+        }
+        if (weaponSelection > RAD_SIXTH_WEAPON && weaponSelection <= RAD_SEVENTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[6] = true;
+        }
+        if (weaponSelection > RAD_SEVENTH_WEAPON && weaponSelection <= RAD_EIGHTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[7] = true;
+        }
     }
 }
-

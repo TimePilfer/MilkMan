@@ -8,7 +8,8 @@ public class PowerUp : MonoBehaviour {
     public static bulletSpawn bullet;
 
     public bool[] weaponUnlocks = new bool[10];
-    
+
+    public bool[] weaponSelected = new bool[10];
 
     // Use this for initialization
     void Start () {

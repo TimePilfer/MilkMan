@@ -16,7 +16,7 @@ public class Arm : MonoBehaviour {
 
     public Animator anim;
     //The characters location in 3d
-    private Vector3 ls;
+    public Vector3 ls;
 
     public bool isPaused;
 
