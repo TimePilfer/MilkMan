@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,21 +8,62 @@ public class PowerUp : MonoBehaviour {
     public static bulletSpawn bullet;
 
     public bool[] weaponUnlocks = new bool[10];
-    
+
+    public bool[] weaponSelected = new bool[10];
 
     // Use this for initialization
     void Start () {
         bullet = GetComponent<bulletSpawn>();
         weaponUnlocks[0] = true; // The starting shot - Regular Milk
-        //weaponUnlocks[9] = true; // Possible second starting shot - Chocolate Milk?
-
+        weaponUnlocks[9] = true; // Possible second starting shot - Chocolate Milk?
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
+        if (weaponUnlocks[0] && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)))
+        {
+            Milk();
+        }
+        if (weaponUnlocks[1] && (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2)))
+        {
+            RiceMilk();
+        }
+        if (weaponUnlocks[2] && (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3)))
+        {
+            SkimMilk();
+        }
+        if (weaponUnlocks[3] && (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4)))
+        {
+            GoatMilk();
+        }
+        if (weaponUnlocks[4] && (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5)))
+        {
+            StrawberryMilk();
+        }
+        if (weaponUnlocks[5] && (Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Keypad6)))
+        {
+            AlmondMilk();
+        }
+        if (weaponUnlocks[6] && (Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Keypad7)))
+        {
+            HempMilk();
+        }
+        if (weaponUnlocks[7] && (Input.GetKeyDown(KeyCode.Alpha8) || Input.GetKeyDown(KeyCode.Keypad8)))
+        {
+            PowderedMilk();
+        }
+        if (weaponUnlocks[8] && (Input.GetKeyDown(KeyCode.Alpha9) || Input.GetKeyDown(KeyCode.Keypad9)))
+        {
+            NanobotMilk();
+        }
+        if (weaponUnlocks[9] && (Input.GetKeyDown(KeyCode.Alpha0) || Input.GetKeyDown(KeyCode.Keypad0)))
+        {
+            ChocolateMilk();
+        }
+    }
+
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Hit");
@@ -29,9 +71,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Rice Milk")
         {
             Debug.Log("Rice Milk");
-            bulletSpawn.bulletSpawnInstance.fireRate = 0.001f;
-            bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            bulletSpawn.bulletSpawnInstance.coneRotation = 40;
             weaponUnlocks[1] = true;
         }
 
@@ -39,9 +78,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Skim Milk")
         {
             Debug.Log("Skim Milk");
-            bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[2] = true;
         }
 
@@ -49,9 +85,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Goat Milk")
         {
             Debug.Log("Goat Milk");
-            bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[3] = true;
         }
 
@@ -59,18 +92,12 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Strawberry Milk")
         {
             Debug.Log("Strawberry Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[4] = true;
         }
         //Almond Milk - bouncing shots
         if (other.gameObject.name == "Almond Milk")
         {
             Debug.Log("Almond Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[5] = true;
         }
 
@@ -78,9 +105,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Hemp Milk")
         {
             Debug.Log("Hemp Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[6] = true;
         }
 
@@ -88,9 +112,6 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Powdered Milk")
         {
             Debug.Log("Powdered Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[7] = true;
         }
 
@@ -98,12 +119,73 @@ public class PowerUp : MonoBehaviour {
         if (other.gameObject.name == "Nanobot Milk")
         {
             Debug.Log("Nanobot Milk");
-            //bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
-            //bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
-            //bulletSpawn.bulletSpawnInstance.coneRotation = 10;
             weaponUnlocks[8] = true;
+        }
+
+        //Chocolate Milk - Charge Shot
+        if (other.gameObject.name == "Chocolate Milk")
+        {
+            Debug.Log("Chocolate Milk");
+            weaponUnlocks[9] = true;
         }
 
     }
 
+    public void Milk()
+    {
+        bulletSpawn.bulletSpawnInstance.fireRate = 0.1f;
+        bulletSpawn.bulletSpawnInstance.shotSpeed = 30;
+        bulletSpawn.bulletSpawnInstance.coneRotation = 30;
+    }
+
+    public void RiceMilk()
+    {
+        bulletSpawn.bulletSpawnInstance.fireRate = 0.001f;
+        bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
+        bulletSpawn.bulletSpawnInstance.coneRotation = 40;
+    }
+
+    private void SkimMilk()
+    {
+        bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
+        bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
+        bulletSpawn.bulletSpawnInstance.coneRotation = 10;
+    }
+
+    private void GoatMilk()
+    {
+        bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
+        bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
+        bulletSpawn.bulletSpawnInstance.coneRotation = 10;
+    }
+
+    private void NanobotMilk()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void PowderedMilk()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void HempMilk()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void AlmondMilk()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void StrawberryMilk()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void ChocolateMilk()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 /*
  * This class handles all of the player's controls. This includes all moving, jumping, speed, as well as checking which way the character is facing, flipping the character,
  * and checking if the player is on the ground or not. Shooting, however, is handled in the Arm class, with shots handled in the bullet script. Arm movement is also in
@@ -7,12 +8,25 @@ using System.Collections;
  */
 public class BasicControls : MonoBehaviour
 {
+    public GameObject weaponWheel;
 
     public static BasicControls player;
+
+    public PowerUp powerUp;
 
     public bool myBool = false;
 
     public bool isPaused;
+
+    const int RAD_ZERO = 0;
+    const int RAD_FIRST_WEAPON = 45;
+    const int RAD_SECOND_WEAPON = 90;
+    const int RAD_THIRD_WEAPON = 135;
+    const int RAD_FOURTH_WEAPON = 180;
+    const int RAD_FIFTH_WEAPON = 225;
+    const int RAD_SIXTH_WEAPON = 270;
+    const int RAD_SEVENTH_WEAPON = 315;
+    const int RAD_EIGHTH_WEAPON = 360;
 
     // and expose static members through properties
     // this way, you have a lot more control over what is actually being sent out.
@@ -62,12 +76,16 @@ public class BasicControls : MonoBehaviour
     private float evadeTimer; //the timer until the next roll can happen
     public float moveSpeed; //the movement speed of the roll
     public Vector3 moveDirection; // the direction the character is rolling
-    public GameObject arm; //The Robot's arm
+    public Arm arm; //The Robot's arm
     public static bool invincible = false;
     public bool invincible2 = false;
 
+    public GameObject robotArm;
+
     //Prefab for the bullets in the special attack
     public Rigidbody2D bulletPrefab;
+
+    //public Arm arm;
 
     // Use this for initialization
     void Awake()
@@ -79,12 +97,16 @@ public class BasicControls : MonoBehaviour
 
         rb2d = GetComponent<Rigidbody2D>();
 
-        //arm = GetComponentInChildren<GameObject>();
+        arm = GameObject.Find("Arm").GetComponent<Arm>();
+
+        robotArm = GameObject.Find("Arm");
 
         PlayerCollision = GetComponent<BoxCollider2D>();
         //ani = GetComponent<Animation>();
         player = this;
         DontDestroyOnLoad(gameObject);
+
+        weaponWheel = GameObject.Find("WeaponWheel");
     }
 
     // Update is called once per frame
@@ -92,14 +114,12 @@ public class BasicControls : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, 0.1f);
 
-
         if (animHealth == null)
         {
             //Need better solution to getting the healthbar later
             animHealth = GameObject.Find("HUDCanvas/Slider/Handle Slide Area/Handle").GetComponent<Animator>();
         }
-
-
+        
         if (GameObject.Find("respawnPoint").GetComponent<Pause>().isPaused)
         {
             isPaused = true;
@@ -208,7 +228,7 @@ public class BasicControls : MonoBehaviour
                         Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
                             transform.position.z), transform.rotation) as Rigidbody2D;
 
-                        Vector2 dir = (new Vector2(Random.insideUnitCircle.normalized.x, Random.insideUnitCircle.normalized.y));
+                        Vector2 dir = (new Vector2(UnityEngine.Random.insideUnitCircle.normalized.x, UnityEngine.Random.insideUnitCircle.normalized.y));
 
                         bPrefab.velocity = (dir * 35 + parentSpeed);
                     }
@@ -216,10 +236,23 @@ public class BasicControls : MonoBehaviour
                     MilkLusted.LustMeter = 0;
 
                     MilkLusted.canSpecial = false;
+                }
 
+                if (Input.GetButton("Weapons"))
+                {
+                    Time.timeScale = 0.1f;
+
+                    //Implement logic to make the wheel popup.
+                    weaponWheel.SetActive(true);
+                    weaponSelected(arm.ls.x);
+                }
+                else
+                {
+                    Time.timeScale = 1f;
+
+                    weaponWheel.SetActive(false);
                 }
             }
-
         }
     }
 
@@ -283,7 +316,7 @@ public class BasicControls : MonoBehaviour
         {
             //arm.SetActive(false);// = false;
             evading = true;
-
+            
             evadeTimer = evadeTime;
             anim.SetTrigger("Evading");
             animHealth.SetTrigger("Roll");
@@ -292,8 +325,7 @@ public class BasicControls : MonoBehaviour
 
         if (evading)
         {
-
-            arm.SetActive(false);
+            robotArm.SetActive(false);
             evading = false;
             invincible = true;
             invincible2 = true;
@@ -306,8 +338,7 @@ public class BasicControls : MonoBehaviour
             moveSpeed = evadeDistance / evadeTime;
 
             cooldownTimer = 3.0f;
-
-
+            
         }
         if (evadeTimer == 0)
         {
@@ -318,13 +349,11 @@ public class BasicControls : MonoBehaviour
         }
 
     }
-
     
-
     IEnumerator WaitAndPrint(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        arm.SetActive(true);
+        robotArm.SetActive(true);
         invincible = false;
         invincible2 = false;
         Debug.Log("WaitAndPrint " + Time.time);
@@ -333,10 +362,61 @@ public class BasicControls : MonoBehaviour
     IEnumerator Special(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        arm.SetActive(true);
+        robotArm.SetActive(true);
         invincible = false;
         invincible2 = false;
         Debug.Log("WaitAndPrint " + Time.time);
     }
-}
 
+    void weaponSelected(float weaponSelection)
+    {
+        if (weaponSelection > RAD_ZERO && weaponSelection <= RAD_FIRST_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[0] = true;
+        }
+        if (weaponSelection > RAD_FIRST_WEAPON && weaponSelection <= RAD_SECOND_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[1] = true;
+        }
+        if (weaponSelection > RAD_SECOND_WEAPON && weaponSelection <= RAD_THIRD_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[2] = true;
+        }
+        if (weaponSelection > RAD_THIRD_WEAPON && weaponSelection <= RAD_FOURTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[3] = true;
+        }
+        if (weaponSelection > RAD_FOURTH_WEAPON && weaponSelection <= RAD_FIFTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[4] = true;
+        }
+        if (weaponSelection > RAD_FIFTH_WEAPON && weaponSelection <= RAD_SIXTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[5] = true;
+        }
+        if (weaponSelection > RAD_SIXTH_WEAPON && weaponSelection <= RAD_SEVENTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[6] = true;
+        }
+        if (weaponSelection > RAD_SEVENTH_WEAPON && weaponSelection <= RAD_EIGHTH_WEAPON)
+        {
+            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+
+            powerUp.weaponSelected[7] = true;
+        }
+    }
+}

@@ -16,9 +16,11 @@ public class Arm : MonoBehaviour {
 
     public Animator anim;
     //The characters location in 3d
-    private Vector3 ls;
+    public Vector3 ls;
 
     public bool isPaused;
+
+    public Vector3 dir;
     //void Update()
     //{
     //    //var mouse = Input.mousePosition;
@@ -108,7 +110,7 @@ public class Arm : MonoBehaviour {
                 if (BasicControls.facingRight == true)
                 {
                     //The vector3 position of the character
-                    Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+                    dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
                     //The rotation of the character
                     float rotZ = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
                     //If the arm is pointing towards the front of the character
@@ -131,7 +133,7 @@ public class Arm : MonoBehaviour {
                 else
                 {
                     //The vector3 position of the character
-                    Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+                    dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
                     //The rotation of the character
                     float rotZ = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
                     //If the arm is pointing towards the front of the character

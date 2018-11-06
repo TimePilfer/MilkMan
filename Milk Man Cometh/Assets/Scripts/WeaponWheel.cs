@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AI : MonoBehaviour {
+public class WeaponWheel : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
