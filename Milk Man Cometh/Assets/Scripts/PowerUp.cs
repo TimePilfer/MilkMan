@@ -9,7 +9,7 @@ public class PowerUp : MonoBehaviour {
 
     public bool[] weaponUnlocks = new bool[10];
 
-    public bool[] weaponSelected = new bool[10];
+    public static bool[] weaponSelected = new bool[10];
 
     // Use this for initialization
     void Start () {
@@ -108,7 +108,7 @@ public class PowerUp : MonoBehaviour {
             weaponUnlocks[6] = true;
         }
 
-        //Powdered Milk - charge shot
+        //Powdered Milk - charge shot, build up then one big shot
         if (other.gameObject.name == "Powdered Milk")
         {
             Debug.Log("Powdered Milk");
@@ -122,7 +122,7 @@ public class PowerUp : MonoBehaviour {
             weaponUnlocks[8] = true;
         }
 
-        //Chocolate Milk - Charge Shot
+        //Chocolate Milk - Charge Shot, charge for a bit then stream while charged
         if (other.gameObject.name == "Chocolate Milk")
         {
             Debug.Log("Chocolate Milk");
@@ -145,46 +145,46 @@ public class PowerUp : MonoBehaviour {
         bulletSpawn.bulletSpawnInstance.coneRotation = 40;
     }
 
-    private void SkimMilk()
+    public void SkimMilk()
     {
         bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
         bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
         bulletSpawn.bulletSpawnInstance.coneRotation = 10;
     }
 
-    private void GoatMilk()
+    public void GoatMilk()
     {
         bulletSpawn.bulletSpawnInstance.fireRate = 0.01f;
         bulletSpawn.bulletSpawnInstance.shotSpeed = 40;
         bulletSpawn.bulletSpawnInstance.coneRotation = 10;
     }
 
-    private void NanobotMilk()
+    public void NanobotMilk()
     {
         throw new NotImplementedException();
     }
 
-    private void PowderedMilk()
+    public void PowderedMilk()
     {
         throw new NotImplementedException();
     }
 
-    private void HempMilk()
+    public void HempMilk()
     {
         throw new NotImplementedException();
     }
 
-    private void AlmondMilk()
+    public void AlmondMilk()
     {
         throw new NotImplementedException();
     }
 
-    private void StrawberryMilk()
+    public void StrawberryMilk()
     {
         throw new NotImplementedException();
     }
 
-    private void ChocolateMilk()
+    public void ChocolateMilk()
     {
         throw new NotImplementedException();
     }

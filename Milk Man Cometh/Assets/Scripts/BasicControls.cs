@@ -240,11 +240,14 @@ public class BasicControls : MonoBehaviour
 
                 if (Input.GetButton("Weapons"))
                 {
+                    //Debug.Log("Weapon Button");
+
                     Time.timeScale = 0.1f;
 
                     //Implement logic to make the wheel popup.
                     weaponWheel.SetActive(true);
                     weaponSelected(arm.ls.x);
+                    
                 }
                 else
                 {
@@ -372,51 +375,61 @@ public class BasicControls : MonoBehaviour
     {
         if (weaponSelection > RAD_ZERO && weaponSelection <= RAD_FIRST_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[0] = true;
+            PowerUp.weaponSelected[0] = true;
+
+            //PowerUp.Milk();
+
+            //Debug.Log("Milk");
         }
         if (weaponSelection > RAD_FIRST_WEAPON && weaponSelection <= RAD_SECOND_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[1] = true;
+            PowerUp.weaponSelected[1] = true;
+
+            
         }
         if (weaponSelection > RAD_SECOND_WEAPON && weaponSelection <= RAD_THIRD_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[2] = true;
+            PowerUp.weaponSelected[2] = true;
+
+            //PowerUp.GoatMilk();
+
+            Debug.Log("Goat Milk");
         }
         if (weaponSelection > RAD_THIRD_WEAPON && weaponSelection <= RAD_FOURTH_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[3] = true;
+            PowerUp.weaponSelected[3] = true;
         }
         if (weaponSelection > RAD_FOURTH_WEAPON && weaponSelection <= RAD_FIFTH_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[4] = true;
+            PowerUp.weaponSelected[4] = true;
         }
         if (weaponSelection > RAD_FIFTH_WEAPON && weaponSelection <= RAD_SIXTH_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[5] = true;
+            PowerUp.weaponSelected[5] = true;
         }
         if (weaponSelection > RAD_SIXTH_WEAPON && weaponSelection <= RAD_SEVENTH_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[6] = true;
+            PowerUp.weaponSelected[6] = true;
         }
         if (weaponSelection > RAD_SEVENTH_WEAPON && weaponSelection <= RAD_EIGHTH_WEAPON)
         {
-            Array.Clear(powerUp.weaponSelected, 0, powerUp.weaponSelected.Length);
+            Array.Clear(PowerUp.weaponSelected, 0, PowerUp.weaponSelected.Length);
 
-            powerUp.weaponSelected[7] = true;
+            PowerUp.weaponSelected[7] = true;
         }
     }
 }
