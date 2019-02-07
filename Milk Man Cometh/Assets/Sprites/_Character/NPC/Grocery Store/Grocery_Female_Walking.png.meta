@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: b1f34223c635ce4498acfd24d9103d41
+timeCreated: 1548720071
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grocery_Female_Walking_0
+    21300002: Grocery_Female_Walking_1
+    21300004: Grocery_Female_Walking_2
+    21300006: Grocery_Female_Walking_3
+    21300008: Grocery_Female_Walking_4
+    21300010: Grocery_Female_Walking_5
+    21300012: Grocery_Female_Walking_6
+    21300014: Grocery_Female_Walking_7
+    21300016: Grocery_Female_Walking_8
+    21300018: Grocery_Female_Walking_9
+    21300020: Grocery_Female_Walking_10
+    21300022: Grocery_Female_Walking_11
+    21300024: Grocery_Female_Walking_12
+    21300026: Grocery_Female_Walking_13
+    21300028: Grocery_Female_Walking_14
+    21300030: Grocery_Female_Walking_15
+    21300032: Grocery_Female_Walking_16
+    21300034: Grocery_Female_Walking_17
+    21300036: Grocery_Female_Walking_18
+    21300038: Grocery_Female_Walking_19
+    21300040: Grocery_Female_Walking_20
+    21300042: Grocery_Female_Walking_21
+    21300044: Grocery_Female_Walking_22
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1511
+        width: 199
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1512
+        width: 199
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1500
+        width: 199
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1512
+        width: 199
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1510
+        width: 181
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1153
+        width: 181
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1151
+        width: 181
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1171
+        width: 181
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_8
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1151
+        width: 181
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_9
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1151
+        width: 181
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 788
+        width: 187
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 792
+        width: 198
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_12
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 820
+        width: 196
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_13
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 789
+        width: 201
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_14
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 793
+        width: 182
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 430
+        width: 181
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_16
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 431
+        width: 181
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_17
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 430
+        width: 181
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 430
+        width: 181
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_19
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 430
+        width: 183
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 188
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 72
+        width: 193
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Walking_22
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 72
+        width: 181
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

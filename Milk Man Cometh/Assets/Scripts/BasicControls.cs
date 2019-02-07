@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 using System;
 /*
@@ -237,7 +237,7 @@ public class BasicControls : MonoBehaviour
 
                     MilkLusted.canSpecial = false;
                 }
-
+   
                 if (Input.GetButton("Weapons"))
                 {
                     //Debug.Log("Weapon Button");

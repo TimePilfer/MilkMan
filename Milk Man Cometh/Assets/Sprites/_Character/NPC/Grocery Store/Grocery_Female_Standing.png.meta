@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: b3f7062c6e42aff44bacf29661c55404
+timeCreated: 1548719954
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grocery_Female_Standing_0
+    21300002: Grocery_Female_Standing_1
+    21300004: Grocery_Female_Standing_2
+    21300006: Grocery_Female_Standing_3
+    21300008: Grocery_Female_Standing_4
+    21300010: Grocery_Female_Standing_5
+    21300012: Grocery_Female_Standing_6
+    21300014: Grocery_Female_Standing_7
+    21300016: Grocery_Female_Standing_8
+    21300018: Grocery_Female_Standing_9
+    21300020: Grocery_Female_Standing_10
+    21300022: Grocery_Female_Standing_11
+    21300024: Grocery_Female_Standing_12
+    21300026: Grocery_Female_Standing_13
+    21300028: Grocery_Female_Standing_14
+    21300030: Grocery_Female_Standing_15
+    21300032: Grocery_Female_Standing_16
+    21300034: Grocery_Female_Standing_17
+    21300036: Grocery_Female_Standing_18
+    21300038: Grocery_Female_Standing_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1153
+        width: 181
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1152
+        width: 181
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1152
+        width: 181
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1152
+        width: 181
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_4
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1152
+        width: 181
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 796
+        width: 181
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 798
+        width: 181
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 793
+        width: 181
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_8
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 799
+        width: 181
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_9
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 798
+        width: 181
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 439
+        width: 181
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 435
+        width: 181
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 435
+        width: 181
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_13
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 435
+        width: 181
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_14
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 435
+        width: 181
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 78
+        width: 181
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 78
+        width: 181
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_17
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 75
+        width: 181
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_18
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 75
+        width: 181
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Standing_19
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 76
+        width: 181
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

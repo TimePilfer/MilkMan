@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 897e55b10a893e34bb73e929f9a1826b
+timeCreated: 1548718158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grocery_Female_Melee_Attack_Cart_sheet_0
+    21300002: Grocery_Female_Melee_Attack_Cart_sheet_1
+    21300004: Grocery_Female_Melee_Attack_Cart_sheet_2
+    21300006: Grocery_Female_Melee_Attack_Cart_sheet_3
+    21300008: Grocery_Female_Melee_Attack_Cart_sheet_4
+    21300010: Grocery_Female_Melee_Attack_Cart_sheet_5
+    21300012: Grocery_Female_Melee_Attack_Cart_sheet_6
+    21300014: Grocery_Female_Melee_Attack_Cart_sheet_7
+    21300016: Grocery_Female_Melee_Attack_Cart_sheet_8
+    21300018: Grocery_Female_Melee_Attack_Cart_sheet_9
+    21300020: Grocery_Female_Melee_Attack_Cart_sheet_10
+    21300022: Grocery_Female_Melee_Attack_Cart_sheet_11
+    21300024: Grocery_Female_Melee_Attack_Cart_sheet_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 790
+        width: 195
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 790
+        width: 195
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 790
+        width: 196
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 793
+        width: 216
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 789
+        width: 225
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 432
+        width: 221
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 437
+        width: 226
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 432
+        width: 219
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 433
+        width: 219
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 434
+        width: 219
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 76
+        width: 221
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 72
+        width: 219
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Female_Melee_Attack_Cart_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 74
+        width: 219
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

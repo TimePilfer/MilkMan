@@ -3410,6 +3410,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponUnlocks: 00000000000000000000
+--- !u!114 &1602776386 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114722498087470378, guid: d89341fb0cb997e499fb033f22a604e5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1731256524}
+  m_Script: {fileID: 11500000, guid: e0ce614d3b218944084555e10101fa82, type: 3}
 --- !u!61 &1602776387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4026,6 +4032,23 @@ Prefab:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: robotArm
+      value: 
+      objectReference: {fileID: 1602776383}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: weaponWheel
+      value: 
+      objectReference: {fileID: 654491115}
+    - target: {fileID: 11430024, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
+      propertyPath: arm
+      value: 
+      objectReference: {fileID: 1602776386}
+    - target: {fileID: 50812580868476048, guid: d89341fb0cb997e499fb033f22a604e5,
+        type: 2}
+      propertyPath: m_Mass
+      value: 1.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d89341fb0cb997e499fb033f22a604e5, type: 2}
   m_IsPrefabParent: 0
