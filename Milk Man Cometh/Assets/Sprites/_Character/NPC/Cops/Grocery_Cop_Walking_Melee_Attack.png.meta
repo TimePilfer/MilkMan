@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: fed35cb1e17b0ab4ca1a28c6cf2e59d5
+timeCreated: 1551746692
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grocery_Cop_Walking_Melee_Attack_0
+    21300002: Grocery_Cop_Walking_Melee_Attack_1
+    21300004: Grocery_Cop_Walking_Melee_Attack_2
+    21300006: Grocery_Cop_Walking_Melee_Attack_3
+    21300008: Grocery_Cop_Walking_Melee_Attack_4
+    21300010: Grocery_Cop_Walking_Melee_Attack_5
+    21300012: Grocery_Cop_Walking_Melee_Attack_6
+    21300014: Grocery_Cop_Walking_Melee_Attack_7
+    21300016: Grocery_Cop_Walking_Melee_Attack_8
+    21300018: Grocery_Cop_Walking_Melee_Attack_9
+    21300020: Grocery_Cop_Walking_Melee_Attack_10
+    21300022: Grocery_Cop_Walking_Melee_Attack_11
+    21300024: Grocery_Cop_Walking_Melee_Attack_12
+    21300026: Grocery_Cop_Walking_Melee_Attack_13
+    21300028: Grocery_Cop_Walking_Melee_Attack_14
+    21300030: Grocery_Cop_Walking_Melee_Attack_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1150
+        width: 245
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1150
+        width: 224
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1150
+        width: 217
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1149
+        width: 229
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1151
+        width: 235
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 793
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 791
+        width: 237
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 790
+        width: 235
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 792
+        width: 234
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 794
+        width: 218
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 431
+        width: 217
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 429
+        width: 217
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 431
+        width: 216
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 428
+        width: 221
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 428
+        width: 228
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Walking_Melee_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 75
+        width: 245
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 5a242b0ccd5ab254dab41ee1c2618ae0
+timeCreated: 1551307670
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grocery_Cop_Explode_0
+    21300002: Grocery_Cop_Explode_1
+    21300004: Grocery_Cop_Explode_2
+    21300006: Grocery_Cop_Explode_3
+    21300008: Grocery_Cop_Explode_4
+    21300010: Grocery_Cop_Explode_5
+    21300012: Grocery_Cop_Explode_6
+    21300014: Grocery_Cop_Explode_7
+    21300016: Grocery_Cop_Explode_8
+    21300018: Grocery_Cop_Explode_9
+    21300020: Grocery_Cop_Explode_10
+    21300022: Grocery_Cop_Explode_11
+    21300024: Grocery_Cop_Explode_12
+    21300026: Grocery_Cop_Explode_13
+    21300028: Grocery_Cop_Explode_14
+    21300030: Grocery_Cop_Explode_15
+    21300032: Grocery_Cop_Explode_16
+    21300034: Grocery_Cop_Explode_17
+    21300036: Grocery_Cop_Explode_18
+    21300038: Grocery_Cop_Explode_19
+    21300040: Grocery_Cop_Explode_20
+    21300042: Grocery_Cop_Explode_21
+    21300044: Grocery_Cop_Explode_22
+    21300046: Grocery_Cop_Explode_23
+    21300048: Grocery_Cop_Explode_24
+    21300050: Grocery_Cop_Explode_25
+    21300052: Grocery_Cop_Explode_26
+    21300054: Grocery_Cop_Explode_27
+    21300056: Grocery_Cop_Explode_28
+    21300058: Grocery_Cop_Explode_29
+    21300060: Grocery_Cop_Explode_30
+    21300062: Grocery_Cop_Explode_31
+    21300064: Grocery_Cop_Explode_32
+    21300066: Grocery_Cop_Explode_33
+    21300068: Grocery_Cop_Explode_34
+    21300070: Grocery_Cop_Explode_35
+    21300072: Grocery_Cop_Explode_36
+    21300074: Grocery_Cop_Explode_37
+    21300076: Grocery_Cop_Explode_38
+    21300078: Grocery_Cop_Explode_39
+    21300080: Grocery_Cop_Explode_40
+    21300082: Grocery_Cop_Explode_41
+    21300084: Grocery_Cop_Explode_42
+    21300086: Grocery_Cop_Explode_43
+    21300088: Grocery_Cop_Explode_44
+    21300090: Grocery_Cop_Explode_45
+    21300092: Grocery_Cop_Explode_46
+    21300094: Grocery_Cop_Explode_47
+    21300096: Grocery_Cop_Explode_48
+    21300098: Grocery_Cop_Explode_49
+    21300100: Grocery_Cop_Explode_50
+    21300102: Grocery_Cop_Explode_51
+    21300104: Grocery_Cop_Explode_52
+    21300106: Grocery_Cop_Explode_53
+    21300108: Grocery_Cop_Explode_54
+    21300110: Grocery_Cop_Explode_55
+    21300112: Grocery_Cop_Explode_56
+    21300114: Grocery_Cop_Explode_57
+    21300116: Grocery_Cop_Explode_58
+    21300118: Grocery_Cop_Explode_59
+    21300120: Grocery_Cop_Explode_60
+    21300122: Grocery_Cop_Explode_61
+    21300124: Grocery_Cop_Explode_62
+    21300126: Grocery_Cop_Explode_63
+    21300128: Grocery_Cop_Explode_64
+    21300130: Grocery_Cop_Explode_65
+    21300132: Grocery_Cop_Explode_66
+    21300134: Grocery_Cop_Explode_67
+    21300136: Grocery_Cop_Explode_68
+    21300138: Grocery_Cop_Explode_69
+    21300140: Grocery_Cop_Explode_70
+    21300142: Grocery_Cop_Explode_71
+    21300144: Grocery_Cop_Explode_72
+    21300146: Grocery_Cop_Explode_73
+    21300148: Grocery_Cop_Explode_74
+    21300150: Grocery_Cop_Explode_75
+    21300152: Grocery_Cop_Explode_76
+    21300154: Grocery_Cop_Explode_77
+    21300156: Grocery_Cop_Explode_78
+    21300158: Grocery_Cop_Explode_79
+    21300160: Grocery_Cop_Explode_80
+    21300162: Grocery_Cop_Explode_81
+    21300164: Grocery_Cop_Explode_82
+    21300166: Grocery_Cop_Explode_83
+    21300168: Grocery_Cop_Explode_84
+    21300170: Grocery_Cop_Explode_85
+    21300172: Grocery_Cop_Explode_86
+    21300174: Grocery_Cop_Explode_87
+    21300176: Grocery_Cop_Explode_88
+    21300178: Grocery_Cop_Explode_89
+    21300180: Grocery_Cop_Explode_90
+    21300182: Grocery_Cop_Explode_91
+    21300184: Grocery_Cop_Explode_92
+    21300186: Grocery_Cop_Explode_93
+    21300188: Grocery_Cop_Explode_94
+    21300190: Grocery_Cop_Explode_95
+    21300192: Grocery_Cop_Explode_96
+    21300194: Grocery_Cop_Explode_97
+    21300196: Grocery_Cop_Explode_98
+    21300198: Grocery_Cop_Explode_99
+    21300200: Grocery_Cop_Explode_100
+    21300202: Grocery_Cop_Explode_101
+    21300204: Grocery_Cop_Explode_102
+    21300206: Grocery_Cop_Explode_103
+    21300208: Grocery_Cop_Explode_104
+    21300210: Grocery_Cop_Explode_105
+    21300212: Grocery_Cop_Explode_106
+    21300214: Grocery_Cop_Explode_107
+    21300216: Grocery_Cop_Explode_108
+    21300218: Grocery_Cop_Explode_109
+    21300220: Grocery_Cop_Explode_110
+    21300222: Grocery_Cop_Explode_111
+    21300224: Grocery_Cop_Explode_112
+    21300226: Grocery_Cop_Explode_113
+    21300228: Grocery_Cop_Explode_114
+    21300230: Grocery_Cop_Explode_115
+    21300232: Grocery_Cop_Explode_116
+    21300234: Grocery_Cop_Explode_117
+    21300236: Grocery_Cop_Explode_118
+    21300238: Grocery_Cop_Explode_119
+    21300240: Grocery_Cop_Explode_120
+    21300242: Grocery_Cop_Explode_121
+    21300244: Grocery_Cop_Explode_122
+    21300246: Grocery_Cop_Explode_123
+    21300248: Grocery_Cop_Explode_124
+    21300250: Grocery_Cop_Explode_125
+    21300252: Grocery_Cop_Explode_126
+    21300254: Grocery_Cop_Explode_127
+    21300256: Grocery_Cop_Explode_128
+    21300258: Grocery_Cop_Explode_129
+    21300260: Grocery_Cop_Explode_130
+    21300262: Grocery_Cop_Explode_131
+    21300264: Grocery_Cop_Explode_132
+    21300266: Grocery_Cop_Explode_133
+    21300268: Grocery_Cop_Explode_134
+    21300270: Grocery_Cop_Explode_135
+    21300272: Grocery_Cop_Explode_136
+    21300274: Grocery_Cop_Explode_137
+    21300276: Grocery_Cop_Explode_138
+    21300278: Grocery_Cop_Explode_139
+    21300280: Grocery_Cop_Explode_140
+    21300282: Grocery_Cop_Explode_141
+    21300284: Grocery_Cop_Explode_142
+    21300286: Grocery_Cop_Explode_143
+    21300288: Grocery_Cop_Explode_144
+    21300290: Grocery_Cop_Explode_145
+    21300292: Grocery_Cop_Explode_146
+    21300294: Grocery_Cop_Explode_147
+    21300296: Grocery_Cop_Explode_148
+    21300298: Grocery_Cop_Explode_149
+    21300300: Grocery_Cop_Explode_150
+    21300302: Grocery_Cop_Explode_151
+    21300304: Grocery_Cop_Explode_152
+    21300306: Grocery_Cop_Explode_153
+    21300308: Grocery_Cop_Explode_154
+    21300310: Grocery_Cop_Explode_155
+    21300312: Grocery_Cop_Explode_156
+    21300314: Grocery_Cop_Explode_157
+    21300316: Grocery_Cop_Explode_158
+    21300318: Grocery_Cop_Explode_159
+    21300320: Grocery_Cop_Explode_160
+    21300322: Grocery_Cop_Explode_161
+    21300324: Grocery_Cop_Explode_162
+    21300326: Grocery_Cop_Explode_163
+    21300328: Grocery_Cop_Explode_164
+    21300330: Grocery_Cop_Explode_165
+    21300332: Grocery_Cop_Explode_166
+    21300334: Grocery_Cop_Explode_167
+    21300336: Grocery_Cop_Explode_168
+    21300338: Grocery_Cop_Explode_169
+    21300340: Grocery_Cop_Explode_170
+    21300342: Grocery_Cop_Explode_171
+    21300344: Grocery_Cop_Explode_172
+    21300346: Grocery_Cop_Explode_173
+    21300348: Grocery_Cop_Explode_174
+    21300350: Grocery_Cop_Explode_175
+    21300352: Grocery_Cop_Explode_176
+    21300354: Grocery_Cop_Explode_177
+    21300356: Grocery_Cop_Explode_178
+    21300358: Grocery_Cop_Explode_179
+    21300360: Grocery_Cop_Explode_180
+    21300362: Grocery_Cop_Explode_181
+    21300364: Grocery_Cop_Explode_182
+    21300366: Grocery_Cop_Explode_183
+    21300368: Grocery_Cop_Explode_184
+    21300370: Grocery_Cop_Explode_185
+    21300372: Grocery_Cop_Explode_186
+    21300374: Grocery_Cop_Explode_187
+    21300376: Grocery_Cop_Explode_188
+    21300378: Grocery_Cop_Explode_189
+    21300380: Grocery_Cop_Explode_190
+    21300382: Grocery_Cop_Explode_191
+    21300384: Grocery_Cop_Explode_192
+    21300386: Grocery_Cop_Explode_193
+    21300388: Grocery_Cop_Explode_194
+    21300390: Grocery_Cop_Explode_195
+    21300392: Grocery_Cop_Explode_196
+    21300394: Grocery_Cop_Explode_197
+    21300396: Grocery_Cop_Explode_198
+    21300398: Grocery_Cop_Explode_199
+    21300400: Grocery_Cop_Explode_200
+    21300402: Grocery_Cop_Explode_201
+    21300404: Grocery_Cop_Explode_202
+    21300406: Grocery_Cop_Explode_203
+    21300408: Grocery_Cop_Explode_204
+    21300410: Grocery_Cop_Explode_205
+    21300412: Grocery_Cop_Explode_206
+    21300414: Grocery_Cop_Explode_207
+    21300416: Grocery_Cop_Explode_208
+    21300418: Grocery_Cop_Explode_209
+    21300420: Grocery_Cop_Explode_210
+    21300422: Grocery_Cop_Explode_211
+    21300424: Grocery_Cop_Explode_212
+    21300426: Grocery_Cop_Explode_213
+    21300428: Grocery_Cop_Explode_214
+    21300430: Grocery_Cop_Explode_215
+    21300432: Grocery_Cop_Explode_216
+    21300434: Grocery_Cop_Explode_217
+    21300436: Grocery_Cop_Explode_218
+    21300438: Grocery_Cop_Explode_219
+    21300440: Grocery_Cop_Explode_220
+    21300442: Grocery_Cop_Explode_221
+    21300444: Grocery_Cop_Explode_222
+    21300446: Grocery_Cop_Explode_223
+    21300448: Grocery_Cop_Explode_224
+    21300450: Grocery_Cop_Explode_225
+    21300452: Grocery_Cop_Explode_226
+    21300454: Grocery_Cop_Explode_227
+    21300456: Grocery_Cop_Explode_228
+    21300458: Grocery_Cop_Explode_229
+    21300460: Grocery_Cop_Explode_230
+    21300462: Grocery_Cop_Explode_231
+    21300464: Grocery_Cop_Explode_232
+    21300466: Grocery_Cop_Explode_233
+    21300468: Grocery_Cop_Explode_234
+    21300470: Grocery_Cop_Explode_235
+    21300472: Grocery_Cop_Explode_236
+    21300474: Grocery_Cop_Explode_237
+    21300476: Grocery_Cop_Explode_238
+    21300478: Grocery_Cop_Explode_239
+    21300480: Grocery_Cop_Explode_240
+    21300482: Grocery_Cop_Explode_241
+    21300484: Grocery_Cop_Explode_242
+    21300486: Grocery_Cop_Explode_243
+    21300488: Grocery_Cop_Explode_244
+    21300490: Grocery_Cop_Explode_245
+    21300492: Grocery_Cop_Explode_246
+    21300494: Grocery_Cop_Explode_247
+    21300496: Grocery_Cop_Explode_248
+    21300498: Grocery_Cop_Explode_249
+    21300500: Grocery_Cop_Explode_250
+    21300502: Grocery_Cop_Explode_251
+    21300504: Grocery_Cop_Explode_252
+    21300506: Grocery_Cop_Explode_253
+    21300508: Grocery_Cop_Explode_254
+    21300510: Grocery_Cop_Explode_255
+    21300512: Grocery_Cop_Explode_256
+    21300514: Grocery_Cop_Explode_257
+    21300516: Grocery_Cop_Explode_258
+    21300518: Grocery_Cop_Explode_259
+    21300520: Grocery_Cop_Explode_260
+    21300522: Grocery_Cop_Explode_261
+    21300524: Grocery_Cop_Explode_262
+    21300526: Grocery_Cop_Explode_263
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1867
+        width: 254
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1873
+        width: 246
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_2
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1873
+        width: 246
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_3
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1869
+        width: 247
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_4
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1873
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1513
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1512
+        width: 266
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_7
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1513
+        width: 279
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_8
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1513
+        width: 290
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_9
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1511
+        width: 299
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1150
+        width: 307
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1157
+        width: 314
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1151
+        width: 318
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_13
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1154
+        width: 330
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1154
+        width: 361
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 794
+        width: 336
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 791
+        width: 337
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_17
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 773
+        width: 383
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_18
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 744
+        width: 356
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 379
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 369
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_22
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 375
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_23
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 369
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grocery_Cop_Explode_26
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 92
+        width: 190
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
