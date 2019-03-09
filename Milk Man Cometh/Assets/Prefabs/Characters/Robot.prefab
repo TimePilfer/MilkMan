@@ -41,6 +41,8 @@ GameObject:
   - component: {fileID: 406194}
   - component: {fileID: 21207370}
   - component: {fileID: 114722498087470378}
+  - component: {fileID: 61441284773920674}
+  - component: {fileID: 114746575852444276}
   m_Layer: 9
   m_Name: Arm
   m_TagString: Player
@@ -99,6 +101,7 @@ GameObject:
   - component: {fileID: 114242463231735968}
   - component: {fileID: 114818961937857458}
   - component: {fileID: 114603846705212570}
+  - component: {fileID: 114877090354740818}
   m_Layer: 9
   m_Name: Robot
   m_TagString: Player
@@ -169,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1946, y: 14.5, z: 2.5}
+  m_LocalPosition: {x: 1763, y: 21.04, z: 2.5}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children:
   - {fileID: 402578}
@@ -267,12 +270,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1fcc6f64439aa4bae133ca8702b4a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponWheel: {fileID: 0}
+  powerUp: {fileID: 0}
   myBool: 0
   isPaused: 0
   jump: 0
-  moveForce: 50
-  maxSpeed: 50
-  jumpforce: 30
+  moveForce: 100
+  maxSpeed: 75
+  jumpforce: 50
   groundcheck: {fileID: 405238}
   isGround: 0
   anim: {fileID: 9512682}
@@ -287,8 +292,10 @@ MonoBehaviour:
   cooldownTimer: 1
   moveSpeed: 10
   moveDirection: {x: 0, y: 0, z: 0}
-  arm: {fileID: 119984}
+  arm: {fileID: 114722498087470378}
   invincible2: 0
+  robotArm: {fileID: 119984}
+  bulletPrefab: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
 --- !u!114 &11477792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -300,8 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ca5792933b10148ae50b60d175d0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSpeed: 23
-  fireRate: 0.001
+  shotSpeed: 30
+  fireRate: 0.1
   bulletPrefab: {fileID: 5072944, guid: 7f75087dc3185234f92f74c3e752f88f, type: 2}
   yValue: 0
   xValue: 0
@@ -417,7 +424,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.3
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -450,6 +457,31 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 2.03, y: 2.86}
+  m_EdgeRadius: 0
+--- !u!61 &61441284773920674
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.8084493, y: 0.05787027}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.13831015, y: 0.46141982}
+    oldSize: {x: 5, y: 1.5}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!114 &114207980110178730
 MonoBehaviour:
@@ -499,8 +531,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0ce614d3b218944084555e10101fa82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: 9512682}
+  ls: {x: 0, y: 0, z: 0}
   isPaused: 0
+  dir: {x: 0, y: 0, z: 0}
+--- !u!114 &114746575852444276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6022e16851b2a2b48a30b9335febe1b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponUnlocks: 00000000000000000000
 --- !u!114 &114818961937857458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -510,5 +556,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d55d2341cef61cb4aa0d33588cd35e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114877090354740818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa124284639d0246985169074634534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
