@@ -119,9 +119,6 @@ public class Damage : MonoBehaviour {
                 Debug.Log("Damage Hit");
                 health--;
 
-
-
-
                 if (health <= 0)
                 {
                     Die();
