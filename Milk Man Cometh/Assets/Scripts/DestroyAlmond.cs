@@ -1,16 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+/*
+ * Handles destroying objects. This is mostly used by attacks that spawn in, like the player's shots.
+ */
+public class DestroyAlmond : MonoBehaviour
+{
+    //Bool to decide if the object should be destroyed
+    public bool destroyOnImpact = false;
+    //The time the bullet should exist.
+    public float bulletLife = 5.0f;
 
-public class DestroyAlmond : MonoBehaviour {
+    void Awake()
+    {
+        //Sets the destroy time for the gameobject
+        Destroy(gameObject, bulletLife);
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    //Destroys the gameobject when the object collides with something
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+
+            Debug.Log("Destroy");
+        }
+
+    }
+
 }
