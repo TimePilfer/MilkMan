@@ -181,8 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f58141e9f357e448fd2fa6f1afc1f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxVelocity: 20
-  maxAcceleration: 20
+  maxVelocity: 42
+  maxAcceleration: 42
   turnSpeed: 20
   isPaused: 0
   anim: {fileID: 95377924709891564}

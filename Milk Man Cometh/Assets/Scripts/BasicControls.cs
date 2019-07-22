@@ -1,4 +1,4 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System;
 /*
@@ -9,6 +9,12 @@ using System;
 public class BasicControls : MonoBehaviour
 {
     public GameObject weaponWheel;
+
+    private Rigidbody2D bPrefab;
+
+    private Vector2 dir;
+
+    public static GameObject HUDInstance;
 
     public static BasicControls player;
 
@@ -106,7 +112,7 @@ public class BasicControls : MonoBehaviour
         player = this;
         DontDestroyOnLoad(gameObject);
 
-        weaponWheel = GameObject.Find("WeaponWheel");
+        weaponWheel = GameObject.FindGameObjectWithTag("WeaponWheel");
     }
 
     // Update is called once per frame
@@ -138,12 +144,12 @@ public class BasicControls : MonoBehaviour
                 jump = true;
             }
 
-            if (isGrounded && Input.GetButtonDown("Fire3"))
+            if (!isCrouched && Input.GetButton("Crouch"))
             {
                 Crouch();
             }
 
-            if (Input.GetButtonUp("Fire3") && isCrouched)
+            if (Input.GetButtonUp("Crouch") && isCrouched)
             {
                 StandUp();
             }
@@ -222,13 +228,13 @@ public class BasicControls : MonoBehaviour
                 {
                     Debug.Log("Special");
 
-                    for (int i = 0; i < 100; i++)
+                    for (int i = 0; i < 25; i++)
                     {
                         //Add logic for doing the special attack
-                        Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
+                        bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue,
                             transform.position.z), transform.rotation) as Rigidbody2D;
 
-                        Vector2 dir = (new Vector2(UnityEngine.Random.insideUnitCircle.normalized.x, UnityEngine.Random.insideUnitCircle.normalized.y));
+                        dir = (new Vector2(UnityEngine.Random.insideUnitCircle.normalized.x, UnityEngine.Random.insideUnitCircle.normalized.y));
 
                         bPrefab.velocity = (dir * 35 + parentSpeed);
                     }
@@ -277,7 +283,6 @@ public class BasicControls : MonoBehaviour
 
     void Crouch()
     {
-        isGrounded = false;
         isCrouched = true;
         PlayerCollision.size = new Vector2(PlayerCollision.size.x, crouchHeight);
         //PlayerCollision.offset = new Vector2(0, crouchOffset);
@@ -286,7 +291,6 @@ public class BasicControls : MonoBehaviour
 
     void StandUp()
     {
-        isGrounded = true;
         isCrouched = false;
         PlayerCollision.size = new Vector2(PlayerCollision.size.x, standHeight);
         //PlayerCollision.offset = new Vector2(0, 0);

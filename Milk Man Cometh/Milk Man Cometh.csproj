@@ -144,6 +144,7 @@
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\HempGun.cs" />
+    <Compile Include="Assets\Scripts\MakeStatic.cs" />
     <Compile Include="Assets\Scripts\Milk.cs" />
     <Compile Include="Assets\Scripts\MilkLusted.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />

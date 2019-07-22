@@ -18,6 +18,7 @@ TagManager:
   - tip
   - EnemySpawn
   - Ground
+  - WeaponWheel
   layers:
   - Default
   - TransparentFX

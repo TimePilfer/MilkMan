@@ -8,6 +8,8 @@ public class HempGun : MonoBehaviour {
     // An int for the health.
     public int health;
 
+    public int destroyTime = 10;
+
     private Animator anim;
     // Use this for initialization
     void Start()
@@ -56,7 +58,7 @@ public class HempGun : MonoBehaviour {
 
     IEnumerator ExplosionDelete()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(destroyTime);
         Destroy(gameObject);
     }
 }

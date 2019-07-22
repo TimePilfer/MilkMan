@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 05a320dc11d00b4439c036165d84577b
+timeCreated: 1555972028
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jumping2_sheet_0
+    21300002: Jumping2_sheet_1
+    21300004: Jumping2_sheet_2
+    21300006: Jumping2_sheet_3
+    21300008: Jumping2_sheet_4
+    21300010: Jumping2_sheet_5
+    21300012: Jumping2_sheet_6
+    21300014: Jumping2_sheet_7
+    21300016: Jumping2_sheet_8
+    21300018: Jumping2_sheet_9
+    21300020: Jumping2_sheet_10
+    21300022: Jumping2_sheet_11
+    21300024: Jumping2_sheet_12
+    21300026: Jumping2_sheet_13
+    21300028: Jumping2_sheet_14
+    21300030: Jumping2_sheet_15
+    21300032: Jumping2_sheet_16
+    21300034: Jumping2_sheet_17
+    21300036: Jumping2_sheet_18
+    21300038: Jumping2_sheet_19
+    21300040: Jumping2_sheet_20
+    21300042: Jumping2_sheet_21
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jumping2_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1440
+        width: 206
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1440
+        width: 200
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1440
+        width: 195
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1440
+        width: 184
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1439
+        width: 196
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1085
+        width: 209
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1082
+        width: 219
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1086
+        width: 243
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1083
+        width: 273
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1084
+        width: 283
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 726
+        width: 293
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 725
+        width: 293
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 723
+        width: 290
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 723
+        width: 281
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 725
+        width: 255
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 363
+        width: 263
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 360
+        width: 233
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 363
+        width: 288
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 361
+        width: 277
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 363
+        width: 256
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 10
+        width: 236
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jumping2_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 18
+        width: 244
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

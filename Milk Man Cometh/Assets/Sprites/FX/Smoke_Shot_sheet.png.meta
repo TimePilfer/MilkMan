@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 7de8e369c099e114d8fcc16e9c6d54d9
+timeCreated: 1553552841
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Smoke_Shot_sheet_0
+    21300002: Smoke_Shot_sheet_1
+    21300004: Smoke_Shot_sheet_2
+    21300006: Smoke_Shot_sheet_3
+    21300008: Smoke_Shot_sheet_4
+    21300010: Smoke_Shot_sheet_5
+    21300012: Smoke_Shot_sheet_6
+    21300014: Smoke_Shot_sheet_7
+    21300016: Smoke_Shot_sheet_8
+    21300018: Smoke_Shot_sheet_9
+    21300020: Smoke_Shot_sheet_10
+    21300022: Smoke_Shot_sheet_11
+    21300024: Smoke_Shot_sheet_12
+    21300026: Smoke_Shot_sheet_13
+    21300028: Smoke_Shot_sheet_14
+    21300030: Smoke_Shot_sheet_15
+    21300032: Smoke_Shot_sheet_16
+    21300034: Smoke_Shot_sheet_17
+    21300036: Smoke_Shot_sheet_18
+    21300038: Smoke_Shot_sheet_19
+    21300040: Smoke_Shot_sheet_20
+    21300042: Smoke_Shot_sheet_21
+    21300044: Smoke_Shot_sheet_22
+    21300046: Smoke_Shot_sheet_23
+    21300048: Smoke_Shot_sheet_24
+    21300050: Smoke_Shot_sheet_25
+    21300052: Smoke_Shot_sheet_26
+    21300054: Smoke_Shot_sheet_27
+    21300056: Smoke_Shot_sheet_28
+    21300058: Smoke_Shot_sheet_29
+    21300060: Smoke_Shot_sheet_30
+    21300062: Smoke_Shot_sheet_31
+    21300064: Smoke_Shot_sheet_32
+    21300066: Smoke_Shot_sheet_33
+    21300068: Smoke_Shot_sheet_34
+    21300070: Smoke_Shot_sheet_35
+    21300072: Smoke_Shot_sheet_36
+    21300074: Smoke_Shot_sheet_37
+    21300076: Smoke_Shot_sheet_38
+    21300078: Smoke_Shot_sheet_39
+    21300080: Smoke_Shot_sheet_40
+    21300082: Smoke_Shot_sheet_41
+    21300084: Smoke_Shot_sheet_42
+    21300086: Smoke_Shot_sheet_43
+    21300088: Smoke_Shot_sheet_44
+    21300090: Smoke_Shot_sheet_45
+    21300092: Smoke_Shot_sheet_46
+    21300094: Smoke_Shot_sheet_47
+    21300096: Smoke_Shot_sheet_48
+    21300098: Smoke_Shot_sheet_49
+    21300100: Smoke_Shot_sheet_50
+    21300102: Smoke_Shot_sheet_51
+    21300104: Smoke_Shot_sheet_52
+    21300106: Smoke_Shot_sheet_53
+    21300108: Smoke_Shot_sheet_54
+    21300110: Smoke_Shot_sheet_55
+    21300112: Smoke_Shot_sheet_56
+    21300114: Smoke_Shot_sheet_57
+    21300116: Smoke_Shot_sheet_58
+    21300118: Smoke_Shot_sheet_59
+    21300120: Smoke_Shot_sheet_60
+    21300122: Smoke_Shot_sheet_61
+    21300124: Smoke_Shot_sheet_62
+    21300126: Smoke_Shot_sheet_63
+    21300128: Smoke_Shot_sheet_64
+    21300130: Smoke_Shot_sheet_65
+    21300132: Smoke_Shot_sheet_66
+    21300134: Smoke_Shot_sheet_67
+    21300136: Smoke_Shot_sheet_68
+    21300138: Smoke_Shot_sheet_69
+    21300140: Smoke_Shot_sheet_70
+    21300142: Smoke_Shot_sheet_71
+    21300144: Smoke_Shot_sheet_72
+    21300146: Smoke_Shot_sheet_73
+    21300148: Smoke_Shot_sheet_74
+    21300150: Smoke_Shot_sheet_75
+    21300152: Smoke_Shot_sheet_76
+    21300154: Smoke_Shot_sheet_77
+    21300156: Smoke_Shot_sheet_78
+    21300158: Smoke_Shot_sheet_79
+    21300160: Smoke_Shot_sheet_80
+    21300162: Smoke_Shot_sheet_81
+    21300164: Smoke_Shot_sheet_82
+    21300166: Smoke_Shot_sheet_83
+    21300168: Smoke_Shot_sheet_84
+    21300170: Smoke_Shot_sheet_85
+    21300172: Smoke_Shot_sheet_86
+    21300174: Smoke_Shot_sheet_87
+    21300176: Smoke_Shot_sheet_88
+    21300178: Smoke_Shot_sheet_89
+    21300180: Smoke_Shot_sheet_90
+    21300182: Smoke_Shot_sheet_91
+    21300184: Smoke_Shot_sheet_92
+    21300186: Smoke_Shot_sheet_93
+    21300188: Smoke_Shot_sheet_94
+    21300190: Smoke_Shot_sheet_95
+    21300192: Smoke_Shot_sheet_96
+    21300194: Smoke_Shot_sheet_97
+    21300196: Smoke_Shot_sheet_98
+    21300198: Smoke_Shot_sheet_99
+    21300200: Smoke_Shot_sheet_100
+    21300202: Smoke_Shot_sheet_101
+    21300204: Smoke_Shot_sheet_102
+    21300206: Smoke_Shot_sheet_103
+    21300208: Smoke_Shot_sheet_104
+    21300210: Smoke_Shot_sheet_105
+    21300212: Smoke_Shot_sheet_106
+    21300214: Smoke_Shot_sheet_107
+    21300216: Smoke_Shot_sheet_108
+    21300218: Smoke_Shot_sheet_109
+    21300220: Smoke_Shot_sheet_110
+    21300222: Smoke_Shot_sheet_111
+    21300224: Smoke_Shot_sheet_112
+    21300226: Smoke_Shot_sheet_113
+    21300228: Smoke_Shot_sheet_114
+    21300230: Smoke_Shot_sheet_115
+    21300232: Smoke_Shot_sheet_116
+    21300234: Smoke_Shot_sheet_117
+    21300236: Smoke_Shot_sheet_118
+    21300238: Smoke_Shot_sheet_119
+    21300240: Smoke_Shot_sheet_120
+    21300242: Smoke_Shot_sheet_121
+    21300244: Smoke_Shot_sheet_122
+    21300246: Smoke_Shot_sheet_123
+    21300248: Smoke_Shot_sheet_124
+    21300250: Smoke_Shot_sheet_125
+    21300252: Smoke_Shot_sheet_126
+    21300254: Smoke_Shot_sheet_127
+    21300256: Smoke_Shot_sheet_128
+    21300258: Smoke_Shot_sheet_129
+    21300260: Smoke_Shot_sheet_130
+    21300262: Smoke_Shot_sheet_131
+    21300264: Smoke_Shot_sheet_132
+    21300266: Smoke_Shot_sheet_133
+    21300268: Smoke_Shot_sheet_134
+    21300270: Smoke_Shot_sheet_135
+    21300272: Smoke_Shot_sheet_136
+    21300274: Smoke_Shot_sheet_137
+    21300276: Smoke_Shot_sheet_138
+    21300278: Smoke_Shot_sheet_139
+    21300280: Smoke_Shot_sheet_140
+    21300282: Smoke_Shot_sheet_141
+    21300284: Smoke_Shot_sheet_142
+    21300286: Smoke_Shot_sheet_143
+    21300288: Smoke_Shot_sheet_144
+    21300290: Smoke_Shot_sheet_145
+    21300292: Smoke_Shot_sheet_146
+    21300294: Smoke_Shot_sheet_147
+    21300296: Smoke_Shot_sheet_148
+    21300298: Smoke_Shot_sheet_149
+    21300300: Smoke_Shot_sheet_150
+    21300302: Smoke_Shot_sheet_151
+    21300304: Smoke_Shot_sheet_152
+    21300306: Smoke_Shot_sheet_153
+    21300308: Smoke_Shot_sheet_154
+    21300310: Smoke_Shot_sheet_155
+    21300312: Smoke_Shot_sheet_156
+    21300314: Smoke_Shot_sheet_157
+    21300316: Smoke_Shot_sheet_158
+    21300318: Smoke_Shot_sheet_159
+    21300320: Smoke_Shot_sheet_160
+    21300322: Smoke_Shot_sheet_161
+    21300324: Smoke_Shot_sheet_162
+    21300326: Smoke_Shot_sheet_163
+    21300328: Smoke_Shot_sheet_164
+    21300330: Smoke_Shot_sheet_165
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1598
+        width: 240
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1611
+        width: 246
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1607
+        width: 251
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1608
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1604
+        width: 259
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1346
+        width: 265
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1344
+        width: 271
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1341
+        width: 274
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1340
+        width: 274
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1337
+        width: 277
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1099
+        width: 276
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1088
+        width: 274
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1098
+        width: 275
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1096
+        width: 278
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1097
+        width: 283
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 849
+        width: 284
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 857
+        width: 284
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 856
+        width: 283
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 855
+        width: 286
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 856
+        width: 286
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 603
+        width: 284
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 609
+        width: 286
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 603
+        width: 272
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 604
+        width: 290
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 603
+        width: 280
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 347
+        width: 280
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 359
+        width: 282
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 372
+        width: 285
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 384
+        width: 284
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 389
+        width: 237
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 168
+        width: 235
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 164
+        width: 238
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 164
+        width: 231
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Smoke_Shot_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1606
+        width: 266
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

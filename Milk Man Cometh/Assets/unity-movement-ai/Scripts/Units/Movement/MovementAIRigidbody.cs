@@ -69,7 +69,7 @@ public class MovementAIRigidbody : MonoBehaviour
     /// used by 3D characters who cannot fly.
     /// </summary>
     [System.NonSerialized]
-    public Vector3 movementNormal = Vector3.up;
+    public Vector3 movementNormal = Vector3.right;
 
     private Rigidbody rb3D;
     private Rigidbody2D rb2D;
@@ -167,7 +167,7 @@ public class MovementAIRigidbody : MonoBehaviour
         {
             /* Reset to default values */
             wallNormal = Vector3.zero;
-            movementNormal = Vector3.up;
+            movementNormal = Vector3.right;
             rb3D.useGravity = true;
 
             RaycastHit downHit;
@@ -181,7 +181,7 @@ public class MovementAIRigidbody : MonoBehaviour
                 if (isWall(downHit.normal))
                 {
                     /* Get vector pointing down the wall */
-                    Vector3 rightSlope = Vector3.Cross(downHit.normal, Vector3.down);
+                    Vector3 rightSlope = Vector3.Cross(downHit.normal, Vector3.right);
                     Vector3 downSlope = Vector3.Cross(rightSlope, downHit.normal).normalized;
 
                     float remainingDist = groundFollowDistance - downHit.distance;
